@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="themes/simplebootx/Public/js/jquery.min.js"></script>
+    <meta name="author" content="朗数科技web-wangchong">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Set render engine for 360 browser -->
+    <meta name="renderer" content="webkit">
+    <!-- No Baidu Siteapp-->
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+
+    <!-- HTML5 shim for IE8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <script src="themes/simplebootx/Public/js/layer/layer.js"></script>
+    <script src="themes/simplebootx/Public/js/jquery.SuperSlide.2.1.1.js"></script>
+
+
+    <link href="themes/simplebootx/Public/css/common.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/index.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/product.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/service.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/cases.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/cooperation.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/about.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/download.css" rel="stylesheet">
+    <link rel="stylesheet" href="font/font-w/iconfont.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.min.js"></script>
+
+    <style rel="stylesheet">
+        /*swiper-slide*/
+        /* CSS Document */
+
+        #certify {
+            position: relative;
+            width: 800px;
+            margin: 0 auto
+        }
+
+        #certify .swiper-container {
+            padding-bottom: 60px;
+        }
+
+        #certify  .swiper-slide {
+            width: 200px;
+            /*height: 350px;*/
+            background: #fff;
+            box-shadow: 0 8px 30px #ddd;
+        }
+        #certify  .swiper-slide img{
+            display:block;
+            width: 100%;
+        }
+        #certify  .swiper-slide p {
+            line-height: 98px;
+            padding-top: 0;
+            text-align: center;
+            color: #636363;
+            font-size: 1.1em;
+            margin: 0;
+        }
+
+        #certify .swiper-pagination {
+            width: 100%;
+            bottom: 20px;
+        }
+
+        #certify .swiper-pagination-bullets .swiper-pagination-bullet {
+            margin: 0 5px;
+            border: 3px solid #fff;
+            background-color: #d5d5d5;
+            width: 10px;
+            height: 10px;
+            opacity: 1;
+        }
+
+        #certify .swiper-pagination-bullets .swiper-pagination-bullet-active {
+            border: 3px solid #00aadc;
+            background-color: #fff;
+        }
+
+      /*  #certify .swiper-button-prev {
+            left: -30px;
+            width: 45px;
+            height: 45px;
+            background: url(../images/wm_button_icon.png) no-repeat;
+            background-position: 0 0;
+            background-size: 100%;
+        }*/
+
+        #certify .swiper-button-prev:hover {
+            background-position: 0 -46px;
+            background-size: 100%
+        }
+
+      /*  #certify .swiper-button-next {
+            right: -30px;
+            width: 45px;
+            height: 45px;
+            background: url(../images/wm_button_icon.png) no-repeat;
+            background-position: 0 -93px;
+            background-size: 100%;
+        }*/
+
+        #certify .swiper-button-next:hover {
+            background-position: 0 -139px;
+            background-size: 100%
+        }
+		h2 > a{
+			position:absolute;
+			margin-top: -90px;
+		}
+    </style>
+    <style type="text/css">
+        .sy-slides-wrap{
+            height: 500px;
+        }
+    </style>
+    <title>朗数科技</title>
+    <meta name="keywords" content="武汉朗数科技有限公司,智慧园区,园区信息化,互联网,软件开发"/>
+    <meta name="description" content="武汉朗数科技有限公司公司首页"/>
+
+
+</head>
+<body>
+<div class="body">
+    <div class="body-content">
+
+
+        <!--顶部开始-->
+        <div class="head-nav-main">
+
+            <div class="header clearfix">
+
+                <div class="head-nav">
+                    <h1 class="logo fl"><a href="index.html"><img src="themes/simplebootx/Public/images/logo.png"
+                                                                  alt=""></a></h1>
+                    <ul class="nav">
+                        <li>
+                            <a href="index.html">首页</a>
+                        </li>
+                        <li>
+                            <a href="OA.html">企业协同</a></li>
+                        <li>
+                            <a href="Shop.html">电商系统</a></li>
+                        <li>
+                            <a href="http://d.launchso.com/sale/">智慧社区</a></li>
+                        <li>
+                            <a href="platform.html">开发平台</a></li>
+                        <li  class='nav-seleted-hover'>
+                            <a href="AboutUs.html">关于我们</a>
+                        </li>
+                    </ul>
+                    <div class="header-info fr">
+                         <span class="server-tel-info" style="line-height: 70px;">
+                             服务热线：027-5066-9194
+                         </span>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!--顶部结束-->
+
+
+        <!--侧边导航开始-->
+        <div class="left-nav-content">
+            <ul class="left-nav-content-ul">
+                <li class="left-nav-title"><h1>关于我们</h1><div>ABOUT US</div></li>
+                <li class="left-nav-content-li"><a href="#gsjj">公司简介</a></li>
+                <li class="left-nav-content-li"><a href="#gswh">公司文化</a></li>
+                <li class="left-nav-content-li"><a href="#qyzz">企业资质</a></li>
+                <li class="left-nav-content-li"><a href="#lxwm">联系我们</a></li>
+                <li class="left-nav-content-li"><a href="news.html">新闻资讯</a></li>
+                <li class="left-nav-content-li"><a href="joinUs.html">加入我们</a></li>
+                <li class="left-nav-content-li"><a href="#zxly">咨询留言</a></li>
+            </ul>
+        </div>
+        <!--侧边导航结束-->
+        <div style="max-width: 60%;margin-left: 30%"    class="page-content main-box right-nav-content">
+            <div class="page-content-header">
+                <h2 class="page-content-header-title">公司简介<a id="gsjj"></a></h2>
+            </div>
+            <div class="page-content-body" style="max-width: 1000px;margin: auto;">
+                <div class="page-content-body-title-box">
+                    <h3 class="page-content-body-title-text">武汉朗数科技有限公司</h3>
+                </div>
+                <div class="page-content-body-text-box"
+                     style="text-indent:28px;line-height:29px; font-size: 16px;padding-top: 0">
+                    <p>
+                        武汉朗数科技有限公司成立于2013年，注册地为东湖高新技术开发区，是一家专注于企业级应用软件开发、企业级软件产品研发、互联网项目开发、软件技术咨询服务、信息系统集成的技术型软件企业。公司旨在“技术创造价值”，坚持走技术路线，发扬“工匠精神”，在IT技术应用方面追求精益求精。
+                        公司大力投入自主研发,员工研发技术占比60%，每年研发投入占比25%，年轻高学历员工超过90%，公司于2016年9月通过美国CMMI研究院颁发的CMMI3级认证，目前已获得十多项软件著作权证书，拥有企业协同、电商系统、智慧社区、金融理财，中间件等等多款自主知识产权的产品。
+                        公司的主要客户为华新水泥、招商贷、锦江财务、众晶集团、中兴农谷、易道餐饮等大中型企业，同时也是上海普元、SAP、Alibaba的技术合作伙伴。
+                    </p>
+                    <p>
+                        公司大力投入自主研发,员工研发技术占比60%，每年研发投入占比25%，年轻高学历员工超过90%，公司于2016年9月通过美国CMMI研究院颁发的CMMI3级认证，目前已获得十多项软件著作权证书，拥有企业协同、电商系统、智慧社区、金融理财，中间件等等多款自主知识产权的产品。</p>
+                    <p>公司的主要客户为华新水泥、招商贷、锦江财务、众晶集团、中兴农谷、易道餐饮等大中型企业。</p>
+                </div>
+            </div>
+
+            <div class="page-content-header">
+                <h2 class="page-content-header-title">公司文化<a id="gswh"></a></h2>
+            </div>
+            <div class="page-content-body-text-box page-about-culture-content" style="max-width: 1000px;margin: auto;">
+                <dl class="page-content-culture-item clearfix">
+                    <dt><img src="themes/simplebootx/Public/images/icon-vision.png" alt=""></dt>
+                    <dd>
+                        <h3>愿景</h3>
+                        <h4>成为行业内领先的软件企业</h4>
+                    </dd>
+                </dl>
+                <dl class="page-content-culture-item clearfix">
+                    <dt><img src="themes/simplebootx/Public/images/icon-mission.png" alt=""></dt>
+                    <dd>
+                        <h3>使命</h3>
+                        <h4>朗数——您身边的可信赖的软件服务平台</h4>
+                    </dd>
+                </dl>
+                <dl class="page-content-culture-item clearfix">
+                    <dt><img src="themes/simplebootx/Public/images/icon-sense.png" alt=""></dt>
+                    <dd>
+                        <h3>核心价值观</h3>
+                        <table width="100%" border="0">
+                            <tr >
+                                <td width="50%" style="height:185px;vertical-align:top">
+                                    <h4>专业</h4>
+                                    <ul>
+                                        <li>对工作投入极大的热忱</li>
+                                        <li>以积极乐观的精神，激发自身全部潜力</li>
+                                        <li>各领域、各专业、各岗位人才对工作着迷，对提高业务水平着迷。</li>
+                                    </ul>
+                                </td>
+                                <td width="50%" style="height:185px;vertical-align:top">
+                                    <h4>进取</h4>
+                                    <ul>
+                                        <li>团结一致，共赢未来</li>
+                                        <li>以开放、互相尊重和包容为出发点建设团队</li>
+                                        <li>以奉献、相互协作和分享为做事风格推动团队进步</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="50%" style="height:185px;vertical-align:top">
+                                    <h4>创新</h4>
+                                    <ul>
+                                        <li>创新的目的就是为用户创造价值</li>
+                                        <li>勇于持续创新</li>
+                                        <li>敢于突破，超越自我</li>
+                                        <li>不惧失败，在实践中总结，在总结中成长</li>
+                                    </ul>
+                                </td>
+                                <td width="50%" style="height:185px;vertical-align:top"  >
+                                    <h4>共赢</h4>
+                                    <ul>
+                                        <li>赢得客户信任</li>
+                                        <li>赢得客户的尊重，赢得对手的尊重</li>
+                                        <li>赢得伙伴的追随，赢得员工的追随</li>
+                                        <li>与客户、伙伴、员工达成共赢</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </dd>
+                </dl>
+                <dl class="page-content-culture-item clearfix">
+                    <dt><img src="themes/simplebootx/Public/images/icon-idea.png" alt=""></dt>
+                    <dd>
+                        <h3>经营理念</h3>
+                        <h4>竭力追求客户满意度，为客户提供优质、高效的服务</h4>
+                    </dd>
+                </dl>
+                <dl class="page-content-culture-item clearfix">
+                    <dt><img src="themes/simplebootx/Public/images/icon-criterion.png" alt=""></dt>
+                    <dd>
+                        <h3>管理理念</h3>
+                        <h4>快乐工作、享受生活</h4>
+                    </dd>
+                </dl>
+            </div>
+
+            <div class="page-content-header">
+                <h2 class="page-content-header-title" >企业资质<a id="qyzz"></a></h2>
+                <p class="page-content-header-detail"></p>
+            </div>
+            <div class="page-content-body page-honer-content-body" style="max-width: 1000px;margin: auto;">
+                <div class="honor-header-box">
+                    <img src="themes/simplebootx/Public/images/icon-authority.png" class="honor-authority" alt="">
+                    踏实开创市场 实力认证
+                </div>
+                <div class="honer-body-box">
+                    <dl class="honer-list-item">
+                        <dt style="line-height: 50px;font-size: 20px;">获得业界CMMI3证书</dt>
+                        <dd style="width: 500px;">
+                            <img src="themes/simplebootx/Public/images/CMMI3.jpg" width="400" style="margin: 20px auto" alt="CMMI3">
+                        </dd>
+                    </dl>
+                    <dl class="honer-list-item">
+                        <dt style="line-height: 50px;font-size: 20px;">获得多项软件著作专利</dt>
+                        <dd style="width: 500px;">
+                            <div id="certify">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img src="themes/simplebootx/Public/images/card-ebp.jpg" /></div>
+                                        <div class="swiper-slide"><img src="themes/simplebootx/Public/images/card-ixs.jpg" /></div>
+                                        <div class="swiper-slide"><img src="themes/simplebootx/Public/images/card-pms.jpg" /></div>
+                                        <div class="swiper-slide"><img src="themes/simplebootx/Public/images/card-wl.jpg" /></div>
+                                        <div class="swiper-slide"><img src="themes/simplebootx/Public/images/card-wy.jpg" /></div>
+                                        <div class="swiper-slide"><img src="themes/simplebootx/Public/images/card-zsj.jpg" /></div>
+                                        <div class="swiper-slide"><img src="themes/simplebootx/Public/images/card-o2o.jpg" /></div>
+                                    </div>
+                                </div>
+                                <!--<div class="swiper-pagination"></div>-->
+                                <!--<div class="swiper-button-prev"></div>-->
+                                <!--<div class="swiper-button-next"></div>-->
+                            </div>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+
+            <!--第二部分介绍-->
+            <div class="page-content-header">
+                <h2 class="page-content-header-title">联系我们<a id="lxwm"></a></h2>
+            </div>
+            <div class="page-content-body-text-box" style="max-width: 1000px;margin: auto;">
+
+                <!--<div class="page-content-body-text-box">-->
+                    <div class="about-contact-address-item" style="float: left;width: 70%">
+                        <div class="about-contact-address-item-content">
+                            <p>商务咨询：027-5066-9194</p>
+                            <p>联系方式：027-5066-9194</p>
+                            <p>邮箱：contact@launchso.com</p>
+                            <p>邮政编码：430074</p>
+                            <p>公司地址：武汉市东湖开发区光谷大道77号金融港A9栋405室</p>
+                        </div>
+                    </div>
+                    <div class="qrcode-item wechat-qrcode-box" style="float: left;">
+                        <div class="qrcode-thumb"><img src="data/upload/admin/20170823/qrCode.jpg" style="margin: 0" alt=""></div>
+                        <div class="qrcode-title" style="color: #646262">微信公众号</div>
+                    </div>
+                <!--</div>-->
+            </div>
+            <div style="clear: both;"></div>
+            <!--<div class="page-content-header">
+                <h2  id="gsdz" class="page-content-header-title">公司地址</h2>
+            </div>-->
+            <div class="page-content-body-text-box" style="max-width: 1000px;margin: auto;">
+            <div id="container" style="width: 100%;height: 500px;max-width: 1000px;margin: 20px auto 0 auto;"></div>
+            </div>
+            <div class="page-content-header">
+                <h2 class="page-content-header-title">咨询留言<a id="zxly"></a></h2>
+            </div>
+            <div class="page-content-body-text-box" style="max-width: 1000px;margin: 20px auto 0 auto;">
+               <iframe style="width: 100%;height: 500px;max-width: 1000px;" src="http://d.launchso.com/ebp/u/a/trial/message.do?type=frame"  frameborder="0" seamless></iframe>
+               <!-- <form name="my-comment" class="form-contact-content">
+                    <details>
+                        <summary style="outline: none">留言</summary>
+                        <marquee width="100%" loop  behavior="alternate" direction="right" style="padding-top: 20px;"><h3>欢迎咨询</h3></marquee>
+                    </details>
+                    <fieldset>
+                        <legend style="color: #416aa7;font-size: 18px;line-height: 40px;">留言板</legend>
+                        <div class="form-contact-content-item"><label for="myname">姓名：</label><input id="myname"  type="text" placeholder="输入您的姓名"></div>
+                        <div class="form-contact-content-item"><label for="phone">手机号：</label><input id="phone" type="text" placeholder="输入您的手机号"></div>
+                        <div class="form-contact-content-item"><label for="MsgContent">留言内容：</label><textarea  id="MsgContent"  cols="30" rows="10" maxlength="120"></textarea></div>
+                    </fieldset>
+                    <button class="form-contact-form-btn">提交</button>
+                </form>-->
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+<div id="side-bar-bar" class="side-pannel-bar side-bar-bar">
+    <ul class="side-bar-bar-ul">
+        <li class="ulli" id="goTop"><a href="javascript:void(0);" class="gotop qr iconfont-w icon-dingbu" title="返回顶部"></a></li>
+    </ul>
+</div>
+<div class="footer bgf7f7f7">
+    <div class="main-box footer-box">
+        <div class="footer-top clearfix">
+            <div class="help-contact-box fl">
+                <dl class="help-box fl wow  bounceIn  animated" data-wow-delay=".4s">
+                    <dt>关注我们</dt>
+                    <dd><a target="" href="news.html">新闻中心</a></dd>
+                    <dd><a target="" href="http://q.launchso.com/ebp/u/a/trial/message.do">咨询留言</a></dd>
+                    <dd><a target="" href="joinUs.html">加入我们</a></dd>
+                </dl>
+                <dl class="help-box fl wow  bounceIn  animated" data-wow-delay=".6s">
+                    <dt>团队风采</dt>
+                    <dd><a target="" href="AboutUs.html#gsjj">关于我们</a></dd>
+                    <dd><a target="" href="AboutUs.html#gswh">公司文化</a></dd>
+                    <dd><a target="" href="AboutUs.html#qyzz">企业资质</a></dd>
+                </dl>
+                <dl class="help-box fl wow  bounceIn  animated" data-wow-delay=".8s">
+                    <dt>联系方式</dt>
+                    <dd><img src="themes/simplebootx/Public/images/phone.svg" alt=""> <a href="javascript:void(0)">027-5066-9194</a></dd>
+                    <dd><img src="themes/simplebootx/Public/images/email.svg" alt=""> <a href="javascript:void(0)">contact@launchso.com</a></dd>
+                    <dd><img src="themes/simplebootx/Public/images/address.svg" alt=""> <a href="javascript:void(0)">武汉市东湖开发区光谷大道77号金融港A9栋405室</a></dd>
+                </dl>
+            </div>
+            <div class="qrcode-box fr wow  bounceIn  animated" data-wow-delay="1s">
+                <div class="qrcode-item wechat-qrcode-box">
+                    <div class="qrcode-thumb"><img src="data/upload/admin/20170823/qrCode.jpg" alt=""></div>
+                    <div class="qrcode-title">微信公众号</div>
+                </div>
+
+            </div>
+        </div>
+        <hr class="footer-hr"/>
+        <p class="copyright-box">©2013-2017武汉朗数科技有限公司版权所有 </p>
+
+    </div>
+</div>
+<script type="text/javascript">
+
+
+    var initKeFuAndGoTop = function () {
+        var t = this;
+        //滚动到顶部
+        $(window).on("scroll", function (e) {
+            var _scrollTop = $(document).scrollTop();
+
+            $("#goTop")[_scrollTop >= 300 ? "fadeIn" : "fadeOut"]();
+        })
+        $("#side-bar-bar .gotop").click(function () {
+            $('html,body').animate({'scrollTop': 0}, 500);
+            return false;
+        });
+
+    }
+    initKeFuAndGoTop();
+</script>
+<script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.2&key=061e1a19f8891576e87c08dd9b081c62"></script>
+<script>
+    var map = new AMap.Map('container', {
+        resizeEnable: true,
+        zoom:11,
+        center: [114.423309, 30.456956]
+
+    });
+    var icon = new AMap.Icon({
+        image : 'http://vdata.amap.com/icons/b18/1/2.png',//24px*24px
+        //icon可缺省，缺省时为默认的蓝色水滴图标，
+        size : new AMap.Size(50,50)
+    });
+
+    var marker = new AMap.Marker({
+        icon : icon,//24px*24px
+        offset : new AMap.Pixel(-12,-12),
+        position: [114.423309, 30.456956],//marker所在的位置
+        map:map//创建时直接赋予map属性
+    });
+
+    marker.on('click', function(){
+        var info = [];
+        info.push("<span >电话 : 027-5066-9194</span><br>");
+        info.push("<span >地址 : 武汉市东湖开发区光谷大道77号金融港A9栋405室</span>");
+
+        var infoWindow = new AMap.InfoWindow({
+            content:info.join('<br>') //使用默认信息窗体框样式，显示信息内容
+        });
+        infoWindow.open(map, [114.423309, 30.456956]);
+    });
+
+    AMap.plugin(['AMap.ToolBar', 'AMap.Scale', 'AMap.OverView', 'AMap.Geolocation'],
+            function () {
+                /*集成了缩放、平移、定位等功能按钮在内的组合控件*/
+                map.addControl(new AMap.ToolBar());
+                /*展示地图在当前层级和纬度下的比例尺*/
+                map.addControl(new AMap.Scale());
+                /*在地图右下角显示地图的缩略图*/
+                map.addControl(new AMap.OverView({isOpen: true}));
+
+
+                /* var geolocation = new AMap.Geolocation({
+                 enableHighAccuracy: true,//是否使用高精度定位，默认:true
+                 timeout: 10000,          //超过10秒后停止定位，默认：无穷大
+                 maximumAge: 0,           //定位结果缓存0毫秒，默认：0
+                 convert: true,           //自动偏移坐标，偏移后的坐标为高德坐标，默认：true
+                 showButton: true,        //显示定位按钮，默认：true
+                 buttonPosition: 'LB',    //定位按钮停靠位置，默认：'LB'，左下角
+                 buttonOffset: new AMap.Pixel(10, 20),//定位按钮与设置的停靠位置的偏移量，默认：Pixel(10, 20)
+                 showMarker: true,        //定位成功后在定位到的位置显示点标记，默认：true
+                 showCircle: true,        //定位成功后用圆圈表示定位精度范围，默认：true
+                 panToLocation: true,     //定位成功后将定位到的位置作为地图中心点，默认：true
+                 zoomToAccuracy: true      //定位成功后调整地图视野范围使定位位置及精度范围视野内可见，默认：false
+                 });
+                 map.addControl(geolocation);
+                 geolocation.getCurrentPosition();
+                 AMap.event.addListener(geolocation, 'complete', onComplete);//返回定位信息
+                 AMap.event.addListener(geolocation, 'error', onError);      //返回定位出错信息
+                 function onComplete(position) {
+                 console.log(position)
+                 }
+                 function onError(position) {
+                 console.log(position)
+                 }*/
+            });
+</script>
+
+
+<script type="text/javascript">
+    $('.left-nav-content-li a').click(function () {
+        $('html,body').animate({'scrollTop': $($(this)[0].hash).offset().top}, 400);
+        return false
+    })
+    /*关于我们侧边导航定位*/
+    $(window).on('scroll',function () {
+        if($(window).scrollTop()>=$('.right-nav-content').height()-$('.left-nav-content').height()){
+            $('.left-nav-content').css({'display':'none'})
+        }else{
+            $('.left-nav-content').css({'display':'block'})
+        }
+    })
+</script>
+
+<script>
+    certifySwiper = new Swiper('#certify .swiper-container', {
+        watchSlidesProgress: true,
+        slidesPerView: 3,
+        centeredSlides: true,
+        loop: true,
+        loopedSlides: 7,
+        autoplay: true,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            //clickable :true,
+        },
+        on: {
+            progress: function(progress) {
+                for (i = 0; i < this.slides.length; i++) {
+                    var slide = this.slides.eq(i);
+                    var slideProgress = this.slides[i].progress;
+                    modify = 1;
+                    if (Math.abs(slideProgress) > 1) {
+                        modify = (Math.abs(slideProgress) - 1) * 0.3 + 1;
+                    }
+                    translate = slideProgress * modify * 100 + 'px';
+                    scale = 1 - Math.abs(slideProgress) / 5;
+                    zIndex = 999 - Math.abs(Math.round(10 * slideProgress));
+                    slide.transform('translateX(' + translate + ') scale(' + scale + ')');
+                    slide.css('zIndex', zIndex);
+                    slide.css('opacity', 1);
+                    if (Math.abs(slideProgress) > 3) {
+                        slide.css('opacity', 0);
+                    }
+                }
+            },
+            setTransition: function(transition) {
+                for (var i = 0; i < this.slides.length; i++) {
+                    var slide = this.slides.eq(i)
+                    slide.transition(transition);
+                }
+
+            }
+        }
+
+    })
+</script>
+</body>
+</html>

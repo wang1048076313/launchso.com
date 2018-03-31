@@ -1,0 +1,89 @@
+
+.good-page{width: inherit;margin-top: 0px;}
+.slider-wrap{ margin-bottom: 3rem;position: relative;padding-top: 25px;}
+.slider-wrap img{  width: 100%; }
+
+.down-icon{ background: url("/public/images/good/down-icon.png");    background-repeat: no-repeat;
+    height: 36px;
+    width: 32px;
+    position: absolute;
+    left: 50%;
+    margin-left: -16px;
+
+    z-index: 33;bottom: 29px;
+    animation: updown 2s linear infinite;
+    cursor: pointer;
+
+
+}
+
+@keyframes updown{
+    0%, 100% {
+        transform: translateY(0px);
+    }
+
+    25% {
+        transform: translateY(-8px);
+    }
+
+    75% {
+        transform: translateY(3px);
+    }
+}
+.content{ display: flex;   justify-content: center; font-size: 19px;width:65%;
+    margin: 0px auto;}
+.content .content-item{
+    margin-right: 1rem;
+    background: #f0f0f0;
+    width: 340px;
+    text-align: center;
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+    padding-top: 2rem;
+    cursor: pointer;
+}
+.content .content-item-hover{
+    background: white;
+}
+
+.content-item .item-title{    height: 3rem;
+    line-height: 3rem;}
+.content-item .item-sub-title{    height: 2rem;
+    line-height: 2rem;
+margin-bottom: 1rem}
+.content-item .item-content{
+    width: 90%;
+    margin: 2rem auto;
+    font-size: 18px;
+}
+.item-details{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 1px solid #c6c6c6;
+    background: #fff;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    color: #b5b5b5;
+    height: 10rem;
+    overflow: auto;
+}
+.item-details-hover{
+    background: #f0f0f0;
+}
+
+.item-details .item-name{    display: flex;
+    flex: 1 1 7rem; height: 2rem;
+    line-height: 2rem;}
+.item-name .dot{ width: 1rem;}
+.price-num{color:#fda359;font-size: 31px; }
+
+.content-item .item-price,.item-details-btn{ height: 3rem ;line-height: 3rem;}
+.item-details-btn{    background: #ff6202;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    width: 80%;
+    margin: 2rem auto;
+    border-radius: 5px;
+cursor: pointer}

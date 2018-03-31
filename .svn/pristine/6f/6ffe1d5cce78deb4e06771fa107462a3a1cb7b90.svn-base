@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="themes/simplebootx/Public/js/jquery.min.js"></script>
+    <meta name="author" content="朗数科技web-wangchong">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Set render engine for 360 browser -->
+    <meta name="renderer" content="webkit">
+    <!-- No Baidu Siteapp-->
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+
+    <!-- HTML5 shim for IE8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="themes/simplebootx/Public/css/slippry/slippry.css" rel="stylesheet">
+    <script src="themes/simplebootx/Public/js/slippry.min.js"></script>
+    <script src="themes/simplebootx/Public/js/layer/layer.js"></script>
+    <script src="themes/simplebootx/Public/js/jquery.SuperSlide.2.1.1.js"></script>
+    <script src="themes/simplebootx/Public/js/common.js"></script>
+    <link href="themes/simplebootx/Public/css/common.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/index.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/product.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/service.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/cases.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/cooperation.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/about.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/download.css" rel="stylesheet">
+    <link rel="stylesheet" href="themes/simplebootx/Public/css/goods.css">
+    <link rel="stylesheet" type="text/css" href="themes/simplebootx/Public/css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_499159_zjxnenowubqn0zfr.css">
+    <script type="text/javascript">
+        window.jsVersion = new Date().getTime();
+        document.write("\<script type=\"text/javascript\" src=\"https://static.朗数科技.com/static/extra/static/js/kpi/kpi.js?v=" + jsVersion + "\"><\/script\>");</script>
+    <title>朗数科技 一站式智慧管理云平台</title>
+    <meta name="keywords" content="武汉朗数科技有限公司,智慧园区,园区信息化,互联网,软件开发"/>
+    <meta name="description" content="武汉朗数科技有限公司公司首页"/>
+</head>
+<body>
+<div class="body">
+    <div class="body-content">
+
+
+        <!--顶部开始-->
+        <div class="head-nav-main">
+
+            <div class="header clearfix">
+
+                <div class="head-nav">
+                    <h1 class="logo fl"><a href="index.html"><img src="themes/simplebootx/Public/images/logo.png"
+                                                                  alt=""></a></h1>
+                    <ul class="nav">
+                        <li class='nav-seleted-hover'>
+                            <a href="index.html">首页</a>
+                        </li>
+                        <li>
+                            <a href="OA.html">企业协同</a></li>
+                        <li>
+                            <a href="Shop.html">电商系统</a></li>
+                        <li>
+                            <a href="http://d.launchso.com/sale/">智慧社区</a></li>
+                        <li>
+                            <a href="money.html">开发平台</a></li>
+                        <li>
+                            <a href="AboutUs.html">关于我们</a>
+                        </li>
+                    </ul>
+                    <div class="header-info fr">
+                         <span class="server-tel-info" style="line-height: 70px;">
+                             服务热线：027-5066-9194
+                         </span>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!--顶部结束-->
+        <div class="index-content-modefiy"><!--class="index-content"-->
+            <!--幻灯片开始-->
+            <div class="banner">
+                <ul id="homeslider" class="unstyled">
+                    <li>
+                        <div class="caption-wraper">
+                            <!-- <div class="caption">1</div> -->
+                        </div>
+                        <a style="cursor:default;" href="javascript:;">
+                            <!--<img src="https://www.朗数科技.com/data/upload/admin/20171110/5a054e0eeb9bc.jpg" alt="">-->
+                            <img src="themes/simplebootx/Public/images/platforn-banner1.jpg" alt="">
+                        </a></li>
+                    <!--<li>
+                        <div class="caption-wraper">
+                            &lt;!&ndash; <div class="caption">day测评</div> &ndash;&gt;
+                        </div>
+                        <a href="https://www.朗数科技.com/Eva/Product/index.html" target="_blank">
+                            &lt;!&ndash;<img src="https://www.朗数科技.com/data/upload/admin/20171108/5a02d6c97ab14.jpg" alt="">&ndash;&gt;
+                            <img src="themes/simplebootx/Public/images/banner2.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <div class="caption-wraper">
+                            &lt;!&ndash; <div class="caption">4</div> &ndash;&gt;
+                        </div>
+                        <a href="https://www.朗数科技.com/Product/daySupply.html" target="_blank">
+                            <img src="themes/simplebootx/Public/images/banner3.jpg" alt="">
+                        </a>
+                    </li>-->
+                </ul>
+            </div>
+            <!--幻灯片结束-->
+
+            <div class="page-content main-box good-page" style="background:url('themes/simplebootx/Public/images/supply-bg.png')round;">
+                <div class="slider-wrap">
+                   <!-- <ul id="mallslider" class="unstyled">
+                        <li>
+                            <a style="cursor:default;" href="javascript:;">
+                                <img src="https://www.daydao.com/data/upload/admin/20171123/5a168db8c8b18.jpg" alt="">
+                            </a></li>
+                    </ul>-->
+                    <a class="down-icon" href="#content"></a>
+                </div>
+                <div class="content" id="content" >
+                    <div class="content-item">
+                        <div class="item-title">企业开发平台</div>
+                        <div class="item-sub-title">一站式开发管理云平台</div>
+                        <div class="item-content">
+                            <div class="item-details">
+                                <div class="item-name"><span class="dot">&bull;</span><span>组织人事</span></div>
+                                <div class="item-name"><span class="dot">&bull;</span><span>时间管理</span></div>
+                                <div class="item-name"><span class="dot">&bull;</span><span>薪酬福利</span></div>
+                                <div class="item-name"><span class="dot">&bull;</span><span>社保公积金</span></div>
+                                <div class="item-name"><span class="dot">&bull;</span><span>绩效管理</span></div>
+                                <div class="item-name"><span class="dot">&bull;</span><span>招聘管理</span></div>
+                                <div class="item-name"><span class="dot">&bull;</span><span>培训管理</span></div>
+                                <div class="item-name"><span class="dot">&bull;</span><span>权限管理</span></div>
+                            </div>
+
+                        </div>
+                        <!--<div class="item-price"><span class="price-num"> </span>元/人/年</div>-->
+                        <div class="item-details-btn" curr_id="1"><a style="color: #fff"  href="http://d.launchso.com/ebp/u/a/trial/login.do">前往体验</a></div>
+                    </div>
+                    <div class="content-item">
+                        <div class="item-title">中间件平台</div>
+                        <div class="item-sub-title">软件应用开发的第一选择</div>
+                        <div class="item-content">
+                            <div class="item-details">
+                                <div class="item-name"><span class="dot">&bull;</span><span>分布式服务</span></div>
+                                <div class="item-name"><span class="dot">&bull;</span><span>业务组件</span></div>
+                                <div class="item-name"><span class="dot">&bull;</span><span>服务管理</span></div>
+                                <div class="item-name"><span class="dot">&bull;</span><span>企业服务总线</span></div>
+                                <div class="item-name"><span class="dot">&bull;</span><span>用户应用系统</span></div>
+                                <div class="item-name"><span class="dot">&bull;</span><span>服务配置中心</span></div>
+                                <div class="item-name"><span class="dot">&bull;</span><span>服务运行中心</span></div>
+                                <div class="item-name"><span class="dot">&bull;</span><span>服务监控中心</span></div>
+                            </div>
+
+                        </div>
+                        <!--<div class="item-price"><span class="price-num"> ￥588.00</span>元/人/年</div>-->
+                        <div class="item-details-btn" curr_id="2"><a style="color: #fff" href="http://d.launchso.com/ebp/u/a/trial/login.do">前往体验</a></div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <div id="side-bar-bar" class="side-pannel-bar side-bar-bar">
+        <ul class="side-bar-bar-ul">
+            <li class="ulli" id="webQQ"><a href="http://wpa.qq.com/msgrd?v=3&uin=3457637565&site=qq&menu=yes"
+                                           class="qr  iconfont icon-qq1" title="在线QQ"></a>
+                <div id="webQQ-model"
+                     style="display: none;top: -60px; left: -94px;width: 95px; height: 153px;position: absolute">
+                    <a style="width: 95px; height: 153px" target="_blank"
+                       href="http://wpa.qq.com/msgrd?v=3&uin=3457637565&site=qq&menu=yes">
+                        <img style="width: 95px; height: 153px" border="0" src="http://wpa.qq.com/pa?p=2:3457637565:53"
+                             alt="点击这里给我发消息" title="点击这里给我发消息"/>
+                    </a>
+                </div>
+            </li>
+            <li class="ulli"><a href="http://q.launchso.com/ebp/u/a/trial/message.do"
+                                class="qr iconfont  icon-xiaoxizhongxin" title="在线留言"></a></li>
+            <li class="ulli" id="webmb"><a href="http://q.launchso.com/ebp/u/a/trial/message.do"
+                                           class="kefu qr iconfont_header " title="联系电话">&#xe640;</a>
+                <div style="display: none;padding:5px;left: -200px; top: -30px; width:180px;font-size:14px;color:#fff;line-height: 1.6em;border-radius: 5px; background:dodgerblue;position: absolute">
+                    服务热线：027-50669194<br/>
+                    QQ(技术)：3457637565<br/>
+                    QQ(招聘)：3499346926<br/>
+                    QQ(商务)：453581781<br/>
+                    服务时间：8:30-18:00
+                    <br/>
+                </div>
+            </li>
+            <li class="ulli" id="goTop"><a href="javascript:void(0);" class="gotop qr iconfont_header" title="返回顶部">
+                &#xe63e; </a></li>
+        </ul>
+    </div>
+    <div class="footer bgf7f7f7">
+        <div class="main-box footer-box">
+            <div class="footer-top clearfix">
+                <div class="help-contact-box fl">
+                    <dl class="help-box fl wow  bounceIn  animated" data-wow-delay=".4s">
+                        <dt>关注我们</dt>
+                        <dd><a target="" href="news.html">新闻中心</a></dd>
+                        <dd><a target="" href="http://q.launchso.com/ebp/u/a/trial/message.do">咨询留言</a></dd>
+                        <dd><a target="" href="joinUs.html">诚聘英才</a></dd>
+                    </dl>
+                    <dl class="help-box fl wow  bounceIn  animated" data-wow-delay=".6s">
+                        <dt>团队风采</dt>
+                        <dd><a target="" href="AboutUs.html#gsjj">关于我们</a></dd>
+                        <dd><a target="" href="AboutUs.html#gswh">公司文化</a></dd>
+                        <dd><a target="" href="AboutUs.html#qyzz">企业资质</a></dd>
+                    </dl>
+                    <dl class="help-box fl wow  bounceIn  animated" data-wow-delay=".8s">
+                        <dt>联系方式</dt>
+                        <dd><img src="themes/simplebootx/Public/images/phone.svg" alt=""> <a href="tel:02750669194">027-5066-9194</a></dd>
+                        <dd><img src="themes/simplebootx/Public/images/email.svg" alt=""> <a href="tel:02750669194">contact@launchso.com</a></dd>
+                        <dd><img src="themes/simplebootx/Public/images/address.svg" alt=""> <a href="tel:02750669194">武汉市东湖开发区光谷大道77号金融港A9栋405室</a></dd>
+                    </dl>
+                </div>
+                <div class="qrcode-box fr wow  bounceIn  animated" data-wow-delay="1s">
+                    <div class="qrcode-item wechat-qrcode-box">
+                        <div class="qrcode-thumb"><img src="data/upload/admin/20170823/qrCode.jpg" alt=""></div>
+                        <div class="qrcode-title">微信公众号</div>
+                    </div>
+                    <!--<div class="qrcode-item app-qrcode-box">
+                        <div class="qrcode-thumb"><img src="data/upload/admin/20170823/qrCode.jpg" alt=""></div>
+                        <div class="qrcode-title">APP下载</div>
+                    </div>-->
+                </div>
+            </div>
+            <hr class="footer-hr"/>
+            <p class="copyright-box">©2013-2017武汉朗数科技有限公司版权所有 </p>
+
+        </div>
+    </div>
+    <script type="text/javascript">
+        //全局变量
+        var GV = {
+            DIMAUB: "/",
+            JS_ROOT: "public/js/",
+            TOKEN: ""
+        };
+        var demo1 = $("#homeslider").slippry({
+            transition: 'fade',
+            useCSS: true,
+            captions: false,
+            speed: 1000,
+            pause: 3000,
+            auto: true,
+            preload: 'visible',
+            controls: true
+        });
+        var demo2 = $("#dayEVAslider").slippry({
+            transition: 'fade',
+            useCSS: true,
+            captions: false,
+            speed: 1000,
+            pause: 3000,
+            auto: true,
+            preload: 'visible',
+            controls: true
+        });
+        var demo3 = $("#wyslider").slippry({
+            transition: 'fade',
+            useCSS: true,
+            captions: false,
+            speed: 1000,
+            pause: 3000,
+            auto: true,
+            preload: 'visible',
+            controls: true
+        });
+        var demo4 = $("#mallslider").slippry({
+            transition: 'fade',
+            useCSS: true,
+            captions: false,
+            speed: 1000,
+            pause: 3000,
+            auto: true,
+            preload: 'visible',
+            controls: true
+        });
+        var initKeFuAndGoTop = function () {
+            var t = this;
+            //滚动到顶部
+            $(window).on("scroll", function (e) {
+                var _scrollTop = $(document).scrollTop();
+
+                $("#goTop")[_scrollTop >= 300 ? "fadeIn" : "fadeOut"]();
+            })
+            $("#side-bar-bar .gotop").click(function () {
+                $('html,body').animate({'scrollTop': 0}, 500);
+                return false;
+            });
+            function showbox(dom) {
+                $('#' + dom).hover(function () {
+                    $(this).find('div').fadeIn(400)
+                }, function () {
+                    $(this).find('div').fadeOut(200)
+                })
+            }
+
+            showbox('webmb')
+            showbox('webQQ')
+
+            /*  var aQQ = ["2717395156","3306747447","2110340688","1691471852"];
+             function _random(a,b){
+             return a>b?0:Math.round(Math.random()*(b-a)+a);
+             }
+             $("#side-bar-bar .kefu").click(function () {
+             var url = "http://wpa.qq.com/msgrd?v=3&uin="+aQQ[_random(1,4)-1] + "&site=qq&menu=yes";
+             window.open(url, '_blank');
+             }); */
+
+            /**
+             * 客服在线结束
+             * =================================================
+             * */
+        };
+        initKeFuAndGoTop();
+    </script>
+    <script type="text/javascript" src="themes/simplebootx/Public/js/wow.min.js"></script>
+    <script>
+       /* $(function () {
+            if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))) {
+                new WOW().init();
+            }
+        })*/
+    </script>
+    <script src="themes/simplebootx/Public/js/index.js"></script>
+    <script src="public/js/wind.js"></script>
+
+
+</body>
+</html>

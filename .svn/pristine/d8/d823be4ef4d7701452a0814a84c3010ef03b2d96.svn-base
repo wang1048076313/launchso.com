@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="themes/simplebootx/Public/js/jquery.min.js"></script>
+    <meta name="author" content="朗数科技web-wangchong">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Set render engine for 360 browser -->
+    <meta name="renderer" content="webkit">
+    <!-- No Baidu Siteapp-->
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+
+    <!-- HTML5 shim for IE8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="themes/simplebootx/Public/css/slippry/slippry.css" rel="stylesheet">
+    <script src="themes/simplebootx/Public/js/slippry.min.js"></script>
+    <script src="themes/simplebootx/Public/js/layer/layer.js"></script>
+    <script src="themes/simplebootx/Public/js/jquery.SuperSlide.2.1.1.js"></script>
+    <script src="themes/simplebootx/Public/js/common.js"></script>
+
+
+
+    <link href="themes/simplebootx/Public/css/common.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/index.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/product.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/service.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/cases.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/cooperation.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/about.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/download.css" rel="stylesheet">
+    <link rel="stylesheet" href="font/font-w/iconfont.css">
+    <style>
+        .product-hr-cloud-ol{
+            margin: 20px 0 0 50px;
+        }
+        .product-hr-cloud-ol li{
+             font-size: 12px;
+            line-height: 1.7;
+            padding: 5px;
+            border-radius: 20px;
+            margin: 10px 0;
+            color: #fff;
+            background: #416aa7;
+        }
+        .product-hr-cloud-ol li:hover{
+            transform: translateX(10px);
+        }
+
+    </style>
+
+    <title>朗数科技</title>
+    <meta name="keywords" content="武汉朗数科技有限公司,智慧园区,园区信息化,互联网,软件开发"/>
+    <meta name="description" content="武汉朗数科技有限公司公司首页"/>
+
+</head>
+<body>
+<div class="body">
+    <div class="body-content">
+
+
+        <!--顶部开始-->
+        <div class="head-nav-main">
+
+            <div class="header clearfix">
+
+                <div class="head-nav">
+                    <h1 class="logo fl"><a href="index.html"><img src="themes/simplebootx/Public/images/logo.png"
+                                                                  alt=""></a></h1>
+                    <ul class="nav">
+                        <li>
+                            <a href="index.html">首页</a>
+                        </li>
+
+                        <li class='nav-seleted-hover'>
+                            <a href="OA.html">企业协同</a></li>
+
+                        <li>
+                            <a href="Shop.html">电商系统</a></li>
+                        <li>
+                            <a href="http://d.launchso.com/sale/">智慧社区</a></li>
+                        <li>
+                            <a href="platform.html">开发平台</a></li>
+                        <li>
+                            <a href="AboutUs.html">关于我们</a>
+                        </li>
+                    </ul>
+                    <div class="header-info fr">
+                         <span class="server-tel-info" style="line-height: 70px;">
+                             服务热线：027-5066-9194
+                         </span>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <!--幻灯片开始-->
+        <div class="banner">
+            <ul id="homeslider" class="unstyled">
+                <li>
+                    <div class="caption-wraper">
+                    </div>
+                    <a href="javascript:void(0)" target="_blank">
+                        <img src="themes/simplebootx/Public/images/oa-banner1.jpg" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!--幻灯片结束-->
+        <!--顶部结束-->
+        <div class="bgf7f7f7" style="background:url('themes/simplebootx/Public/images/supply-bg.png')round;">
+            <div class="main-box product-hr-detail-box">
+                <h2 class="product-hr-logo-box"><span class="product-hr-logo c1e5e8f">企业协同办公系统</span><span class="product-hr-logo-point">●</span><span class="product-hr-logo-detail">一站式企业业务应用云平台</span></h2>
+                <p class="product-hr-detail-text">朗数OA，基于移动互联、云计算和SaaS服务的企业协同云平台，<br/>涵盖人事、财务、行政、采购、营销等模块，致力于打造最省心的一站式企业业务应用云平台。</p>
+                <div class="product-hr-cloud" style="margin-left:40px;display: flex;justify-content: space-around;align-items: center">
+                    <div>
+                        <h3 style="color:#1e5e8f;font-size: 20px;line-height: 30px;">协同办公系统</h3>
+                        <p style="color:#333;font-size: 16px;line-height: 30px;margin-left: 100px;">一协同办公系统功能树导图</p>
+                        <ol class="product-hr-cloud-ol">
+                            <li>行政管理</li>
+                            <li>人事管理</li>
+                            <li>财务管理</li>
+                            <li>营销管理</li>
+                            <li>采购管理</li>
+                        </ol>
+                    </div>
+                    <img src="themes/simplebootx/Public/images/oa-node.png" width="500" alt="">
+                </div>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+        <div style="clear: both"></div>
+        <!--八大核心功能-->
+        <div class="main-box product-hr-core-box">
+            <h2 class="product-hr-column-name product-hr-core-name">八大核心功能</h2>
+            <p class="product-hr-column-text product-hr-core-text">一站式HR云服务平台</p>
+            <div class="product-hr-core-content clearfix">
+                <div class="product-hr-core-item">
+                    <div class="product-hr-core-item-icon"><img src="themes/simplebootx/Public/images/oa-1.png" width="70px"  alt=""></div>
+                    <div class="product-hr-core-item-content">
+                        <div class="product-hr-core-item-name">组织人事</div>
+                        <div class="product-hr-core-item-detail">优化结构，提升效率</div>
+                    </div>
+                </div>
+                <div class="product-hr-core-item">
+                    <div class="product-hr-core-item-icon"><img src="themes/simplebootx/Public/images/oa-2.png" width="70px"   alt=""></div>
+                    <div class="product-hr-core-item-content">
+                        <div class="product-hr-core-item-name">员工管理</div>
+                        <div class="product-hr-core-item-detail">人岗匹配，人尽其才</div>
+                    </div>
+                </div>
+                <div class="product-hr-core-item">
+                    <div class="product-hr-core-item-icon"><img src="themes/simplebootx/Public/images/oa-3.png" width="70px"   alt=""></div>
+                    <div class="product-hr-core-item-content">
+                        <div class="product-hr-core-item-name">薪酬管理</div>
+                        <div class="product-hr-core-item-detail">薪酬管控，一触即达</div>
+                    </div>
+                </div>
+                <div class="product-hr-core-item">
+                    <div class="product-hr-core-item-icon"><img src="themes/simplebootx/Public/images/oa-4.png" width="70px"  alt=""></div>
+                    <div class="product-hr-core-item-content">
+                        <div class="product-hr-core-item-name">绩效考核</div>
+                        <div class="product-hr-core-item-detail">高效考核，公平公正</div>
+                    </div>
+                </div>
+                <div class="product-hr-core-item">
+                    <div class="product-hr-core-item-icon"><img src="themes/simplebootx/Public/images/oa-5.png" width="70px"  alt=""></div>
+                    <div class="product-hr-core-item-content">
+                        <div class="product-hr-core-item-name">项目管理</div>
+                        <div class="product-hr-core-item-detail">统筹安排，协作执行</div>
+                    </div>
+                </div>
+                <div class="product-hr-core-item">
+                    <div class="product-hr-core-item-icon"><img src="themes/simplebootx/Public/images/oa-6.png" width="70px"  alt=""></div>
+                    <div class="product-hr-core-item-content">
+                        <div class="product-hr-core-item-name">供应商管理</div>
+                        <div class="product-hr-core-item-detail">可控可靠，快速响应</div>
+                    </div>
+                </div>
+                <div class="product-hr-core-item">
+                    <div class="product-hr-core-item-icon"><img src="themes/simplebootx/Public/images/oa-7.png" width="70px"   alt=""></div>
+                    <div class="product-hr-core-item-content">
+                        <div class="product-hr-core-item-name">任务管理</div>
+                        <div class="product-hr-core-item-detail">随时反馈，有效沟通</div>
+                    </div>
+                </div>
+                <div class="product-hr-core-item">
+                    <div class="product-hr-core-item-icon"><img src="themes/simplebootx/Public/images/oa-8.png" width="70px"   alt=""></div>
+                    <div class="product-hr-core-item-content">
+                        <div class="product-hr-core-item-name">采购管理</div>
+                        <div class="product-hr-core-item-detail">优化流程，降低成本</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--八大核心功能结束-->
+
+        <div class="bgf7f7f7" style="position:relative;background:url('themes/simplebootx/Public/images/oa-banner.jpg')no-repeat top center/100% 80% #f7f7f7;">
+
+           <!--<div style="position: absolute;left: 0;top: 0;right: 0;bottom: 0;width: 100%;height: 100%;background:rgba(0,0,0,.3)"></div>-->
+            <div class="main-box product-hr-cloud-box">
+                <h2 class="product-hr-column-name product-hr-cloud-name" style="color: #fff">掌上APP云平台</h2>
+                <p class="product-hr-column-text product-hr-cloud-text" style="color: #fff">随时随地移动办公</p>
+                <div class="product-hr-cloud-content mt40 clearfix">
+                    <ul class="product-hr-cloud-function-list product-hr-cloud-function-left-list fl">
+                        <li style="display: flex;align-items: center;margin-top: 55px;">
+                            <div style="margin-right: 10px;">
+                            <h6 class="product-hr-cloud-function-name" style="color: #fff">移动打卡</h6>
+                            <!--<p class="product-hr-cloud-function-detail" style="color: #fff">费用报销申请,借款还款申请</p>-->
+                            </div>
+                            <img src="themes/simplebootx/Public/images/oa-app7.png" width="60px"  alt="">
+                        </li>
+                        <li style="display: flex;align-items: center;margin-top: 55px;">
+                            <div style="margin-right: 10px;">
+                            <h6 class="product-hr-cloud-function-name" style="color: #fff">移动审批</h6>
+                            <!--<p class="product-hr-cloud-function-detail" style="color: #fff">回款管理，企业信息开票登记</p>-->
+                            </div>
+                            <img src="themes/simplebootx/Public/images/oa-app2.png" width="60px"  alt="">
+                        </li>
+                        <li style="display: flex;align-items: center;margin-top: 55px;">
+                            <div style="margin-right: 10px;">
+                                <h6 class="product-hr-cloud-function-name" style="color: #fff">销售管理</h6>
+                                <!--<p class="product-hr-cloud-function-detail" style="color: #fff">回款管理，企业信息开票登记</p>-->
+                            </div>
+                            <img src="themes/simplebootx/Public/images/oa-app3.png" width="60px"  alt="">
+                        </li>
+                        <li style="display: flex;align-items: center;margin-top: 55px;">
+                            <div style="margin-right: 10px;">
+                                <h6 class="product-hr-cloud-function-name" style="color: #fff">请假管理</h6>
+                                <!--<p class="product-hr-cloud-function-detail" style="color: #fff">回款管理，企业信息开票登记</p>-->
+                            </div>
+                            <img src="themes/simplebootx/Public/images/oa-app8.png" width="60px"  alt="">
+                        </li>
+
+                    </ul>
+                    <ul class="product-hr-cloud-function-list product-hr-cloud-function-right-list fr">
+                        <li style="display: flex;align-items: center;margin-top: 55px;">
+                            <img src="themes/simplebootx/Public/images/oa-app4.png" width="60px"  alt="">
+                            <div style="margin-left: 10px;">
+                                <h6 class="product-hr-cloud-function-name" style="color: #fff">会议管理</h6>
+                                <!--<p class="product-hr-cloud-function-detail" style="color: #fff">付款信息登记，快捷的沟通与协作</p>-->
+                            </div>
+                        </li>
+                        <li style="display: flex;align-items: center;margin-top: 55px;">
+                            <img src="themes/simplebootx/Public/images/oa-app5.png" width="60px"  alt="">
+                            <div style="margin-left: 10px;">
+                                <h6 class="product-hr-cloud-function-name" style="color: #fff">日程管理</h6>
+                                <!--<p class="product-hr-cloud-function-detail" style="color: #fff">付款信息登记，快捷的沟通与协作</p>-->
+                            </div>
+                        </li>
+                        <li style="display: flex;align-items: center;margin-top: 55px;">
+                            <img src="themes/simplebootx/Public/images/oa-app6.png" width="60px"  alt="">
+                            <div style="margin-left: 10px;">
+                                <h6 class="product-hr-cloud-function-name" style="color: #fff">通讯录</h6>
+                                <!--<p class="product-hr-cloud-function-detail" style="color: #fff">一键查询，管理方便</p>-->
+                            </div>
+                        </li>
+                        <li style="display: flex;align-items: center;margin-top: 55px;">
+                            <img src="themes/simplebootx/Public/images/oa-app1.png" width="60px"  alt="">
+                            <div style="margin-left: 10px;">
+                                <h6 class="product-hr-cloud-function-name" style="color: #fff">出差管理</h6>
+                                <!--<p class="product-hr-cloud-function-detail" style="color: #fff">一键查询，管理方便</p>-->
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="product-hr-btn-box mt60 font23" style="text-align: center;margin-right: 40px;">
+                    <a target="_blank" href="AboutUs.html#zxly" class="btn btn-a" style="display: inline-block;border: 1px solid #416aa7;color: #416aa7;font-size: 16px;padding: 10px 20px;text-align: center;border-radius: 6px;margin: 20px 0 0 40px;" class="btn btn-a" >立即体验</a>
+
+                    <!--|<a href="/Goods/index.html" class="btn btn-a">在线购买</a>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="side-bar-bar" class="side-pannel-bar side-bar-bar">
+    <ul class="side-bar-bar-ul">
+
+        <li class="ulli" id="goTop"><a href="javascript:void(0);" class="gotop qr iconfont-w icon-dingbu" title="返回顶部"></a></li>
+    </ul>
+</div>
+<div class="footer bgf7f7f7">
+    <div class="main-box footer-box">
+        <div class="footer-top clearfix">
+            <div class="help-contact-box fl">
+                <dl class="help-box fl wow  bounceIn  animated" data-wow-delay=".4s">
+                    <dt>关注我们</dt>
+                    <dd><a target="" href="news.html">新闻中心</a></dd>
+                    <dd><a target="" href="http://q.launchso.com/ebp/u/a/trial/message.do">咨询留言</a></dd>
+                    <dd><a target="" href="joinUs.html">加入我们</a></dd>
+                </dl>
+                <dl class="help-box fl wow  bounceIn  animated" data-wow-delay=".6s">
+                    <dt>团队风采</dt>
+                    <dd><a target="" href="AboutUs.html#gsjj">关于我们</a></dd>
+                    <dd><a target="" href="AboutUs.html#gswh">公司文化</a></dd>
+                    <dd><a target="" href="AboutUs.html#qyzz">企业资质</a></dd>
+                </dl>
+                <dl class="help-box fl wow  bounceIn  animated" data-wow-delay=".8s">
+                    <dt>联系方式</dt>
+                    <dd><img src="themes/simplebootx/Public/images/phone.svg" alt=""> <a href="javascript:void(0)">027-5066-9194</a></dd>
+                    <dd><img src="themes/simplebootx/Public/images/email.svg" alt=""> <a href="javascript:void(0)">contact@launchso.com</a></dd>
+                    <dd><img src="themes/simplebootx/Public/images/address.svg" alt=""> <a href="javascript:void(0)">武汉市东湖开发区光谷大道77号金融港A9栋405室</a></dd>
+                </dl>
+            </div>
+            <div class="qrcode-box fr wow  bounceIn  animated" data-wow-delay="1s">
+                <div class="qrcode-item wechat-qrcode-box">
+                    <div class="qrcode-thumb"><img src="data/upload/admin/20170823/qrCode.jpg" alt=""></div>
+                    <div class="qrcode-title">微信公众号</div>
+                </div>
+
+            </div>
+        </div>
+        <hr class="footer-hr"/>
+        <p class="copyright-box">©2013-2017武汉朗数科技有限公司版权所有 </p>
+
+    </div>
+</div>
+<script type="text/javascript">
+
+    var demo1 = $("#homeslider").slippry({
+        transition: 'fade',
+        useCSS: true,
+        captions: false,
+        speed: 1000,
+        pause: 3000,
+        auto: true,
+        preload: 'visible',
+        controls: true
+    });
+
+    var initKeFuAndGoTop = function () {
+        var t = this;
+        //滚动到顶部
+        $(window).on("scroll", function (e) {
+            var _scrollTop = $(document).scrollTop();
+
+            $("#goTop")[_scrollTop >= 300 ? "fadeIn" : "fadeOut"]();
+        })
+        $("#side-bar-bar .gotop").click(function () {
+            $('html,body').animate({'scrollTop': 0}, 500);
+            return false;
+        });
+
+
+    };
+    initKeFuAndGoTop();
+</script>
+
+<!--<script src="themes/simplebootx/Public/js/index.js"></script>
+<script src="public/js/wind.js"></script>-->
+
+
+</body>
+</html>

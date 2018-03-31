@@ -1,0 +1,236 @@
+/*
+产品特点
+*/
+.section-wapper{
+    margin: 70px auto 0 auto;
+    overflow: hidden;
+}
+.section-inner{
+    width: 33.33333%;
+    float: left;
+}
+.section-inner-box{
+    text-align: center;
+    color: #7f7f7f;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.section-inner-box .icon {
+    width: 85px;
+    height: 85px;
+    margin: 0 auto;
+    top: 0;
+    margin-bottom: 30px;
+    position: relative;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    display: table;
+    text-align: center;
+}
+.section-inner-box .icon.colored-1{
+    background: transparent;
+    border: 3px solid #2aaf67;
+}
+.section-inner-box .icon.colored-4 {
+    background: transparent;
+    border: 3px solid #e52b50;
+}
+.section-inner-box .icon.colored-2 {
+    background: transparent;
+    border: 3px solid #00bff3;
+}
+.section-inner-box .icon > span {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    color: #20B065;
+    font-size: 14px;
+    font-weight: 600;
+}
+.section-inner-box  h3 {
+    margin: 0 0 20px 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 20px;
+    color: #444;
+}
+.section-inner-box  p{
+    margin-bottom: 15px;
+}
+/*
+产品介绍
+*/
+
+.c-people-left {
+    width: 39%;
+    box-sizing: border-box;
+    padding-left: 30px;
+    float: left;
+}
+.c-people-right {
+    width: 39%;
+    box-sizing: border-box;
+    padding-left: 30px;
+    float: right;
+}
+.visible-md22{
+    width: 22%;
+    float: left;
+}
+.visible-md22 img{
+    width: 70%;
+    max-height: 667px;
+}
+.about-inner{
+    text-align: left;
+}
+.c-people .about-inner h4{
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.c-people .about-inner i img{
+    margin-bottom: 20px;
+
+}
+/*产品界面展示*/
+.bg303841{
+    background: #303841;
+}
+#certify {
+    position: relative;
+    width: 800px;
+    margin: 0 auto
+}
+
+#certify .swiper-container {
+    padding-bottom: 60px;
+}
+
+#certify  .swiper-slide {
+    width: 200px;
+    /*height: 350px;*/
+    background: #fff;
+    box-shadow: 0 8px 30px #ddd;
+}
+#certify  .swiper-slide img{
+    display:block;
+    width: 100%;
+}
+#certify  .swiper-slide p {
+    line-height: 98px;
+    padding-top: 0;
+    text-align: center;
+    color: #636363;
+    font-size: 1.1em;
+    margin: 0;
+}
+
+#certify .swiper-pagination {
+    width: 100%;
+    bottom: 20px;
+}
+
+#certify .swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 5px;
+    border: 3px solid #fff;
+    background-color: #d5d5d5;
+    width: 10px;
+    height: 10px;
+    opacity: 1;
+}
+
+#certify .swiper-pagination-bullets .swiper-pagination-bullet-active {
+    border: 3px solid #00aadc;
+    background-color: #fff;
+}
+
+/*  #certify .swiper-button-prev {
+      left: -30px;
+      width: 45px;
+      height: 45px;
+      background: url(../images/wm_button_icon.png) no-repeat;
+      background-position: 0 0;
+      background-size: 100%;
+  }*/
+
+#certify .swiper-button-prev:hover {
+    background-position: 0 -46px;
+    background-size: 100%
+}
+
+/*  #certify .swiper-button-next {
+      right: -30px;
+      width: 45px;
+      height: 45px;
+      background: url(../images/wm_button_icon.png) no-repeat;
+      background-position: 0 -93px;
+      background-size: 100%;
+  }*/
+
+#certify .swiper-button-next:hover {
+    background-position: 0 -139px;
+    background-size: 100%
+}
+/*
+产品购买
+*/
+.price-list{
+    float: left;
+    width: 33.3333%;
+}
+.price-box{
+    border: 2px solid #ECEEF0;
+    text-align: center;
+    padding: 30px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    position: relative;
+}
+.price-box.popular{
+    border: 2px solid #4AE3B5;
+}
+.pricing-plan{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eeeeee;
+}
+ .pricing-info {
+    padding: 0;
+    margin: 0 0 30px 0;
+}
+.pricing-info  li{
+   padding: 10px;
+    color: #7f7f7f;
+    font-size: 16px;
+}
+.btn-primary{
+    border:1px solid #416aa7;
+
+    color: #416aa7;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+}

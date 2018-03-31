@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="themes/simplebootx/Public/js/jquery.min.js"></script>
+    <!--
+    <script>
+        var type=navigator.appName;
+        if (type=="Netscape"){
+            var lang = navigator.language
+        }
+        else{
+            var lang = navigator.userLanguage
+        }
+        //取得浏览器语言的前两个字母
+        var lang = lang.substr(0,2);
+        // 英语
+        if (lang == "en"){
+            window.location.href="http://朗数科技.us"
+        }
+    // 中文 - 不分繁体和简体
+        else if (lang == "zh"){
+            //无需处理
+            //  注释掉了上面跳转,不然会陷入无限循环
+        }
+    // 除上面所列的语言
+        else{
+            window.location.href="http://www.朗数科技.com"
+        }
+    </script>-->
+
+    <meta name="author" content="朗数科技web-wangchong">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Set render engine for 360 browser -->
+    <meta name="renderer" content="webkit">
+    <!-- No Baidu Siteapp-->
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+
+    <!-- HTML5 shim for IE8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- <link rel="shortcut icon" href="themes/simplebootx/Public/images/favicon.ico" type="image/x-icon"> -->
+    <!-- <link href="themes/simplebootx/Public/simpleboot/themes/simplebootx/theme.min.css" rel="stylesheet"> -->
+    <!-- <link href="themes/simplebootx/Public/simpleboot/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet"> -->
+    <!-- <link href="themes/simplebootx/Public/simpleboot/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link rel="stylesheet" href="themes/simplebootx/Public/css/homepage.css" type="text/css"> -->
+    <link href="themes/simplebootx/Public/css/slippry/slippry.css" rel="stylesheet">
+    <script src="themes/simplebootx/Public/js/slippry.min.js"></script>
+    <script src="themes/simplebootx/Public/js/layer/layer.js"></script>
+    <script src="themes/simplebootx/Public/js/jquery.SuperSlide.2.1.1.js"></script>
+    <script src="themes/simplebootx/Public/js/common.js"></script>
+
+    <!--<script>-->
+    <!--var jsVersion= new Date().getTime();-->
+    <!--document.write("\<script type=\"text/javascript\" src=\"/themes/simplebootx/Public/js/common.js?v="+jsVersion+"\"><\/script\>");-->
+    <!--</script>-->
+    <!--<script src="themes/simplebootx/Public/js/case-open-close.js"></script>-->
+    <!--<script  src="themes/simplebootx/Public/js/case-video.js"></script>-->
+    <!--<script src="themes/simplebootx/Public/js/coop-tab.js"></script>-->
+    <script>
+        function keypress(_this) {
+            if (_this.id == 'btn-people') {
+                if (_this.value.length > 5) _this.value = 100000;
+                _this.value = _this.value.replace(/\D+/ig, '');
+            } else {
+                if (_this.value.length > 1) _this.value = 10;
+                _this.value = _this.value.replace(/\D+/ig, '');
+            }
+        }
+    </script>
+
+    <link href="themes/simplebootx/Public/css/common.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/index.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/product.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/service.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/cases.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/cooperation.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/about.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/download.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="themes/simplebootx/Public/css/animate.min.css">
+    <!--<link rel="stylesheet" type="text/css" href="themes/simplebootx/Public/css/bootstrap.min.css">-->
+    <style>
+
+        /*new word*/
+        .index-newsli-wrap {
+            margin-bottom: 70px
+        }
+
+        .index-newsli-wrap > div {
+            border-right: 1px dashed #ddd
+        }
+
+        .index-newsli-wrap > div:last-child {
+            border-right: none
+        }
+
+        .index-newsli-wrap a {
+            color: #666;
+            text-decoration: none
+        }
+
+        .index-newsli-wrap dl dt {
+            position: relative
+        }
+
+        .index-newsli-wrap dl dt > p {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 32px;
+            line-height: 32px;
+            text-align: center;
+            color: #fff;
+            background: rgba(0, 0, 0, 0.6);
+            font-size: 20px;
+            font-weight: normal;
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)
+        }
+
+        .index-newsli-wrap dl dt img {
+            width: 100%
+        }
+
+        .index-newsli-wrap dl dd {
+
+        }
+
+        .index-newsli-wrap .index-newsli {
+            margin-bottom: 20px
+        }
+
+        .index-newsli-wrap .index-newsli > p {
+            padding: 10px 0
+        }
+
+        .index-newsli-wrap .index-newsli > p > span {
+            float: right;
+            font-size: 12px;
+            color: #999
+        }
+
+        .index-newsli-wrap .index-newsli > p a {
+            display: block
+        }
+
+        .index-newsli-wrap .index-newsli > p a:hover {
+            color: #0068b7
+        }
+
+
+
+        .hd {
+            width: 100%;
+            height: 50%;
+            background-color: #f5f5f6;
+            text-align: center;
+            padding: 60px 0;
+        }
+
+        .hd ul {
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .hd li {
+            display: inline-block;
+            margin: 10px;
+            background: #ffffff;
+        }
+
+        .pro_list2 {
+            width: 266px;
+            height: 122px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+            overflow: hidden;
+        }
+
+        .pro_list2 > img:hover {
+            transition: 3s;
+            transform: rotate3d(0, 1, 0, 360deg);
+
+        }
+
+        /*html{filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);-webkit-filter: grayscale(1);}*/
+
+        #backtotop {
+            position: fixed;
+            bottom: 50px;
+            right: 20px;
+            display: none;
+            cursor: pointer;
+            font-size: 50px;
+            z-index: 9999;
+        }
+
+        .caption-wraper {
+            position: absolute;
+            left: 50%;
+            bottom: 2em;
+        }
+    </style>
+
+    <script type="text/javascript">
+        window.jsVersion = new Date().getTime();
+        document.write("\<script type=\"text/javascript\" src=\"https://static.朗数科技.com/static/extra/static/js/kpi/kpi.js?v=" + jsVersion + "\"><\/script\>");</script>
+    <title>朗数科技 一站式智慧管理云平台</title>
+    <meta name="keywords" content="武汉朗数科技有限公司,智慧园区,园区信息化,互联网,软件开发"/>
+    <meta name="description" content="武汉朗数科技有限公司公司首页"/>
+    <!-- <script src="http://static.朗数科技.com/static/extra/static/js/kpi/kpi.js"></script> -->
+    <style type="text/css">
+
+        .column-title {
+            font-size: 22px
+        }
+
+        .column-desc {
+            font-size: 16px;
+        }
+
+        .solution-title-new, .solution-title-new {
+            font-size: 22px !important;
+        }
+
+        .solution-thumb {
+            width: 216px !important;
+            height: 250px !important;
+        }
+
+        .index-content-modefiy {
+            font-size: 16px;
+            padding-top: 70px;
+        }
+
+        .help-wrap {
+            margin-top: 1rem;
+            background: #F7F7F7;
+            padding-bottom: 20px;
+        }
+
+        .help-wrap .wrap-content {
+            margin: 0px auto;
+        }
+
+        .help-wrap .help-main-title, .friends-warp .friends-mian-title {
+            text-align: center;
+            font-size: 24px;
+            padding-top: 3rem;
+        }
+
+        .help-wrap .help-sub-title, .friends-warp .friends-sub-title {
+            text-align: center;
+            font-size: 18px;
+            padding-top: 1rem;
+        }
+
+        .help-wrap .more a {
+            color: #009CFF
+        }
+
+        .more p {
+            text-align: right;
+            cursor: pointer;
+            height: 2rem;
+            line-height: 4rem;
+        }
+
+        .help-company-list .list-tr {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+            justify-content: space-between;
+        }
+
+        .company-item img {
+            width: 160px;
+        }
+
+        .cooperation-ship {
+            padding-top: 1rem !important;
+        }
+
+        /*.solution-field-list{padding-left: 38px}*/
+        /*.solution-tab-content-box{padding-left:38px;}*/
+    </style>
+</head>
+<body>
+<div class="body">
+    <div class="body-content">
+        <script xmlns:javascript="http://www.w3.org/1999/xhtml">
+            $(function () {
+                setTimeout(function () {
+                    var channel = sessionStorage.getItem('kpi_channel');
+                    var oldHref = $("#registerBtn").attr("href") || "";
+                    var oldHrefLink = oldHref ? oldHref.split("#")[0] : "";
+                    var oldHrefquery = oldHref ? oldHref.split("#")[1] : "";
+                    $("#registerBtn").attr("href", oldHrefLink + "?channelId=" + channel + "#" + oldHrefquery)
+                }, 300)
+
+                //绑定退出
+                $(".login-img").hover(function () {
+                    $(".drop-down").fadeIn()
+                }, function () {
+                    $(".drop-down").fadeOut()
+                })
+
+                //退出
+                $(".logout-btn").one("click", function () {
+
+
+                })
+                $("#getIntoSubBtn").off().hover(function () {
+                    $("#SubSwitchList").fadeIn()
+                }, function () {
+                    $("#SubSwitchList").fadeOut()
+                })
+
+                $(".language-switch-box").off().hover(function () {
+                    $("#languageSwitchList").fadeIn()
+                }, function () {
+                    $("#languageSwitchList").fadeOut()
+                })
+
+                $("#loginSelectBtn").off().hover(function () {
+                    $("#logonSwitchList").fadeIn()
+                }, function () {
+                    $("#logonSwitchList").fadeOut()
+                })
+
+
+            })
+
+        </script>
+        <style type="text/css">
+            /* 登陆*/
+            .login-wrap {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .login-wrap .login-img {
+                width: 2rem;
+                border-radius: 2rem;
+                overflow: hidden;
+                cursor: pointer;
+            }
+
+            .login-wrap .login-img img {
+                width: 2rem;
+                height: 2rem;
+                vertical-align: middle;
+                border-radius: 5rem
+            }
+
+            .login-wrap .login-regards {
+                padding: 0px 1rem 0px 0.5rem;
+            }
+
+            .drop-down {
+                position: absolute;
+                background: #fff;
+                border: 1px solid #DDDDDD;
+                border-radius: 4px;
+                padding: 0.5rem;
+                padding-bottom: 0px;
+                left: 80px;
+                top: 70px;
+                /*width: 10rem;*/
+                width: 146px;
+                z-index: 9999
+            }
+
+            .drop-down .drop-info-wrap {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                margin-bottom: 0.5rem;
+            }
+
+            .drop-info-wrap .drop-info-login-img {
+                width: 3rem;
+                border-radius: 3rem;
+                /*overflow: hidden;*/
+            }
+
+            .drop-info-wrap .drop-info-login-img img {
+                width: 3rem;
+                height: 3rem;
+            }
+
+            .drop-info-details {
+                padding-left: 0.8rem;
+            }
+
+            .drop-info-details div {
+                text-align: left;
+                line-height: 1.3rem;
+            }
+
+            .logout-btn {
+                text-align: center;
+                height: 2rem;
+                line-height: 2rem;
+                display: flex;
+                justify-content: center;
+                cursor: pointer;
+                align-items: center;
+            }
+
+            .logout-line {
+                height: 1px;
+                width: 100%;
+                background: #DDDDDD;
+                overflow: hidden;
+            }
+
+            body .header {
+            }
+
+            .header .header-info {
+                padding-right: 5rem;
+                display: flex;
+            }
+
+            .tel-num {
+                line-height: 1.5rem;
+                height: 1.5rem;
+                text-align: right;
+
+                width: 100%;
+                background: #f2f2f2;
+            }
+
+            .tel-num p {
+                margin-right: 90px;
+            }
+
+            .head-nav-main {
+                position: fixed;
+                width: 100%;
+                z-index: 999;
+
+            }
+
+            .head-nav {
+                display: flex;
+            }
+
+            .nav {
+                margin-left: 30px;
+                flex: 1;
+            }
+
+            .login-wrap .login-img {
+                width: 3rem;
+                height: 70px;
+                line-height: 70px;
+            }
+
+            .switch-list {
+                /*width: 146px;*/
+                position: absolute;
+                background: #fff;
+                right: 0px;
+                top: 70px;
+                display: none;
+                box-shadow: 0 3px 3px #ccc;
+                z-index: 99;
+            }
+
+            .language-switch-content {
+                right: 20px;
+            }
+
+            .nav {
+                display: flex;
+                width: 1800px;
+            }
+
+            .nav li {
+                text-align: center;
+                width: 80px;
+            }
+
+            .nav li > a {
+                width: 80px;
+            }
+
+            .login-register-box > a {
+                width: 146px;
+                margin: 0 -4px;
+            }
+
+            .language-switch-box {
+                width: 80px;
+            }
+
+            .have-logged {
+                width: 300px;
+            }
+
+            .no-logged {
+                width: 140px;
+            }
+
+            .login-regards {
+                width: 36px;
+            }
+
+            .login-register-box {
+                margin-right: 18px !important;
+            }
+
+        </style>
+        <!--顶部开始-->
+        <div class="head-nav-main">
+
+            <div class="header clearfix">
+
+                <div class="head-nav">
+                    <h1 class="logo fl"><a href="index.html"><img src="themes/simplebootx/Public/images/logo.png"
+                                                                  alt=""></a></h1>
+                    <ul class="nav">
+                        <li class='nav-seleted-hover'>
+                            <a href="index.html">首页</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">产品</a>
+                            <div class="drop-down-box multiple-drop-down">
+                                <dl class="drop-solution-item-product" style="width: 210px;">
+                                    <dt>通用解决方案</dt>
+                                    <div style="display: flex;flex-wrap: wrap;">
+                                        <dd><a style="font-size: 14px;font-weight: 600;" target=""
+                                               href="Portal/Product/dayHR.html">人力资源管理-dayHR<br/><span
+                                                style="font-size: 12px;font-weight: normal;" class="decoration">一站式人力资源管理云平台</span></a>
+                                        </dd>
+                                        <dd><a style="font-size: 14px;font-weight: 600;" target=""
+                                               href="Eva/Product/index.html">人才测评-day测评<br/><span
+                                                style="font-size: 12px;font-weight: normal;" class="decoration">按需定制的人岗匹配专家</span></a>
+                                        </dd>
+                                        <dd><a style="font-size: 14px;font-weight: 600;" target=""
+                                               href="Portal/Product/dayCRM.html">销售管理-dayCRM<br/><span
+                                                style="font-size: 12px;font-weight: normal;" class="decoration">企业移动销售管理第一选择</span></a>
+                                        </dd>
+                                        <dd><a style="font-size: 14px;font-weight: 600;" target=""
+                                               href="Portal/Product/dayOA.html">协同办公-dayOA<br/><span
+                                                style="font-size: 12px;font-weight: normal;"
+                                                class="decoration">协同办公解决方案</span></a></dd>
+                                    </div>
+                                </dl>
+                                <dl class="drop-solution-item-product" style="width: 430px;">
+                                    <dt>行业解决方案</dt>
+                                    <div style="display: flex;flex-wrap: wrap">
+                                        <dd><a style="font-size: 14px;font-weight: 600;" target=""
+                                               href="Portal/Product/daySupply.html">电商行业-速鲸<br/><span
+                                                style="font-size: 12px;font-weight: normal;" class="decoration">全渠道供应链管理解决方案</span></a>
+                                        </dd>
+                                        <dd><a style="font-size: 14px;font-weight: 600;" target="_blank"
+                                               href="http://www.qingcongji.com/">校园服务-青葱季<br/><span
+                                                style="font-size: 12px;font-weight: normal;" class="decoration">大学生职业成长平台</span></a>
+                                        </dd>
+                                        <dd><a style="font-size: 14px;font-weight: 600;" target=""
+                                               href="Portal/Product/dayCaterers.html">餐饮行业-赢食通<br/><span
+                                                style="font-size: 12px;font-weight: normal;" class="decoration">一站式智慧餐饮解决方案</span></a>
+                                        </dd>
+                                        <dd><a style="font-size: 14px;font-weight: 600;" target=""
+                                               href="Portal/Product/dayWy.html">物业行业-day物业<br/><span
+                                                style="font-size: 12px;font-weight: normal;" class="decoration">一体化智慧物业管理服务平台</span></a>
+                                        </dd>
+                                        <dd><a style="font-size: 14px;font-weight: 600;" target=""
+                                               href="Portal/Product/dayInfo.html">信息行业-中周信息<br/><span
+                                                style="font-size: 12px;font-weight: normal;"
+                                                class="decoration">做更懂你的数据</span></a></dd>
+                                        <dd><a style="font-size: 14px;font-weight: 600;" target=""
+                                               href="Portal/Product/dayUinvest.html">投资行业-优投信息<br/><span
+                                                style="font-size: 12px;font-weight: normal;" class="decoration">投资机构信息化解决方案</span></a>
+                                        </dd>
+                                        <dd><a style="font-size: 14px;font-weight: 600;" target=""
+                                               href="Portal/Product/dayTraffic.html">交通行业-智慧畅行<br/><span
+                                                style="font-size: 12px;font-weight: normal;" class="decoration">中国领先智慧交通管理平台</span></a>
+                                        </dd>
+                                        <dd><a style="font-size: 14px;font-weight: 600;" target=""
+                                               href="Portal/Product/dayBuilding.html">建筑行业-中康建信<br/><span
+                                                style="font-size: 12px;font-weight: normal;" class="decoration">中小企业建设经营管理平台</span></a>
+                                        </dd>
+                                    </div>
+                                </dl>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="OA.html">企业协同</a></li>
+                        <li>
+                            <a href="Shop.html">电商系统</a></li>
+                        <li>
+                            <a href="http://d.launchso.com/sale/">智慧生活</a></li>
+                        <li>
+                            <a href="Portal/Sample/index.html">金融理财</a></li>
+                        <!--<li>
+                            <a href="javascript:;">合作</a>
+                            <div class="drop-down-box single-drop-down">
+                                <dl class="drop-solution-item ">
+                                    <dd><a target="" href="Portal/Cooperation/cooperative.html">合作伙伴</a></dd>
+                                    <dd><a target="" href="Portal/Cooperation/channel.html">渠道伙伴</a></dd>
+                                </dl>
+                            </div>
+                        </li>-->
+                        <li>
+                            <a href="javascript:;">关于我们</a>
+                            <div class="drop-down-box single-drop-down">
+                                <dl class="drop-solution-item ">
+                                    <dd><a target="" href="AboutUs.html">公司简介</a></dd>
+                                    <dd><a target="" href="culture.html">企业文化</a></dd>
+                                    <dd><a target="" href="news.html">新闻资讯</a></dd>
+                                    <dd><a target="" href="joinUs.html">诚聘英才</a></dd>
+                                    <dd><a target="" href="contactUs.html">联系方式</a></dd>
+                                    <dd><a target="" href="http://q.launchso.com/ebp/u/a/trial/message.do">咨询留言</a></dd>
+                                    <dd><a target="" href="http://www.github.com">开源社区</a></dd>
+                                </dl>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="header-info fr">
+                         <span class="server-tel-info" style="line-height: 70px;">
+                             服务热线：027-5066-9194
+                         </span>
+                        <!--   未登陆 start -->
+                        <!--<div class="login-register-box no-logged">-->
+                        <!--<a id="registerBtn"  target="_blank" class="nav-regieter-btn" href="https://account.朗数科技.com/views/register/index.html#!category/register">注册</a>|-->
+                        <!--<div id="loginSelectBtn" style="display: inline-block;cursor: pointer;vertical-align: middle;height: 70px;line-height: 70px;padding-left: 6px;" class="login-select-btn" href="javascript:;" > 登录 <i class="icon iconfont-朗数科技 icon-drop-down"></i>-->
+
+                        <!--<ul id="logonSwitchList" class="switch-list login-switch-list">-->
+                        <!--<li class="firstList">-->
+                        <!--<a class="firstList-title" href="https://login.朗数科技.com/login?source=朗数科技" target="_blank" style="margin: 0 0!important;">朗数科技</a>									</li><li class="firstList">-->
+                        <!--<a class="firstList-title" javascript:void(0); target="_blank" style="margin: 0 0!important;">day测评</a>-->
+                        <!--<ul id="secondList" style="width:146px;">-->
+                        <!--<li><a target="_blank" href="https://login.朗数科技.com/login?source=朗数科技_evn" style="margin: 0 0!important;">企业端</a></li><li><a target="_blank" href="https://login.朗数科技.com/logout?service=https%3A%2F%2Feva.朗数科技.com%2F%23!%2Flogin" style="margin: 0 0!important;">个人端</a></li>											</ul>-->
+                        <!--</li><li class="firstList">-->
+                        <!--<a class="firstList-title" href="https://login.朗数科技.com/login?source=aslk" target="_blank" style="margin: 0 0!important;">dayCRM</a>									</li>							</ul>-->
+
+                        <!--</div>-->
+
+                        <!--</div>-->
+                        <!-- 未登陆 end -->
+
+
+                        <!--<div class="language-switch-box">-->
+                        <!--<a href="javascript:;" id="currentLanguage" class="current-language">中文 <i class="icon iconfont-朗数科技 icon-drop-down"></i></a>-->
+                        <!--<ul id="languageSwitchList" class="switch-list language-switch-list language-switch-content">-->
+                        <!--<li><a href="">中文</a></li>-->
+                        <!--<li><a href="http://www.朗数科技.us">English</a></li>-->
+                        <!--</ul>-->
+                        <!--</div>-->
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!--顶部结束-->
+        <div class="page-content main-box">
+            <div class="page-content-header">
+                <h2 class="page-content-header-title">联系我们</h2>
+            </div>
+            <div class="page-content-body-text-box">
+                <div class="about-contact-person-box clearfix">
+                    <div class="about-contact-person-item">
+                        <span class="about-contact-person-item-thumb"><img src="https://www.daydao.com/data/upload/portal/20170614/5941240e02b88.png" alt=""></span>
+                        <div class="about-contact-person-detail">
+                            <h3 class="about-contact-person-item-project">技术部</h3>
+                            <div class="about-contact-person-item-name">联系人：某先生</div>
+                            <div class="about-contact-person-item-email">Email: contact@launchso.com</div>
+                        </div>
+                    </div><div class="about-contact-person-item">
+                    <span class="about-contact-person-item-thumb"><img src="https://www.daydao.com/data/upload/portal/20170614/5941241f843d9.png" alt=""></span>
+                    <div class="about-contact-person-detail">
+                        <h3 class="about-contact-person-item-project">市场部</h3>
+                        <div class="about-contact-person-item-name">联系人：某先生</div>
+                        <div class="about-contact-person-item-email">Email: contact@launchso.com</div>
+                    </div>
+                </div>                   </div>
+            </div>
+            <div class="page-content-header">
+                <h2 class="page-content-header-title">公司地址</h2>
+            </div>
+            <div class="page-content-body-text-box">
+                <div class="about-contact-address-item">
+                    <div class="about-contact-address-item-content">
+
+                        <p>地址：武汉市东湖开发区光谷大道77号金融港A9栋405室</p>
+                        <p>联系方式：027-5066-9194</p>
+                        <p>邮箱：contact@launchso.com</p>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+<div id="side-bar-bar" class="side-pannel-bar side-bar-bar">
+    <ul class="side-bar-bar-ul">
+        <!-- <li class="ulli"><a href="javascript:void(0);" class="kefu qr iconfont_header" title="在线客服">&#xe640;</a> -->
+        <li class="ulli" id="goTop"><a href="javascript:void(0);" class="gotop qr iconfont_header" title="返回顶部">
+            &#xe63e;</a></li>
+    </ul>
+</div>
+<div class="footer bgf7f7f7">
+    <div class="main-box footer-box">
+        <div class="footer-top clearfix">
+            <div class="help-contact-box fl">
+                <dl class="help-box fl">
+                    <dt>了解我们</dt>
+                    <dd><a target="" href="Portal/About/introduction.html">公司简介</a></dd>
+                    <dd><a target="" href="Portal/About/culture.html">公司文化</a></dd>
+                    <dd><a target="" href="Portal/About/honor.html">公司荣誉</a></dd>
+                </dl>
+                <dl class="help-box fl">
+                    <dt>关注我们</dt>
+                    <dd><a target="" href="Portal/About/contactUs.html">联系我们</a></dd>
+                    <dd><a target="" href="Portal/About/joinUs.html">加入我们</a></dd>
+                    <dd><a target="" href="Portal/About/guestbook.html">在线留言</a></dd>
+                    <dd><a target="" href="Portal/About/legal.html">法律声明</a></dd>
+                </dl>
+                <dl class="help-box fl">
+                    <dt>帮助中心</dt>
+                    <dd><a target="" href="Portal/Safe/index.html">安全技术</a></dd>
+                    <dd><a target="" href="Portal/Service/FAQ.html">常见问题</a></dd>
+                    <dd><a target="" href="Portal/Service/download.html">资料下载</a></dd>
+                </dl>
+            </div>
+            <div class="qrcode-box fr">
+                <div class="qrcode-item wechat-qrcode-box">
+                    <div class="qrcode-thumb"><img src="data/upload/admin/20170823/qrCode.jpg" alt=""></div>
+                    <div class="qrcode-title">微信公众号</div>
+                </div>
+                <!--<div class="qrcode-item app-qrcode-box">
+                    <div class="qrcode-thumb"><img src="data/upload/admin/20170823/qrCode.jpg" alt=""></div>
+                    <div class="qrcode-title">APP下载</div>
+                </div>-->
+            </div>
+        </div>
+        <hr class="footer-hr"/>
+        <div class="friendship-link-box">
+            <span class="friendship-link-title">友情链接：</span>
+            <div class="friendship-link-content">
+                <a target="_blank" href="http://www.huawei.com/cn/" target="_blank">华为</a><a target="_blank"
+                                                                                             href="http://www.zte.com.cn/cn/"
+                                                                                             target="_blank">中兴</a><a
+                    target="_blank" href="http://www.tencent.com/zh-cn/" target="_blank">腾讯</a><a target="_blank"
+                                                                                                  href="http://www.pingan.com/?WT.mc_id=SEM-BDBZ-PC0040&amp;WT.srch=1"
+                                                                                                  target="_blank">中国平安</a><a
+                    target="_blank" href="http://www.dayxx.com/" target="_blank">中周信息</a><a target="_blank"
+                                                                                            href="http://about.123cx.com/"
+                                                                                            target="_blank">智慧畅行</a><a
+                    target="_blank" href="http://www.zkjsgl.com/" target="_blank">中康建设</a><a target="_blank"
+                                                                                             href="http://www.chinahrm.net/"
+                                                                                             target="_blank">人力资源管理网</a><a
+                    target="_blank" href="https://www.suning.com/" target="_blank">苏宁云商</a><a target="_blank"
+                                                                                              href="https://www.263.net/"
+                                                                                              target="_blank">263云通讯</a><a
+                    target="_blank" href="http://www.tophunter.com/index.php/home/index/home" target="_blank">顶才猎头</a><a
+                    target="_blank" href="http://www.tkinghr.com/" target="_blank">天坤国际</a><a target="_blank"
+                                                                                              href="http://www.puxinhr.com/"
+                                                                                              target="_blank">众达朴信</a>
+            </div>
+        </div>
+        <p class="copyright-box">©武汉朗数科技有限公司版权所有 </p>
+
+    </div>
+</div>
+<script type="text/javascript">
+    //全局变量
+    var GV = {
+        DIMAUB: "/",
+        JS_ROOT: "public/js/",
+        TOKEN: ""
+    };
+    var demo1 = $("#homeslider").slippry({
+        transition: 'fade',
+        useCSS: true,
+        captions: false,
+        speed: 1000,
+        pause: 3000,
+        auto: true,
+        preload: 'visible',
+        controls: true
+    });
+    var demo2 = $("#dayEVAslider").slippry({
+        transition: 'fade',
+        useCSS: true,
+        captions: false,
+        speed: 1000,
+        pause: 3000,
+        auto: true,
+        preload: 'visible',
+        controls: true
+    });
+    var demo3 = $("#wyslider").slippry({
+        transition: 'fade',
+        useCSS: true,
+        captions: false,
+        speed: 1000,
+        pause: 3000,
+        auto: true,
+        preload: 'visible',
+        controls: true
+    });
+    var demo4 = $("#mallslider").slippry({
+        transition: 'fade',
+        useCSS: true,
+        captions: false,
+        speed: 1000,
+        pause: 3000,
+        auto: true,
+        preload: 'visible',
+        controls: true
+    });
+    var initKeFuAndGoTop = function () {
+        var t = this;
+        //滚动到顶部
+        $(window).on("scroll", function (e) {
+            var _scrollTop = $(document).scrollTop();
+
+            $("#goTop")[_scrollTop >= 300 ? "fadeIn" : "fadeOut"]();
+        })
+        $("#side-bar-bar .gotop").click(function () {
+            $('html,body').animate({'scrollTop': 0}, 500);
+            return false;
+        });
+
+        /*  var aQQ = ["2717395156","3306747447","2110340688","1691471852"];
+         function _random(a,b){
+         return a>b?0:Math.round(Math.random()*(b-a)+a);
+         }
+
+         $("#side-bar-bar .kefu").click(function () {
+         var url = "http://wpa.qq.com/msgrd?v=3&uin="+aQQ[_random(1,4)-1] + "&site=qq&menu=yes";
+         window.open(url, '_blank');
+         }); */
+
+        /**
+         * 客服在线结束
+         * =================================================
+         * */
+    };
+    initKeFuAndGoTop();
+</script>
+<script type="text/javascript" src="themes/simplebootx/Public/js/wow.min.js"></script>
+<script>
+    $(function () {
+        if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))) {
+            new WOW().init();
+        }
+    })
+</script>
+<script src="themes/simplebootx/Public/js/index.js"></script>
+<script src="public/js/wind.js"></script>
+
+
+</body>
+</html>

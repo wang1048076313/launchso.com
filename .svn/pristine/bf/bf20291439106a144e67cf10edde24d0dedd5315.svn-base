@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="themes/simplebootx/Public/js/jquery.min.js"></script>
+    <meta name="author" content="朗数科技web-wangchong">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Set render engine for 360 browser -->
+    <meta name="renderer" content="webkit">
+    <!-- No Baidu Siteapp-->
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+
+    <!-- HTML5 shim for IE8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="themes/simplebootx/Public/js/html5shiv.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="themes/simplebootx/Public/css/slippry/slippry.css" rel="stylesheet">
+    <script src="themes/simplebootx/Public/js/slippry.min.js"></script>
+    <script src="themes/simplebootx/Public/js/layer/layer.js"></script>
+    <script src="themes/simplebootx/Public/js/jquery.SuperSlide.2.1.1.js"></script>
+    <script src="themes/simplebootx/Public/js/common.js"></script>
+
+    <link href="themes/simplebootx/Public/css/common.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/index.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/product.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/service.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/cases.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/cooperation.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/about.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/download.css" rel="stylesheet">
+    <link rel="stylesheet" href="font/font-w/iconfont.css">
+
+    <title>朗数科技</title>
+    <meta name="keywords" content="武汉朗数科技有限公司,智慧园区,园区信息化,互联网,软件开发"/>
+    <meta name="description" content="武汉朗数科技有限公司公司首页"/>
+</head>
+<body>
+<div class="body">
+    <div class="body-content">
+
+        <!--顶部开始-->
+        <div class="head-nav-main">
+
+            <div class="header clearfix">
+
+                <div class="head-nav">
+                    <h1 class="logo fl"><a href="index.html"><img src="themes/simplebootx/Public/images/logo.png"
+                                                                  alt=""></a></h1>
+                    <ul class="nav">
+                        <li>
+                            <a href="index.html">首页</a>
+                        </li>
+
+                        <li>
+                            <a href="OA.html">企业协同</a></li>
+
+                        <li>
+                            <a href="Shop.html">电商系统</a></li>
+                        <li>
+                            <a href="http://p.launchso.com/sale/">智慧社区</a></li>
+                        <li>
+                            <a href="platform.html">开发平台</a></li>
+                        <li  class='nav-seleted-hover'>
+                            <a href="AboutUs.html">关于我们</a>
+                        </li>
+                    </ul>
+                    <div class="header-info fr">
+                         <span class="server-tel-info" style="line-height: 70px;">
+                             服务热线：027-5066-9194
+                         </span>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!--顶部结束-->
+
+        <div class="page-content main-box right-nav-content">
+
+            <!--侧边导航开始-->
+            <div class="left-nav-content">
+                <ul class="left-nav-content-ul">
+                    <li class="left-nav-title"><h1>关于我们</h1><div>ABOUT US</div></li>
+                    <li class="left-nav-content-li"><a href="AboutUs.html#gsjj">公司简介</a></li>
+                    <li class="left-nav-content-li"><a href="AboutUs.html#gswh">公司文化</a></li>
+                    <li class="left-nav-content-li"><a href="AboutUs.html#qyzz">企业资质</a></li>
+                    <li class="left-nav-content-li"><a href="AboutUs.html#lxwm">联系我们</a></li>
+                    <li class="left-nav-content-li"><a href="news.html">新闻资讯</a></li>
+                    <li class="left-nav-content-li"><a href="joinUs.html">加入我们</a></li>
+                    <li class="left-nav-content-li"><a href="AboutUs.html#zxly">咨询留言</a></li>
+                </ul>
+            </div>
+            <!--侧边导航结束-->
+
+            <div class="page-content-header">
+                <h2 class="page-content-header-title">加入我们</h2>
+                <!--<p class="page-content-header-detail">不管你是产品汪、市场鹰、运营喵、设计狮、程序猿，只要你实力，有勇气，欢迎加入朗数大家庭！</p>-->
+                <p class="page-content-header-detail" style="font-size:18px;font-weight:bold;padding-top:15px">我们为您提供富有竞争力的薪酬与完善的福利。</p>
+            </div>
+            <div class="page-content-body-text-box">
+                <p align="center"><img src="themes/simplebootx/Public/images/join-detail.jpg" alt=""></p>
+            </div>
+            <div class="page-content-header">
+                <h2 class="page-content-header-title">招聘岗位</h2>
+            </div>
+            <div class="page-content-body-text-box page-joinus-content-body-text-box" style="padding-top: 50px">
+                <h3>一、产品经理</h3>
+                <h4>岗位职责：</h4>
+                <ol class=" list-paddingleft-2">
+                    <li>负责产品的全过程管理，包括收集用户需求分析、市场和竞争分析、制定产品规划、设计产品功能并跟进开发、测试上线流程；</li>
+                    <li>把握产品的美术风格，规划UI详细功能需求；</li>
+                    <li>撰写详细的产品需求文档，并不断完善；</li>
+                    <li>参与制定开发计划，跟进解决研发过程中遇到的问题；</li>
+                    <li>参与制定测试计划，跟进解决测试过程中遇到的问题；</li>
+                    <li>跟踪技术及产品发展潮流，结合用户及业务需求提出产品优化及创新需求，为新产品的开发提供合理建议；</li>
+                    <li>负责管理产品团队，并对团队成员进行培训指导及有效激励。</li>
+                </ol>
+                <h4 style="margin-top: -10px;">任职要求：</h4>
+                <ol class=" list-paddingleft-2">
+                    <li>5年以上工作经验，3年以上大型软件产品项目或互联网产品需求分析经验，2年以上团队管理经验；</li>
+                    <li>熟悉需求调研方法，较强的业务流程及业务模型分析设计能力；</li>
+                    <li>善于控制需求，进行版本范围及项目范围管理；丰富的客户（及内部）沟通经验，能快速把握需求的核心要点；</li>
+                    <li>熟悉软件工程理论，掌握软件需求获取与分析方法，至少熟悉一种开发语言和一种数据库，有软件开发经验者优先；</li>
+                    <li>有较强的文档编写能力；熟悉CMMI文档规范者优先；</li>
+                    <li>有较强的团队协作精神，具备良好的学习能力，责任心强，能够承受较大的工作压力。</li>
+                </ol>
+
+                <h3>二、Java开发工程师</h3>
+                <h4>岗位职责：</h4>
+                <ol class=" list-paddingleft-2">
+                    <li>负责系统后台应用服务开发、架构设计及开发；</li>
+                    <li>负责完善系统的性能及可靠性；</li>
+                    <li>负责基础组件开发、代码库整理及优化。</li>
+                </ol>
+                <h4 style="margin-top: -10px;">任职要求：</h4>
+                <ol class=" list-paddingleft-2">
+                    <li>计算机相关专业，本科及以上学历；</li>
+                    <li>3年以上j2ee开发经验，具备2个以上中大型软件项目经验；</li>
+                    <li>熟练掌握html，css，js，jquery，至少熟练使用easyUI或Bootstrap框架；</li>
+                    <li>熟练掌握SQL语句，了解基本的优化(有证书的优先考虑)；</li>
+                    <li>熟练使用MAVEN、SVN、JIRA等项目管理工具；</li>
+                    <li>优秀的沟通能力与学习能力， 积极主动，责任心强。</li>
+                </ol>
+
+                <h3>三、市场运营经理</h3>
+                <h4>岗位职责：</h4>
+                <ol class=" list-paddingleft-2">
+                    <li>参与公司市场战略规划，负责制定公司市场年度运营计划，提出市场推广、品牌、活动等方面的具体实施方案；</li>
+                    <li>负责线上线下产品的运营和推广；</li>
+                    <li>负责公司产品的运营和管理市场团队，并对团队成员和相关部门进行市场培训和指导；</li>
+                    <li>制定市场推广费用预算、控制部门全年整体财务预算，完善激励考核制度；</li>
+                    <li>针对行业竞品做功能分析，帮助公司产品快速建立竞争优势；</li>
+                </ol>
+                <h4 style="margin-top: -10px;">任职要求：</h4>
+                <ol class=" list-paddingleft-2">
+                    <li>本科及以上学历；</li>
+                    <li>3年及以上互联网、软件行业市场推广策划工作经验；</li>
+                    <li>了解现代市场推广模式，有独特的创意能力和文案策划能力；</li>
+                    <li>具备较强的市场分析、营销、推广能力和良好的人际沟通、协调能力，分析和解决问题的能力；</li>
+                    <li>具备丰富的团队建设经验，良好的职业素质和敬业精神。</li>
+                </ol>
+
+                <h3>四、文案策划</h3>
+                <h4>岗位职责：</h4>
+                <ol class=" list-paddingleft-2">
+                    <li>协助制定公司宣传、推广策略和方案；</li>
+                    <li>负责构建运营自媒体平台、朋友圈及各种推广平台；</li>
+                    <li>为系列自媒体平台提供优质内容，达到粉丝拓展、留存、活跃及转化等目的；</li>
+                    <li>负责公司各项目网站的内容更新，并面向主流搜索引擎优化自然排名，提高网站流量；</li>
+                    <li>关注其他竞争对手或相关产业平台，以及他们的线上营销策略；</li>
+                    <li>收集来自自媒体及网站方面的销售线索，并转交市场人员跟进成单。</li>
+                </ol>
+                <h4 style="margin-top: -10px;">任职要求：</h4>
+                <ol class=" list-paddingleft-2">
+                    <li>本科及以上学历，2年以上相关工作经历，中文、新闻传播学，汉语言文学等相关专业；</li>
+                    <li>热爱互联网，有较强的文字编辑功底，擅长写网络软文和活动策划方案；</li>
+                    <li>对时事热点敏感，思维敏捷，接受新鲜事物快，较强的学习力；</li>
+                    <li>有积极的工作态度和良好的团队协作能力，责任心强，善于沟通；</li>
+                    <li>熟悉微信、微博、贴吧、论坛等新媒体渠道，积累了一定的推广资源。</li>
+                </ol>
+
+                <div class="page-content-header">
+                    <h2 class="page-content-header-title">简历投递方式</h2>
+                </div>
+                <div class="page-content-body-text-box" style="margin-top: 0;padding-top: 0">
+                    <p>联系人：张女士</p>
+                    <p>Email：hr@launchso.com</p>
+                    <p>Tel：027-5066-9194</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="side-bar-bar" class="side-pannel-bar side-bar-bar">
+        <ul class="side-bar-bar-ul">
+            <!-- <li class="ulli"><a href="javascript:void(0);" class="kefu qr iconfont_header" title="在线客服">&#xe640;</a> -->
+            <li class="ulli" id="goTop"><a href="javascript:void(0);" class="gotop qr iconfont-w icon-dingbu" title="返回顶部"></a></li>
+        </ul>
+    </div>
+    <div class="footer bgf7f7f7">
+        <div class="main-box footer-box">
+            <div class="footer-top clearfix">
+                <div class="help-contact-box fl">
+                    <dl class="help-box fl wow  bounceIn  animated" data-wow-delay=".4s">
+                        <dt>关注我们</dt>
+                        <dd><a target="" href="news.html">新闻中心</a></dd>
+                        <dd><a target="" href="AboutUs.html#zxly">咨询留言</a></dd>
+                        <dd><a target="" href="joinUs.html">加入我们</a></dd>
+                    </dl>
+                    <dl class="help-box fl wow  bounceIn  animated" data-wow-delay=".6s">
+                        <dt>团队风采</dt>
+                        <dd><a target="" href="AboutUs.html#gsjj">关于我们</a></dd>
+                        <dd><a target="" href="AboutUs.html#gswh">公司文化</a></dd>
+                        <dd><a target="" href="AboutUs.html#qyzz">企业资质</a></dd>
+                    </dl>
+                    <dl class="help-box fl wow  bounceIn  animated" data-wow-delay=".8s">
+                        <dt>联系方式</dt>
+                        <dd><img src="themes/simplebootx/Public/images/phone.svg" alt=""> <a href="javascript:void(0)">027-5066-9194</a></dd>
+                        <dd><img src="themes/simplebootx/Public/images/email.svg" alt=""> <a href="javascript:void(0)">contact@launchso.com</a></dd>
+                        <dd><img src="themes/simplebootx/Public/images/address.svg" alt=""> <a href="javascript:void(0)">武汉市东湖开发区光谷大道77号金融港A9栋405室</a></dd>
+                    </dl>
+                </div>
+                <div class="qrcode-box fr wow  bounceIn  animated" data-wow-delay="1s">
+                    <div class="qrcode-item wechat-qrcode-box">
+                        <div class="qrcode-thumb"><img src="data/upload/admin/20170823/qrCode.jpg" alt=""></div>
+                        <div class="qrcode-title">微信公众号</div>
+                    </div>
+                    <!--<div class="qrcode-item app-qrcode-box">
+                        <div class="qrcode-thumb"><img src="data/upload/admin/20170823/qrCode.jpg" alt=""></div>
+                        <div class="qrcode-title">APP下载</div>
+                    </div>-->
+                </div>
+            </div>
+            <hr class="footer-hr"/>
+            <p class="copyright-box">©2013-2017武汉朗数科技有限公司版权所有 </p>
+
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var initKeFuAndGoTop = function () {
+        var t = this;
+        //滚动到顶部
+        $(window).on("scroll", function (e) {
+            var _scrollTop = $(document).scrollTop();
+
+            $("#goTop")[_scrollTop >= 300 ? "fadeIn" : "fadeOut"]();
+        })
+        $("#side-bar-bar .gotop").click(function () {
+            $('html,body').animate({'scrollTop': 0}, 500);
+            return false;
+        });
+    };
+    initKeFuAndGoTop();
+
+    /*关于我们侧边导航定位*/
+    $(window).on('scroll',function () {
+        if($(window).scrollTop()<$('.right-nav-content').height()-$('.left-nav-content').height()-80){
+            $('.left-nav-content').css({
+                "position": "fixed",
+                "top": 0,
+                "left": $('.right-nav-content').offset().left
+            });
+        }else{
+            $('.left-nav-content').css({
+                "position": "absolute",
+                "top": $('.right-nav-content').height()-$('.left-nav-content').height()-80,
+                "left": 0
+            });
+        }
+    }).scroll();
+    $(window).on('resize',function () {
+        $(window).scroll();
+    });
+</script>
+
+</body>
+</html>

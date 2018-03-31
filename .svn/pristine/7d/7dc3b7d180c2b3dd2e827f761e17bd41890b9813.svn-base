@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="themes/simplebootx/Public/js/jquery.min.js"></script>
+
+
+    <meta name="author" content="朗数科技web-wangchong">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Set render engine for 360 browser -->
+    <meta name="renderer" content="webkit">
+    <!-- No Baidu Siteapp-->
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+
+    <!-- HTML5 shim for IE8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="themes/simplebootx/Public/css/slippry/slippry.css" rel="stylesheet">
+    <script src="themes/simplebootx/Public/js/slippry.min.js"></script>
+    <script src="themes/simplebootx/Public/js/layer/layer.js"></script>
+    <script src="themes/simplebootx/Public/js/jquery.SuperSlide.2.1.1.js"></script>
+    <script src="themes/simplebootx/Public/js/common.js"></script>
+
+
+    <script type="text/javascript">
+        function keypress(_this) {
+            if (_this.id == 'btn-people') {
+                if (_this.value.length > 5) _this.value = 100000;
+                _this.value = _this.value.replace(/\D+/ig, '');
+            } else {
+                if (_this.value.length > 1) _this.value = 10;
+                _this.value = _this.value.replace(/\D+/ig, '');
+            }
+        }
+    </script>
+
+    <link href="themes/simplebootx/Public/css/common.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/index.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/product.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/service.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/cases.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/cooperation.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/about.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/download.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="themes/simplebootx/Public/css/animate.min.css">
+    <style>
+
+        /*new word*/
+        .index-newsli-wrap {
+            margin-bottom: 70px
+        }
+
+        .index-newsli-wrap > div {
+            border-right: 1px dashed #ddd
+        }
+
+        .index-newsli-wrap > div:last-child {
+            border-right: none
+        }
+
+        .index-newsli-wrap a {
+            color: #666;
+            text-decoration: none
+        }
+
+        .index-newsli-wrap dl dt {
+            position: relative
+        }
+
+        .index-newsli-wrap dl dt > p {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 32px;
+            line-height: 32px;
+            text-align: center;
+            color: #fff;
+            background: rgba(0, 0, 0, 0.6);
+            font-size: 20px;
+            font-weight: normal;
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)
+        }
+
+        .index-newsli-wrap dl dt img {
+            width: 100%
+        }
+
+        .index-newsli-wrap dl dd {
+
+        }
+
+        .index-newsli-wrap .index-newsli {
+            margin-bottom: 20px
+        }
+
+        .index-newsli-wrap .index-newsli > p {
+            padding: 10px 0
+        }
+
+        .index-newsli-wrap .index-newsli > p > span {
+            float: right;
+            font-size: 12px;
+            color: #999
+        }
+
+        .index-newsli-wrap .index-newsli > p a {
+            display: block
+        }
+
+        .index-newsli-wrap .index-newsli > p a:hover {
+            color: #0068b7
+        }
+
+        .hd {
+            width: 100%;
+            height: 50%;
+            background-color: #f5f5f6;
+            text-align: center;
+            padding: 60px 0;
+        }
+
+        .hd ul {
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .hd li {
+            display: inline-block;
+            margin: 10px;
+            background: #ffffff;
+        }
+
+        .pro_list2 {
+            width: 266px;
+            height: 122px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+            overflow: hidden;
+        }
+
+        .pro_list2 > img:hover {
+            transition: 3s;
+            transform: rotate3d(0, 1, 0, 360deg);
+
+        }
+
+        /*html{filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);-webkit-filter: grayscale(1);}*/
+
+        #backtotop {
+            position: fixed;
+            bottom: 50px;
+            right: 20px;
+            display: none;
+            cursor: pointer;
+            font-size: 50px;
+            z-index: 9999;
+        }
+
+        .caption-wraper {
+            position: absolute;
+            left: 50%;
+            bottom: 2em;
+        }
+    </style>
+
+    <script type="text/javascript">
+        window.jsVersion = new Date().getTime();
+        document.write("\<script type=\"text/javascript\" src=\"https://static.朗数科技.com/static/extra/static/js/kpi/kpi.js?v=" + jsVersion + "\"><\/script\>");</script>
+    <title>朗数科技 一站式智慧管理云平台</title>
+    <meta name="keywords" content="武汉朗数科技有限公司,智慧园区,园区信息化,互联网,软件开发"/>
+    <meta name="description" content="武汉朗数科技有限公司公司首页"/>
+    <!-- <script src="http://static.朗数科技.com/static/extra/static/js/kpi/kpi.js"></script> -->
+    <style type="text/css">
+
+        .column-title {
+            font-size: 22px
+        }
+
+        .column-desc {
+            font-size: 16px;
+        }
+
+        .solution-title-new, .solution-title-new {
+            font-size: 22px !important;
+        }
+
+        .solution-thumb {
+            width: 216px !important;
+            height: 250px !important;
+        }
+
+        .index-content-modefiy {
+            font-size: 16px;
+            padding-top: 70px;
+        }
+
+        .help-wrap {
+            margin-top: 1rem;
+            background: #F7F7F7;
+            padding-bottom: 20px;
+        }
+
+        .help-wrap .wrap-content {
+            margin: 0px auto;
+        }
+
+        .help-wrap .help-main-title, .friends-warp .friends-mian-title {
+            text-align: center;
+            font-size: 24px;
+            padding-top: 3rem;
+        }
+
+        .help-wrap .help-sub-title, .friends-warp .friends-sub-title {
+            text-align: center;
+            font-size: 18px;
+            padding-top: 1rem;
+        }
+
+        .help-wrap .more a {
+            color: #009CFF
+        }
+
+        .more p {
+            text-align: right;
+            cursor: pointer;
+            height: 2rem;
+            line-height: 4rem;
+        }
+
+        .help-company-list .list-tr {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+            justify-content: space-between;
+        }
+
+        .company-item img {
+            width: 160px;
+        }
+
+        .cooperation-ship {
+            padding-top: 1rem !important;
+        }
+
+        /*.solution-field-list{padding-left: 38px}*/
+        /*.solution-tab-content-box{padding-left:38px;}*/
+    </style>
+</head>
+<body>
+<div class="body">
+    <div class="body-content">
+        <script xmlns:javascript="http://www.w3.org/1999/xhtml">
+            $(function () {
+                setTimeout(function () {
+                    var channel = sessionStorage.getItem('kpi_channel');
+                    var oldHref = $("#registerBtn").attr("href") || "";
+                    var oldHrefLink = oldHref ? oldHref.split("#")[0] : "";
+                    var oldHrefquery = oldHref ? oldHref.split("#")[1] : "";
+                    $("#registerBtn").attr("href", oldHrefLink + "?channelId=" + channel + "#" + oldHrefquery)
+                }, 300)
+
+                //绑定退出
+                $(".login-img").hover(function () {
+                    $(".drop-down").fadeIn()
+                }, function () {
+                    $(".drop-down").fadeOut()
+                })
+
+                //退出
+                $(".logout-btn").one("click", function () {
+
+
+                })
+                $("#getIntoSubBtn").off().hover(function () {
+                    $("#SubSwitchList").fadeIn()
+                }, function () {
+                    $("#SubSwitchList").fadeOut()
+                })
+
+                $(".language-switch-box").off().hover(function () {
+                    $("#languageSwitchList").fadeIn()
+                }, function () {
+                    $("#languageSwitchList").fadeOut()
+                })
+
+                $("#loginSelectBtn").off().hover(function () {
+                    $("#logonSwitchList").fadeIn()
+                }, function () {
+                    $("#logonSwitchList").fadeOut()
+                })
+
+
+            })
+
+        </script>
+        <style type="text/css">
+            /* 登陆*/
+            .login-wrap {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .login-wrap .login-img {
+                width: 2rem;
+                border-radius: 2rem;
+                overflow: hidden;
+                cursor: pointer;
+            }
+
+            .login-wrap .login-img img {
+                width: 2rem;
+                height: 2rem;
+                vertical-align: middle;
+                border-radius: 5rem
+            }
+
+            .login-wrap .login-regards {
+                padding: 0px 1rem 0px 0.5rem;
+            }
+
+            .drop-down {
+                position: absolute;
+                background: #fff;
+                border: 1px solid #DDDDDD;
+                border-radius: 4px;
+                padding: 0.5rem;
+                padding-bottom: 0px;
+                left: 80px;
+                top: 70px;
+                /*width: 10rem;*/
+                width: 146px;
+                z-index: 9999
+            }
+
+            .drop-down .drop-info-wrap {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                margin-bottom: 0.5rem;
+            }
+
+            .drop-info-wrap .drop-info-login-img {
+                width: 3rem;
+                border-radius: 3rem;
+                /*overflow: hidden;*/
+            }
+
+            .drop-info-wrap .drop-info-login-img img {
+                width: 3rem;
+                height: 3rem;
+            }
+
+            .drop-info-details {
+                padding-left: 0.8rem;
+            }
+
+            .drop-info-details div {
+                text-align: left;
+                line-height: 1.3rem;
+            }
+
+            .logout-btn {
+                text-align: center;
+                height: 2rem;
+                line-height: 2rem;
+                display: flex;
+                justify-content: center;
+                cursor: pointer;
+                align-items: center;
+            }
+
+            .logout-line {
+                height: 1px;
+                width: 100%;
+                background: #DDDDDD;
+                overflow: hidden;
+            }
+
+            body .header {
+            }
+
+            .header .header-info {
+                padding-right: 5rem;
+                display: flex;
+            }
+
+            .tel-num {
+                line-height: 1.5rem;
+                height: 1.5rem;
+                text-align: right;
+
+                width: 100%;
+                background: #f2f2f2;
+            }
+
+            .tel-num p {
+                margin-right: 90px;
+            }
+
+            .head-nav-main {
+                position: fixed;
+                width: 100%;
+                z-index: 999;
+
+            }
+
+            .head-nav {
+                display: flex;
+            }
+
+            .nav {
+                margin-left: 30px;
+                flex: 1;
+            }
+
+            .login-wrap .login-img {
+                width: 3rem;
+                height: 70px;
+                line-height: 70px;
+            }
+
+            .switch-list {
+                /*width: 146px;*/
+                position: absolute;
+                background: #fff;
+                right: 0px;
+                top: 70px;
+                display: none;
+                box-shadow: 0 3px 3px #ccc;
+                z-index: 99;
+            }
+
+            .language-switch-content {
+                right: 20px;
+            }
+
+            .nav {
+                display: flex;
+                width: 1800px;
+            }
+
+            .nav li {
+                text-align: center;
+                width: 80px;
+            }
+
+            .nav li > a {
+                width: 80px;
+            }
+
+            .login-register-box > a {
+                width: 146px;
+                margin: 0 -4px;
+            }
+
+            .language-switch-box {
+                width: 80px;
+            }
+
+            .have-logged {
+                width: 300px;
+            }
+
+            .no-logged {
+                width: 140px;
+            }
+
+            .login-regards {
+                width: 36px;
+            }
+
+            .login-register-box {
+                margin-right: 18px !important;
+            }
+
+        </style>
+        <!--顶部开始-->
+        <div class="head-nav-main">
+
+            <div class="header clearfix">
+
+                <div class="head-nav">
+                    <h1 class="logo fl"><a href="index.html"><img src="themes/simplebootx/Public/images/logo.png"
+                                                                  alt=""></a></h1>
+                    <ul class="nav">
+                        <li>
+                            <a href="index.html">首页</a>
+                        </li>
+
+                        <li>
+                            <a href="OA.html">企业协同</a></li>
+
+                        <li>
+                            <a href="Shop.html">电商系统</a></li>
+                        <li>
+                            <a href="http://d.launchso.com/sale/">智慧社区</a></li>
+                        <li>
+                            <a href="money.html">开发平台</a></li>
+                        <li  class='nav-seleted-hover'>
+                            <a href="AboutUs.html">关于我们</a>
+                        </li>
+                    </ul>
+                    <div class="header-info fr">
+                         <span class="server-tel-info" style="line-height: 70px;">
+                             服务热线：027-5066-9194
+                         </span>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!--顶部结束-->
+        <!--侧边导航开始-->
+        <div class="left-nav-content">
+            <ul class="left-nav-content-ul">
+                <li class="left-nav-title"><h1>关于我们</h1><div>ABOUT US</div></li>
+                <li class="left-nav-content-li"><a href="AboutUs.html#gsjj">公司简介</a></li>
+                <li class="left-nav-content-li"><a href="AboutUs.html#gswh">公司文化</a></li>
+                <li class="left-nav-content-li"><a href="AboutUs.html#qyzz">企业资质</a></li>
+                <li class="left-nav-content-li"><a href="AboutUs.html#lxwm">联系我们</a></li>
+                <li class="left-nav-content-li"><a href="AboutUs.html#gsdz">公司地址</a></li>
+                <li class="left-nav-content-li"><a href="AboutUs.html#zxly">在线留言</a></li>
+                <li class="left-nav-content-li"><a href="news.html">新闻资讯</a></li>
+                <li class="left-nav-content-li"><a href="joinUs.html">诚聘英才</a></li>
+                <li class="left-nav-content-li"><a href="http://www.github.com">开源社区</a></li>
+            </ul>
+        </div>
+        <!--侧边导航结束-->
+
+        <div style="max-width: 60%;margin-left: 30%" class="page-content main-box right-nav-content">
+            <div class="page-content-header">
+                <h2 class="page-content-header-title">加入我们</h2>
+                <p class="page-content-header-detail">不管你是产品汪、市场鹰、运营喵、设计狮、程序猿，只要你实力，有勇气，欢迎加入朗数大家庭！</p>
+            </div>
+            <div class="page-content-body-text-box">
+                <p align="center"><img src="themes/simplebootx/Public/images/join-detail.png" alt=""></p>
+            </div>
+            <div class="page-content-header">
+                <h2 class="page-content-header-title">招聘岗位</h2>
+            </div>
+            <div class="page-content-body-text-box page-joinus-content-body-text-box" style="padding-top: 0">
+                <h3>一、产品经理</h3>
+                <h4>岗位职责：</h4>
+                <ol class=" list-paddingleft-2">
+                    <li>负责产品的全过程管理，包括收集用户需求分析、市场和竞争分析、制定产品规划、设计产品功能并跟进开发、测试上线流程；</li>
+                    <li>把握产品的美术风格，规划UI详细功能需求；</li>
+                    <li>撰写详细的产品需求文档，并不断完善；</li>
+                    <li>参与制定开发计划，跟进解决研发过程中遇到的问题；</li>
+                    <li>参与制定测试计划，跟进解决测试过程中遇到的问题；</li>
+                    <li>跟踪技术及产品发展潮流，结合用户及业务需求提出产品优化及创新需求，为新产品的开发提供合理建议；</li>
+                    <li>负责管理产品团队，并对团队成员进行培训指导及有效激励。</li>
+                </ol>
+                <h4 style="margin-top: -10px;">任职要求：</h4>
+                <ol class=" list-paddingleft-2">
+                    <li>5年以上工作经验，3年以上大型软件产品项目或互联网产品需求分析经验，2年以上团队管理经验；</li>
+                    <li>熟悉需求调研方法，较强的业务流程及业务模型分析设计能力；</li>
+                    <li>善于控制需求，进行版本范围及项目范围管理；丰富的客户（及内部）沟通经验，能快速把握需求的核心要点；</li>
+                    <li>熟悉软件工程理论，掌握软件需求获取与分析方法，至少熟悉一种开发语言和一种数据库，有软件开发经验者优先；</li>
+                    <li>有较强的文档编写能力；熟悉CMMI文档规范者优先；</li>
+                    <li>有较强的团队协作精神，具备良好的学习能力，责任心强，能够承受较大的工作压力。</li>
+                </ol>
+
+                <h3>二、Java开发工程师</h3>
+                <h4>岗位职责：</h4>
+                <ol class=" list-paddingleft-2">
+                    <li>负责系统后台应用服务开发、架构设计及开发；</li>
+                    <li>负责完善系统的性能及可靠性；</li>
+                    <li>负责基础组件开发、代码库整理及优化。</li>
+                </ol>
+                <h4 style="margin-top: -10px;">任职要求：</h4>
+                <ol class=" list-paddingleft-2">
+                    <li>计算机相关专业，本科及以上学历；</li>
+                    <li>3年以上j2ee开发经验，具备2个以上中大型软件项目经验；</li>
+                    <li>熟练掌握html，css，js，jquery，至少熟练使用easyUI或Bootstrap框架；</li>
+                    <li>熟练掌握SQL语句，了解基本的优化(有证书的优先考虑)；</li>
+                    <li>熟练使用MAVEN、SVN、JIRA等项目管理工具；</li>
+                    <li>优秀的沟通能力与学习能力， 积极主动，责任心强。</li>
+                </ol>
+
+                <h3>三、市场运营经理</h3>
+                <h4>岗位职责：</h4>
+                <ol class=" list-paddingleft-2">
+                    <li>参与公司市场战略规划，负责制定公司市场年度运营计划，提出市场推广、品牌、活动等方面的具体实施方案；</li>
+                    <li>负责线上线下产品的运营和推广；</li>
+                    <li>负责公司产品的运营和管理市场团队，并对团队成员和相关部门进行市场培训和指导；</li>
+                    <li>制定市场推广费用预算、控制部门全年整体财务预算，完善激励考核制度；</li>
+                    <li>针对行业竞品做功能分析，帮助公司产品快速建立竞争优势；</li>
+                </ol>
+                <h4 style="margin-top: -10px;">任职要求：</h4>
+                <ol class=" list-paddingleft-2">
+                    <li>本科及以上学历；</li>
+                    <li>3年及以上互联网、软件行业市场推广策划工作经验；</li>
+                    <li>了解现代市场推广模式，有独特的创意能力和文案策划能力；</li>
+                    <li>具备较强的市场分析、营销、推广能力和良好的人际沟通、协调能力，分析和解决问题的能力；</li>
+                    <li>具备丰富的团队建设经验，良好的职业素质和敬业精神。</li>
+                </ol>
+
+                <h3>四、文案策划</h3>
+                <h4>岗位职责：</h4>
+                <ol class=" list-paddingleft-2">
+                    <li>协助制定公司宣传、推广策略和方案；</li>
+                    <li>负责构建运营自媒体平台、朋友圈及各种推广平台；</li>
+                    <li>为系列自媒体平台提供优质内容，达到粉丝拓展、留存、活跃及转化等目的；</li>
+                    <li>负责公司各项目网站的内容更新，并面向主流搜索引擎优化自然排名，提高网站流量；</li>
+                    <li>关注其他竞争对手或相关产业平台，以及他们的线上营销策略；</li>
+                    <li>收集来自自媒体及网站方面的销售线索，并转交市场人员跟进成单。</li>
+                </ol>
+                <h4 style="margin-top: -10px;">任职要求：</h4>
+                <ol class=" list-paddingleft-2">
+                    <li>本科及以上学历，2年以上相关工作经历，中文、新闻传播学，汉语言文学等相关专业；</li>
+                    <li>热爱互联网，有较强的文字编辑功底，擅长写网络软文和活动策划方案；</li>
+                    <li>对时事热点敏感，思维敏捷，接受新鲜事物快，较强的学习力；</li>
+                    <li>有积极的工作态度和良好的团队协作能力，责任心强，善于沟通；</li>
+                    <li>熟悉微信、微博、贴吧、论坛等新媒体渠道，积累了一定的推广资源。</li>
+                </ol>
+
+                <div class="page-content-header">
+                    <h2 class="page-content-header-title">简历投递方式</h2>
+                </div>
+                <div class="page-content-body-text-box" style="margin-top: 0;padding-top: 0">
+                    <p>联系人：张先生</p>
+                    <p>Email：contact@launchso.com</p>
+                    <p>Tel：027-5066-9194</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="side-bar-bar" class="side-pannel-bar side-bar-bar">
+        <ul class="side-bar-bar-ul">
+            <!-- <li class="ulli"><a href="javascript:void(0);" class="kefu qr iconfont_header" title="在线客服">&#xe640;</a> -->
+            <li class="ulli" id="goTop"><a href="javascript:void(0);" class="gotop qr iconfont_header" title="返回顶部">
+                &#xe63e;</a></li>
+        </ul>
+    </div>
+    <div class="footer bgf7f7f7">
+        <div class="main-box footer-box">
+            <div class="footer-top clearfix">
+                <div class="help-contact-box fl">
+                    <dl class="help-box fl wow  bounceIn  animated" data-wow-delay=".4s">
+                        <dt>关注我们</dt>
+                        <dd><a target="" href="news.html">新闻中心</a></dd>
+                        <dd><a target="" href="http://q.launchso.com/ebp/u/a/trial/message.do">咨询留言</a></dd>
+                        <dd><a target="" href="joinUs.html">诚聘英才</a></dd>
+                    </dl>
+                    <dl class="help-box fl wow  bounceIn  animated" data-wow-delay=".6s">
+                        <dt>团队风采</dt>
+                        <dd><a target="" href="AboutUs.html#gsjj">关于我们</a></dd>
+                        <dd><a target="" href="AboutUs.html#gswh">公司文化</a></dd>
+                        <dd><a target="" href="AboutUs.html#qyzz">企业资质</a></dd>
+                    </dl>
+                    <dl class="help-box fl wow  bounceIn  animated" data-wow-delay=".8s">
+                        <dt>联系方式</dt>
+                        <dd><img src="themes/simplebootx/Public/images/phone.svg" alt=""> <a href="tel:02750669194">027-5066-9194</a></dd>
+                        <dd><img src="themes/simplebootx/Public/images/email.svg" alt=""> <a href="tel:02750669194">contact@launchso.com</a></dd>
+                        <dd><img src="themes/simplebootx/Public/images/address.svg" alt=""> <a href="tel:02750669194">武汉市东湖开发区光谷大道77号金融港A9栋405室</a></dd>
+                    </dl>
+                </div>
+                <div class="qrcode-box fr wow  bounceIn  animated" data-wow-delay="1s">
+                    <div class="qrcode-item wechat-qrcode-box">
+                        <div class="qrcode-thumb"><img src="data/upload/admin/20170823/qrCode.jpg" alt=""></div>
+                        <div class="qrcode-title">微信公众号</div>
+                    </div>
+                    <!--<div class="qrcode-item app-qrcode-box">
+                        <div class="qrcode-thumb"><img src="data/upload/admin/20170823/qrCode.jpg" alt=""></div>
+                        <div class="qrcode-title">APP下载</div>
+                    </div>-->
+                </div>
+            </div>
+            <hr class="footer-hr"/>
+            <p class="copyright-box">©2013-2017武汉朗数科技有限公司版权所有 </p>
+
+        </div>
+    </div>
+    <script type="text/javascript">
+        //全局变量
+        var GV = {
+            DIMAUB: "/",
+            JS_ROOT: "public/js/",
+            TOKEN: ""
+        };
+        var demo1 = $("#homeslider").slippry({
+            transition: 'fade',
+            useCSS: true,
+            captions: false,
+            speed: 1000,
+            pause: 3000,
+            auto: true,
+            preload: 'visible',
+            controls: true
+        });
+        var demo2 = $("#dayEVAslider").slippry({
+            transition: 'fade',
+            useCSS: true,
+            captions: false,
+            speed: 1000,
+            pause: 3000,
+            auto: true,
+            preload: 'visible',
+            controls: true
+        });
+        var demo3 = $("#wyslider").slippry({
+            transition: 'fade',
+            useCSS: true,
+            captions: false,
+            speed: 1000,
+            pause: 3000,
+            auto: true,
+            preload: 'visible',
+            controls: true
+        });
+        var demo4 = $("#mallslider").slippry({
+            transition: 'fade',
+            useCSS: true,
+            captions: false,
+            speed: 1000,
+            pause: 3000,
+            auto: true,
+            preload: 'visible',
+            controls: true
+        });
+        var initKeFuAndGoTop = function () {
+            var t = this;
+            //滚动到顶部
+            $(window).on("scroll", function (e) {
+                var _scrollTop = $(document).scrollTop();
+
+                $("#goTop")[_scrollTop >= 300 ? "fadeIn" : "fadeOut"]();
+            })
+            $("#side-bar-bar .gotop").click(function () {
+                $('html,body').animate({'scrollTop': 0}, 500);
+                return false;
+            });
+
+            /*  var aQQ = ["2717395156","3306747447","2110340688","1691471852"];
+             function _random(a,b){
+             return a>b?0:Math.round(Math.random()*(b-a)+a);
+             }
+
+             $("#side-bar-bar .kefu").click(function () {
+             var url = "http://wpa.qq.com/msgrd?v=3&uin="+aQQ[_random(1,4)-1] + "&site=qq&menu=yes";
+             window.open(url, '_blank');
+             }); */
+
+            /**
+             * 客服在线结束
+             * =================================================
+             * */
+        };
+        initKeFuAndGoTop();
+    </script>
+    <script type="text/javascript" src="themes/simplebootx/Public/js/wow.min.js"></script>
+    <script>
+       /* $(function () {
+            if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))) {
+                new WOW().init();
+            }
+        })*/
+    </script>
+    <script src="themes/simplebootx/Public/js/index.js"></script>
+    <script src="public/js/wind.js"></script>
+</div>
+
+</body>
+
+
+</html>

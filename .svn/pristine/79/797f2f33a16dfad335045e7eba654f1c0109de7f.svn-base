@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="themes/simplebootx/Public/js/jquery.min.js"></script>
+
+
+    <meta name="author" content="朗数科技web-wangchong">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Set render engine for 360 browser -->
+    <meta name="renderer" content="webkit">
+    <!-- No Baidu Siteapp-->
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+
+    <!-- HTML5 shim for IE8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="themes/simplebootx/Public/css/slippry/slippry.css" rel="stylesheet">
+    <script src="themes/simplebootx/Public/js/slippry.min.js"></script>
+    <script src="themes/simplebootx/Public/js/layer/layer.js"></script>
+    <script src="themes/simplebootx/Public/js/jquery.SuperSlide.2.1.1.js"></script>
+    <script src="themes/simplebootx/Public/js/common.js"></script>
+
+    <link href="themes/simplebootx/Public/css/common.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/index.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/product.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/service.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/cases.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/cooperation.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/about.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/download.css" rel="stylesheet">
+    <link rel="stylesheet" href="font/font-w/iconfont.css">
+    <title>朗数科技</title>
+    <meta name="keywords" content="武汉朗数科技有限公司,智慧园区,园区信息化,互联网,软件开发"/>
+    <meta name="description" content="武汉朗数科技有限公司公司首页"/>
+
+    <style type="text/css">
+        .ny_news .cont{ margin-top:0;}
+        .ny_news .cont ul li{ height:125px; padding:40px 0; border-bottom:1px solid #cccccc;}
+        .ny_news .cont ul li .pic{ width:200px; margin-right:20px; float:left;}
+        .ny_news .cont ul li .yj{ border-radius:9px;}
+        .ny_news .cont ul li .des{ width:532px; float:left;}
+        .ny_news .cont ul li .des a{  color:#323232;}
+        .ny_news .cont ul li .des span a:hover{ color:#1a88e5;}
+        .ny_news .cont ul li .des span{ display:block; height:40px; line-height:40px; overflow:hidden; font-size:18px; color:#323232;}
+        .ny_news .cont ul li .des p{ height:60px; overflow:hidden; margin-top:35px; font-size:14px; color:#323232; line-height:17px;}
+        .ny_news .cont ul li .data{ float:right; width:98px;  height:80px; overflow:hidden; margin-top:25px; padding-top:18px; display:inline; border:1px solid #b3b3b3; text-align:center; font-size:40px; color:#696969; line-height:34px;}
+        .ny_news .cont ul li .data span{ font-size:20px; display:block;}
+
+        .page { padding: 10px 0; margin:30px 0 80px 0; text-align: center;}
+        .page a{ display:inline-block; padding-top:3px}
+        .page .pageprev, .page .pagenext {margin:0 10px;}
+        .page .num { padding:8px 8px 8px 8px; text-align: center; color: #999999; font-size:20px;}
+        .page .cur {color: #1a88e5;}
+
+
+
+    </style>
+</head>
+<body>
+<div class="body">
+    <div class="body-content">
+        <!--顶部开始-->
+        <div class="head-nav-main">
+
+            <div class="header clearfix">
+
+                <div class="head-nav">
+                    <h1 class="logo fl"><a href="index.html"><img src="themes/simplebootx/Public/images/logo.png"
+                                                                  alt=""></a></h1>
+                    <ul class="nav">
+                        <li>
+                            <a href="index.html">首页</a>
+                        </li>
+                        <li>
+                            <a href="OA.html">企业协同</a></li>
+                        <li>
+                            <a href="Shop.html">电商系统</a></li>
+                        <li>
+                            <a href="http://d.launchso.com/sale/">智慧社区</a></li>
+                        <li>
+                            <a href="platform.html">开发平台</a></li>
+                        <li class='nav-seleted-hover'>
+                            <a href="AboutUs.html">关于我们</a>
+                        </li>
+                    </ul>
+                    <div class="header-info fr">
+                         <span class="server-tel-info" style="line-height: 70px;">
+                             服务热线：027-5066-9194
+                         </span>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!--顶部结束-->
+
+
+        <!--侧边导航开始-->
+        <div class="left-nav-content">
+            <ul class="left-nav-content-ul">
+                <li class="left-nav-title"><h1>关于我们</h1><div>ABOUT US</div></li>
+                <li class="left-nav-content-li"><a href="AboutUs.html#gsjj">公司简介</a></li>
+                <li class="left-nav-content-li"><a href="AboutUs.html#gswh">公司文化</a></li>
+                <li class="left-nav-content-li"><a href="AboutUs.html#qyzz">企业资质</a></li>
+                <li class="left-nav-content-li"><a href="AboutUs.html#lxwm">联系我们</a></li>
+                <li class="left-nav-content-li"><a href="news.html">新闻资讯</a></li>
+                <li class="left-nav-content-li"><a href="joinUs.html">加入我们</a></li>
+                <li class="left-nav-content-li"><a href="AboutUs.html#zxly">咨询留言</a></li>
+            </ul>
+        </div>
+        <!--侧边导航结束-->
+        <div style="max-width: 60%;margin-left: 30%"  class="page-content  right-nav-content">
+            <div id="New-List"></div>
+            <script type="text/javascript" src="themes/simplebootx/Public/js/template-web.js"></script>
+            <script id='test' type='text/html'>
+                <div class="page-content">
+                    <div class="page-content-header">
+                        <h2 class="page-content-header-title">新闻详情</h2>
+                        <div class="page-content-header-nav">
+                            <a href="javascript:void(0)">新闻详情</a>&nbsp;&gt;&nbsp;<a href="javascript:void(0)"><%= title%></a>
+                        </div>
+                    </div>
+                    <div class="page-content-body">
+                        <div class="page-content-body-title-box">
+                            <h3 class="page-content-body-title-text"><%= title%></h3>
+                            <div class="page-content-info">
+                                <span class="page-datetime">发布时间：<%= date%></span>
+                            </div>
+                        </div>
+                        <div class="page-content-body-text-box">
+                            <p style="text-align:center"><img src="<%= imageUrl%>" title="<%= imageUrl%>" alt="<%= imageUrl%>"/></p>
+                            <p> <%== content%></p>
+                        </div>
+                    </div>
+                </div>
+            </script>
+        </div>
+    </div>
+</div>
+
+<div id="side-bar-bar" class="side-pannel-bar side-bar-bar">
+    <ul class="side-bar-bar-ul">
+        <!-- <li class="ulli"><a href="javascript:void(0);" class="kefu qr iconfont_header" title="在线客服">&#xe640;</a> -->
+        <li class="ulli" id="goTop"><a href="javascript:void(0);" class="gotop qr iconfont-w icon-dingbu" title="返回顶部"></a></li>
+    </ul>
+</div>
+<div class="footer bgf7f7f7">
+    <div class="main-box footer-box">
+        <div class="footer-top clearfix">
+            <div class="help-contact-box fl">
+                <dl class="help-box fl wow  bounceIn  animated" data-wow-delay=".4s">
+                    <dt>关注我们</dt>
+                    <dd><a target="" href="news.html">新闻中心</a></dd>
+                    <dd><a target="" href="http://q.launchso.com/ebp/u/a/trial/message.do">咨询留言</a></dd>
+                    <dd><a target="" href="joinUs.html">加入我们</a></dd>
+                </dl>
+                <dl class="help-box fl wow  bounceIn  animated" data-wow-delay=".6s">
+                    <dt>团队风采</dt>
+                    <dd><a target="" href="AboutUs.html#gsjj">关于我们</a></dd>
+                    <dd><a target="" href="AboutUs.html#gswh">公司文化</a></dd>
+                    <dd><a target="" href="AboutUs.html#qyzz">企业资质</a></dd>
+                </dl>
+                <dl class="help-box fl wow  bounceIn  animated" data-wow-delay=".8s">
+                    <dt>联系方式</dt>
+                    <dd><img src="themes/simplebootx/Public/images/phone.svg" alt=""> <a href="tel:02750669194">027-5066-9194</a></dd>
+                    <dd><img src="themes/simplebootx/Public/images/email.svg" alt=""> <a href="tel:02750669194">contact@launchso.com</a></dd>
+                    <dd><img src="themes/simplebootx/Public/images/address.svg" alt=""> <a href="tel:02750669194">武汉市东湖开发区光谷大道77号金融港A9栋405室</a></dd>
+                </dl>
+            </div>
+            <div class="qrcode-box fr wow  bounceIn  animated" data-wow-delay="1s">
+                <div class="qrcode-item wechat-qrcode-box">
+                    <div class="qrcode-thumb"><img src="data/upload/admin/20170823/qrCode.jpg" alt=""></div>
+                    <div class="qrcode-title">微信公众号</div>
+                </div>
+                <!--<div class="qrcode-item app-qrcode-box">
+                    <div class="qrcode-thumb"><img src="data/upload/admin/20170823/qrCode.jpg" alt=""></div>
+                    <div class="qrcode-title">APP下载</div>
+                </div>-->
+            </div>
+        </div>
+        <hr class="footer-hr"/>
+        <p class="copyright-box">©2013-2017武汉朗数科技有限公司版权所有 </p>
+
+    </div>
+</div>
+<script type="text/javascript">
+
+    var initKeFuAndGoTop = function () {
+        var t = this;
+        //滚动到顶部
+        $(window).on("scroll", function (e) {
+            var _scrollTop = $(document).scrollTop();
+
+            $("#goTop")[_scrollTop >= 300 ? "fadeIn" : "fadeOut"]();
+        })
+        $("#side-bar-bar .gotop").click(function () {
+            $('html,body').animate({'scrollTop': 0}, 500);
+            return false;
+        });
+        /*关于我们侧边导航定位*/
+        $(window).on('scroll',function () {
+            if($(window).scrollTop()>=$('.right-nav-content').height()-$('.left-nav-content').height()){
+                $('.left-nav-content').css({'display':'none'})
+            }else{
+                $('.left-nav-content').css({'display':'block'})
+            }
+        })
+
+    };
+    initKeFuAndGoTop();
+
+        $('.left-nav-content').css({'display':'none'})
+
+
+    function GetQueryString(name){
+        var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if(r!=null)return  decodeURI(r[2]); return null;
+    };
+
+    var newboj={id:GetQueryString('id')};
+    $.ajax({
+        url:'http://d.launchso.com/ebp/af/m1/m1021/site/news.do?',
+        data:newboj,
+        type:'get',
+        dataType:'jsonp',
+        success:function (data) {
+            var  result='';
+            result = template('test',data);
+            document.getElementById('New-List').innerHTML = result;
+            $('.left-nav-content').css({'display':'block'})
+        }
+    })
+</script>
+
+
+
+</body>
+</html>

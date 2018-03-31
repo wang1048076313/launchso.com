@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<script src="themes/simplebootx/Public/js/jquery.min.js"></script>
+		<meta name="author" content="朗数科技web-wangchong">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+		<!-- Set render engine for 360 browser -->
+		<meta name="renderer" content="webkit">
+		<!-- No Baidu Siteapp-->
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+		<!-- HTML5 shim for IE8 support of HTML5 elements -->
+		<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+		<link href="themes/simplebootx/Public/css/slippry/slippry.css" rel="stylesheet">
+		<script src="themes/simplebootx/Public/js/slippry.min.js"></script>
+		<script src="themes/simplebootx/Public/js/layer/layer.js"></script>
+		<script src="themes/simplebootx/Public/js/jquery.SuperSlide.2.1.1.js"></script>
+
+
+		<link href="themes/simplebootx/Public/css/common.css" rel="stylesheet">
+		<link href="themes/simplebootx/Public/css/index.css" rel="stylesheet">
+		<link href="themes/simplebootx/Public/css/product.css" rel="stylesheet">
+		<link href="themes/simplebootx/Public/css/service.css" rel="stylesheet">
+		<link href="themes/simplebootx/Public/css/cases.css" rel="stylesheet">
+		<link href="themes/simplebootx/Public/css/cooperation.css" rel="stylesheet">
+		<link href="themes/simplebootx/Public/css/about.css" rel="stylesheet">
+		<link href="themes/simplebootx/Public/css/download.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="themes/simplebootx/Public/css/platform.css">
+		<link rel="stylesheet" href="font/font-w/iconfont.css">
+		<style>
+			body{
+				font-family: 'Microsoft YaHei' !important;
+			}
+			.btn-try {
+				display: inline-block;
+				border: 1px solid #416aa7;
+				color: #416aa7 !important;
+				font-size: 16px;
+				padding: 10px 20px;
+				text-align: center;
+				border-radius: 6px;
+				margin: 0 0 0 50px;
+			}
+		</style>
+
+		<title>朗数科技</title>
+		<meta name="keywords" content="武汉朗数科技有限公司,智慧园区,园区信息化,互联网,软件开发" />
+		<meta name="description" content="武汉朗数科技有限公司公司首页" />
+	</head>
+
+	<body>
+		<div class="body">
+			<div class="body-content">
+				<!--顶部开始-->
+				<div class="head-nav-main">
+
+					<div class="header clearfix">
+
+						<div class="head-nav">
+							<h1 class="logo fl"><a href="index.html"><img src="themes/simplebootx/Public/images/logo.png"
+                                                                  alt=""></a></h1>
+                            <ul class="nav">
+                                <li>
+                                    <a href="index.html">首页</a>
+                                </li>
+
+                                <li>
+                                    <a href="OA.html">企业协同</a></li>
+                                <li >
+                                    <a href="Shop.html">电商系统</a></li>
+                                <li>
+                                    <a href="http://d.launchso.com/sale/">智慧社区</a></li>
+                                <li class='nav-seleted-hover'>
+                                    <a href="platform.html">开发平台</a></li>
+                                <li>
+                                    <a href="AboutUs.html">关于我们</a>
+                                </li>
+                            </ul>
+							<div class="header-info fr">
+								<span class="server-tel-info" style="line-height: 70px;">
+                             服务热线：027-5066-9194
+                         </span>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+				<!--幻灯片开始-->
+				<div class="banner">
+					<ul id="homeslider" class="unstyled">
+						<li>
+							<div class="caption-wraper">
+								<!-- <div class="caption">day测评</div> -->
+							</div>
+							<a href="javascript:void(0)" target="_blank">
+								<img src="themes/simplebootx/Public/images/platforn-banner1.jpg" alt="">
+							</a>
+						</li>
+					</ul>
+				</div>
+				<!--幻灯片结束-->
+				<!--顶部结束-->
+				<!-- #main -->
+				<div id="main" class="bit_main_content">
+
+					<div class="main-gradient"></div>
+
+					<div class="wf-wrap">
+						<div class="wf-container-main">
+
+							<div id="content" class="content" role="main">
+
+								<div class="main-outer-wrapper ">
+									<div class="bit_row">
+
+										<div class="twelve columns no-sidebar-content ">
+
+											<div class="bit_row">
+
+												<div class="content-wrapper twelve columns ">
+
+													<!--截取-->
+
+													<section id="cu" data-fixheight="" class="qfy-row-3-5a2a508878413322201 section     no  section-text-no-shadow section-inner-no-shadow section-normal" style='margin-left:90px;margin-bottom:0;border-radius:0px;border-top:1px solid rgba(255,255,255,1);border-bottom:1px solid rgba(255,255,255,1);border-left:1px solid rgba(255,255,255,1);border-right:1px solid rgba(255,255,255,1);color:#383838;'>
+														<style class="row_class qfy_style_class">
+															@media only screen and (min-width: 992px) {
+																section.section.qfy-row-3-5a2a508878413322201 {
+																	padding-left: 0;
+																	padding-right: 0;
+																	padding-top: 60px;
+																	padding-bottom: 60px;
+																	margin-top: 0;
+																}
+																section.section.qfy-row-3-5a2a508878413322201> .container {
+																	max-width: 1280px;
+																	margin: 0 auto;
+																}
+															}
+															
+															@media only screen and (max-width: 992px) {
+																.bit-html section.section.qfy-row-3-5a2a508878413322201 {
+																	padding-left: 15px;
+																	padding-right: 15px;
+																	padding-top: 20px;
+																	padding-bottom: 20px;
+																	margin-top: 0;
+																}
+															}
+														</style>
+														<div class="section-background-overlay background-overlay grid-overlay-0 " style="background-color: #ffffff;"></div>
+
+														<div class="container">
+															<div class="row qfe_row">
+																<div data-animaleinbegin="90%" data-animalename="qfyfadeInUp" data-duration="" data-delay="" class=" qfy-column-8-5a2a508878e3f200952 qfy-column-inner  vc_span_class  vc_span4  text-Default small-screen-undefined notfullrow" data-dw="1/3" data-fixheight="">
+																	<div style="margin-top:0;margin-bottom:0;margin-left:0;margin-right:0;border-radius:0px;position:relative;" class="column_inner ">
+																		<div class=" background-overlay grid-overlay-0" style="background-color:transparent;width:100%;"></div>
+																		<div class="column_containter" style="z-index:3;position:relative;">
+
+																			<div id="vc_img_5a2a50887a09b144" style="width:100%;padding:0px;margin:0px;height:100%;clear:both;position:relative;margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;background-repeat: no-repeat;" m-padding="0px 0px 0px 0px" p-padding="0 0 0 0" css_animation_delay="0" qfyuuid="qfy_single_image_pvxn3" data-anitime='0.7' class="qfy-element bitImageControlDiv">
+																				<a class="bitImageAhover  ">
+																					<div class="bitImageParentDiv qfe_single_image qfe_content_element vc_align_center">
+																						<div class="qfe_wrapper">
+																							<span></span><img class="front_image   ag_image" src="themes/simplebootx/Public/images/ixs.jpg" alt="people-coffee-tea-meeting_副本" description="" data-title="people-coffee-tea-meeting_副本" title="" src-img="" style='' />
+																						</div>
+																					</div>
+																				</a>
+																			</div>
+																		</div>
+																	</div>
+																	<!--申请试用-->
+																	<a href="http://d.launchso.com/ebp/u/a/trial/login.do" class="btn-try">申请试用</a>
+																	<a href="http://q.launchso.com/ebp/u/a/trial/message.do" class="btn-try">源码下载</a>
+																	<!---->
+																</div>
+																<style class="column_class qfy_style_class">
+																	@media only screen and (min-width: 992px) {
+																		.qfy-column-8-5a2a508878e3f200952> .column_inner {
+																			padding-left: 49px;
+																			padding-right: 0;
+																			padding-top: 0;
+																			padding-bottom: 16px;
+																		}
+																		.qfe_row .vc_span_class.qfy-column-8-5a2a508878e3f200952 {}
+																		;
+																	}
+																	
+																	@media only screen and (max-width: 992px) {
+																		.qfy-column-8-5a2a508878e3f200952> .column_inner {
+																			margin: 20px auto 0 !important;
+																			padding-left: 0;
+																			padding-right: 0;
+																			padding-top: 0;
+																			padding-bottom: 0;
+																		}
+																		.display_entire .qfe_row .vc_span_class.qfy-column-8-5a2a508878e3f200952 {}
+																		.qfy-column-8-5a2a508878e3f200952> .column_inner> .background-overlay,
+																		.qfy-column-8-5a2a508878e3f200952> .column_inner> .background-media {
+																			width: 100% !important;
+																			left: 0 !important;
+																			right: auto !important;
+																		}
+																	}
+																</style>
+																<div data-animaleinbegin="90%" data-animalename="qfyfadeInUp" data-duration="" data-delay="" class=" qfy-column-9-5a2a50887a469994506 qfy-column-inner  vc_span_class  vc_span8  text-Default small-screen-undefined notfullrow" data-dw="2/3" data-fixheight="">
+																	<div style="margin-top:0;margin-bottom:0;margin-left:0;margin-right:0;border-radius:0px;;position:relative;;" class="column_inner ">
+																		<div class=" background-overlay grid-overlay-0" style="background-color:transparent;width:100%;"></div>
+																		<div class="column_containter" style="z-index:3;position:relative;">
+																			<div  m-padding="0px 0px 20px 0px" p-padding="0 0 20px 0" css_animation_delay="0" qfyuuid="qfy_header_1bf75" data-anitime='0.7' class="qfy-element minheigh1px qfe_text_column qfe_content_element " style="position: relative;;;background-repeat: no-repeat;;margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:20px;padding-right:0;padding-left:0;">
+																				<style>
+																					#vc_header_5a2a50887af9d64 .qfy_title_inner,
+																					#vc_header_5a2a50887af9d64 .qfy_title_image_inner {
+																						vertical-align: middle !important;
+																					}
+																					
+																					@media only screen and (max-width: 760px) {
+																						#vc_header_5a2a50887af9d64 .header_title {
+																							font-size: 16px !important;
+																						}
+																					}
+																					
+																					@media only screen and (max-width: 760px) {
+																						#vc_header_5a2a50887af9d64 .header_subtitle {
+																							font-size: 12px !important;
+																						}
+																					}
+																				</style>
+																				<div class="qfe_wrapper">
+																					<div class="qfy_title left mobileleft">
+																						<div class="qfy_title_image_warpper" style="display:inline-block;position:relative;max-width:100%;">
+																							<div class="qfy_title_inner" style="display:inline-block;position:relative;max-width:100%;">
+																								<div class="header_title" style="font-size:28px;font-weight:normal;font-style:normal;color:#333333;padding:0  10px 0 0;display:inline-block;padding:0  10px 0 0;vertical-align:bottom;">
+                                                                                                    IXS企业数据交换平台
+
+																								</div>
+																								<div class="header_subtitle" style=" font-size:14px;font-weight:normal;font-style:normal;display:block;padding:20px 0 0 20%;vertical-align:bottom;">
+																									—— 如你所需、轻量够用
+																								</div>
+																							</div>
+																							<style></style>
+																							<div class="button_wrapper" style="display:none;">
+																								<div class="button " style="display:inline-block;max-width:100%;text-align:center; font-size:14px; color:#333; padding:5px;">
+																									+ 查看更多
+																								</div>
+																							</div>
+																							<span style="clear:both;"></span>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+                                                                            <div style="margin-bottom: 10px;padding-bottom:10px;width:80%;line-height:1.4;border-bottom: 1px dashed #bababa">轻量级应用的中间件平台，快速地进行二次开发。为各种应用程序提供服务，实现跨操作系统、跨平台、跨语言进行数据交互</div>
+																			<div m-padding="0px 0px 20px 0px" p-padding="0 0 20px 0" css_animation_delay="0" qfyuuid="qfy_column_text_2x5f4" data-anitime='0.7' class="qfy-element qfy-text qfy-text-43561 qfe_text_column qfe_content_element " style="position: relative;;;line-height:1.5em;;background-position:left top;background-repeat: no-repeat;;margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:20px;padding-right:0;padding-left:0;border-radius:0px;">
+
+                                                                                <div class="qfe_wrapper">
+																					<div>
+																						<p><span style="font-size:14px;"><span
+                                                                                        style=""><a
+                                                                                        class="bitIcon iconLeft"
+                                                                                        data-iconcolor="#160f2e"
+                                                                                        data-tooltip="off"
+                                                                                        data-url-flag="0"
+                                                                                        data-url-flagtarget=""
+                                                                                        iconcolor="#160f2e" style="null"
+                                                                                        url-flag="0" url-flagtarget="">
+
+																							<span class="iconText iconfont-w  icon-new" style="font-size:20px;color: #383838;vertical-align: text-top;margin:0 6px;"></span></a>组件化，模块化</span>
+																							</span>
+																						</p>
+
+																						<p><span style="font-size:14px;"><span
+                                                                                        style=""><a
+                                                                                        class="bitIcon iconLeft"
+                                                                                        data-iconcolor="#160f2e"
+                                                                                        data-tooltip="off"
+                                                                                        data-url-flag="0"
+                                                                                        data-url-flagtarget=""
+                                                                                        iconcolor="#160f2e" url-flag="0"
+                                                                                        url-flagtarget="">
+																						<span class="iconText iconfont-w  icon-new" style="font-size:20px;color: #383838;vertical-align: text-top;margin:0 6px;"></span></a>跨语言，跨平台，跨系统</span>
+																							</span>
+																						</p>
+
+																					</div>
+
+																				</div>
+																			</div>
+																			<div m-padding="0px 0px 0px 0px" p-padding="0 0 0 0" css_animation_delay="0" qfyuuid="qfy_column_text_vfdtw" data-anitime='0.7' class="qfy-element qfy-text qfy-text-9771 qfe_text_column qfe_content_element " style="position: relative;;;line-height:1.5em;;background-position:left top;background-repeat: no-repeat;;margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;border-radius:0px;">
+																				<div class="qfe_wrapper">
+																					<div><span style="display:inline-block;line-height:1.6;"><span
+                                                                                    style="font-size:14px;"><span
+                                                                                    style=""><span
+                                                                                    style="word-spacing: normal;"><span
+                                                                                    style="font-size:20px;"> <b style="font-weight: 700; display: inline-block; color: rgb(0, 0, 0); border: 0px; font-size: 15px; border-radius: 0px;"><i class="glyphicon glyphicon-icon-check" style="margin: 2px 6px; line-height: 15px; color: rgb(22, 15, 46);"></i></b></span>基于HTTP协议，成熟稳定，降低调用难度</span>
+																						</span>
+																						</span>
+																						</span>
+																					</div>
+
+																					<div><span style="display:inline-block;line-height:1.6;"><span
+                                                                                    style="font-size:14px;"><span
+                                                                                    style=""><span
+                                                                                    style="font-size:20px;"> <b style="font-weight: 700; display: inline-block; color: rgb(0, 0, 0); border: 0px; font-size: 15px; border-radius: 0px;"><i class="glyphicon glyphicon-icon-check" style="margin: 2px 6px; line-height: 15px; color: rgb(22, 15, 46);"></i></b> </span>严格授权控制，杜绝随意调用非功能内接口</span>
+																						</span>
+																						</span>
+																					</div>
+
+																					<div><span style="display:inline-block;line-height:1.6;"><span
+                                                                                    style="font-size:14px;"><span
+                                                                                    style=""><span
+                                                                                    style="font-size:20px;"> <b style="font-weight: 700; display: inline-block; color: rgb(0, 0, 0); border: 0px; font-size: 15px; border-radius: 0px;"><i class="glyphicon glyphicon-icon-check" style="margin: 2px 6px; line-height: 15px; color: rgb(22, 15, 46);"></i></b></span>完整日志记录，便于监控与审计</span>
+																						</span>
+																						</span>
+																					</div>
+
+																					<div><span style="display:inline-block;line-height:1.6;"><span
+                                                                                    style="font-size:14px;"><span
+                                                                                    style=""><span
+                                                                                    style="font-size:20px;"> <b style="font-weight: 700; display: inline-block; color: rgb(0, 0, 0); border: 0px; font-size: 15px; border-radius: 0px;"><i class="glyphicon glyphicon-icon-check" style="margin: 2px 6px; line-height: 15px; color: rgb(22, 15, 46);"></i></b></span>使用队列技术，削峰填谷，避免大流量涌入影响业务系统</span>
+																						</span>
+																						</span>
+																					</div>
+
+																					<div><span style="display:inline-block;line-height:1.6;"><span
+                                                                                    style="font-size:14px;"><span
+                                                                                    style=""><span
+                                                                                    style="font-size:20px;"> <b style="font-weight: 700; display: inline-block; color: rgb(0, 0, 0); border: 0px; font-size: 15px; border-radius: 0px;"><i class="glyphicon glyphicon-icon-check" style="margin: 2px 6px; line-height: 15px; color: rgb(22, 15, 46);"></i></b></span> 数据严格校验，并可扩展，避免错误数据进入业务系统</span>
+																						</span>
+																						</span><br/>
+																						<span style="font-family: 仿宋_gb2312; font-size: 12px; color: rgb(128, 128, 128); background-color: rgba(255, 255, 255, 0); word-spacing: normal;"></span>
+																					</div>
+																					<div>
+																						<span style="display:inline-block;line-height:1.6;"><span
+                                                                                        style="font-size:14px;"><span
+                                                                                        style=""><span
+                                                                                        style="font-size:20px;"> <b style="font-weight: 700; display: inline-block; color: rgb(0, 0, 0); border: 0px; font-size: 15px; border-radius: 0px;"><i class="glyphicon glyphicon-icon-check" style="margin: 2px 6px; line-height: 15px; color: rgb(22, 15, 46);"></i></b></span> 内置丰富服务接口，快速复用，SAP、金蝶、用友</span>
+																						</span>
+																						</span><br/>
+																						<span style="font-family: 仿宋_gb2312; font-size: 12px; color: rgb(128, 128, 128); background-color: rgba(255, 255, 255, 0); word-spacing: normal;"></span>
+																					</div>
+																					<div>
+																						<span style="display:inline-block;line-height:1.6;"><span
+                                                                                        style="font-size:14px;"><span
+                                                                                        style=""><span
+                                                                                        style="font-size:20px;"> <b style="font-weight: 700; display: inline-block; color: rgb(0, 0, 0); border: 0px; font-size: 15px; border-radius: 0px;"><i class="glyphicon glyphicon-icon-check" style="margin: 2px 6px; line-height: 15px; color: rgb(22, 15, 46);"></i></b></span>在线调试，方便验证</span>
+																						</span>
+																						</span><br/>
+																						<span style="font-family: 仿宋_gb2312; font-size: 12px; color: rgb(128, 128, 128); background-color: rgba(255, 255, 255, 0); word-spacing: normal;"></span>
+																					</div>
+																					<div>
+																						<span style="display:inline-block;line-height:1.6;"><span style="font-size:14px;"><span style=""><span style="font-size:20px;">
+                                                                                            <b style="font-weight: 700; display: inline-block; color: rgb(0, 0, 0); border: 0px; font-size: 15px; border-radius: 0px;"><i class="glyphicon glyphicon-icon-check" style="margin: 2px 6px; line-height: 15px; color: rgb(22, 15, 46);"></i></b></span>开源，不设限，高效二次开发</span>
+																						</span>
+																						</span><br/>
+																						<span style="font-family: 仿宋_gb2312; font-size: 12px; color: rgb(128, 128, 128); background-color: rgba(255, 255, 255, 0); word-spacing: normal;"></span>
+																					</div>
+
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<style class="column_class qfy_style_class">
+																	@media only screen and (min-width: 992px) {
+																		.qfy-column-9-5a2a50887a469994506> .column_inner {
+																			padding-left: 49px;
+																			padding-right: 0;
+																			padding-top: 0;
+																			padding-bottom: 0;
+																		}
+																		.qfe_row .vc_span_class.qfy-column-9-5a2a50887a469994506 {}  ;
+																	}
+																	
+																	@media only screen and (max-width: 992px) {
+																		.qfy-column-9-5a2a50887a469994506> .column_inner {
+																			margin: 20px auto 0 !important;
+																			padding-left: 0;
+																			padding-right: 0;
+																			padding-top: 0;
+																			padding-bottom: 0;
+																		}
+																		.display_entire .qfe_row .vc_span_class.qfy-column-9-5a2a50887a469994506 {}
+																		.qfy-column-9-5a2a50887a469994506> .column_inner> .background-overlay,
+																		.qfy-column-9-5a2a50887a469994506> .column_inner> .background-media {
+																			width: 100% !important;
+																			left: 0 !important;
+																			right: auto !important;
+																		}
+																	}
+																</style>
+																<div class="wf-mobile-hidden qfy-clumn-clear" style="clear:both;"></div>
+															</div>
+														</div>
+
+													</section>
+													<section  data-fixheight="" class="qfy-row-3-5a2a508878413322201 section     no  section-text-no-shadow section-inner-no-shadow section-normal" style='margin-left:90px;margin-bottom:0;border-radius:0px;border-top:1px solid rgba(255,255,255,1);border-bottom:1px solid rgba(255,255,255,1);border-left:1px solid rgba(255,255,255,1);border-right:1px solid rgba(255,255,255,1);color:#383838;'>
+														<style class="row_class qfy_style_class">
+															@media only screen and (min-width: 992px) {
+																section.section.qfy-row-3-5a2a508878413322201 {
+																	padding-left: 0;
+																	padding-right: 0;
+																	padding-top: 60px;
+																	padding-bottom: 60px;
+																	margin-top: 0;
+																}
+																section.section.qfy-row-3-5a2a508878413322201> .container {
+																	max-width: 1280px;
+																	margin: 0 auto;
+																}
+															}
+
+															@media only screen and (max-width: 992px) {
+																.bit-html section.section.qfy-row-3-5a2a508878413322201 {
+																	padding-left: 15px;
+																	padding-right: 15px;
+																	padding-top: 20px;
+																	padding-bottom: 20px;
+																	margin-top: 0;
+																}
+															}
+														</style>
+														<div class="section-background-overlay background-overlay grid-overlay-0 " style="background-color: #ffffff;"></div>
+
+														<div class="container">
+															<div class="row qfe_row">
+																<div data-animaleinbegin="90%" data-animalename="qfyfadeInUp" data-duration="" data-delay="" class=" qfy-column-8-5a2a508878e3f200952 qfy-column-inner  vc_span_class  vc_span4  text-Default small-screen-undefined notfullrow" data-dw="1/3" data-fixheight="">
+																	<div style="margin-top:0;margin-bottom:0;margin-left:0;margin-right:0;border-radius:0px;position:relative;" class="column_inner ">
+																		<div class=" background-overlay grid-overlay-0" style="background-color:transparent;width:100%;"></div>
+																		<div class="column_containter" style="z-index:3;position:relative;">
+
+																			<div  style="width:100%;padding:0px;margin:0px;height:100%;clear:both;position:relative;margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;background-repeat: no-repeat;" m-padding="0px 0px 0px 0px" p-padding="0 0 0 0" css_animation_delay="0" qfyuuid="qfy_single_image_pvxn3" data-anitime='0.7' class="qfy-element bitImageControlDiv">
+																				<a class="bitImageAhover  ">
+																					<div class="bitImageParentDiv qfe_single_image qfe_content_element vc_align_center">
+																						<div class="qfe_wrapper">
+																							<span></span><img class="front_image   ag_image" src="themes/simplebootx/Public/images/20171213.jpg" alt="people-coffee-tea-meeting_副本" description="" data-title="people-coffee-tea-meeting_副本" title="" src-img="" style='' />
+																						</div>
+																					</div>
+																				</a>
+																			</div>
+																		</div>
+																	</div>
+																	<!--申请试用-->
+																	<a href="http://d.launchso.com/ebp/u/a/trial/login.do" class="btn-try">申请试用</a>
+																	<a href="http://q.launchso.com/ebp/u/a/trial/message.do" class="btn-try">源码下载</a>
+																	<!---->
+																</div>
+																<style class="column_class qfy_style_class">
+																	@media only screen and (min-width: 992px) {
+																		.qfy-column-8-5a2a508878e3f200952> .column_inner {
+																			padding-left: 49px;
+																			padding-right: 0;
+																			padding-top: 49px;
+																			padding-bottom: 16px;
+																		}
+																		.qfe_row .vc_span_class.qfy-column-8-5a2a508878e3f200952 {}
+																		;
+																	}
+
+																	@media only screen and (max-width: 992px) {
+																		.qfy-column-8-5a2a508878e3f200952> .column_inner {
+																			margin: 20px auto 0 !important;
+																			padding-left: 0;
+																			padding-right: 0;
+																			padding-top: 0;
+																			padding-bottom: 0;
+																		}
+																		.display_entire .qfe_row .vc_span_class.qfy-column-8-5a2a508878e3f200952 {}
+																		.qfy-column-8-5a2a508878e3f200952> .column_inner> .background-overlay,
+																		.qfy-column-8-5a2a508878e3f200952> .column_inner> .background-media {
+																			width: 100% !important;
+																			left: 0 !important;
+																			right: auto !important;
+																		}
+																	}
+																</style>
+																<div data-animaleinbegin="90%" data-animalename="qfyfadeInUp" data-duration="" data-delay="" class=" qfy-column-9-5a2a50887a469994506 qfy-column-inner  vc_span_class  vc_span8  text-Default small-screen-undefined notfullrow" data-dw="2/3" data-fixheight="">
+																	<div style="margin-top:0;margin-bottom:0;margin-left:0;margin-right:0;border-radius:0px;;position:relative;;" class="column_inner ">
+																		<div class=" background-overlay grid-overlay-0" style="background-color:transparent;width:100%;"></div>
+																		<div class="column_containter" style="z-index:3;position:relative;">
+																			<div  m-padding="0px 0px 20px 0px" p-padding="0 0 20px 0" css_animation_delay="0" qfyuuid="qfy_header_1bf75" data-anitime='0.7' class="qfy-element minheigh1px qfe_text_column qfe_content_element " style="position: relative;;;background-repeat: no-repeat;;margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:20px;padding-right:0;padding-left:0;">
+																				<style>
+																					#vc_header_5a2a50887af9d64 .qfy_title_inner,
+																					#vc_header_5a2a50887af9d64 .qfy_title_image_inner {
+																						vertical-align: middle !important;
+																					}
+
+																					@media only screen and (max-width: 760px) {
+																						#vc_header_5a2a50887af9d64 .header_title {
+																							font-size: 16px !important;
+																						}
+																					}
+
+																					@media only screen and (max-width: 760px) {
+																						#vc_header_5a2a50887af9d64 .header_subtitle {
+																							font-size: 12px !important;
+																						}
+																					}
+																				</style>
+																				<div class="qfe_wrapper">
+																					<div class="qfy_title left mobileleft">
+																						<div class="qfy_title_image_warpper" style="display:inline-block;position:relative;max-width:100%;">
+																							<div class="qfy_title_inner" style="display:inline-block;position:relative;max-width:100%;">
+																								<div class="header_title" style="font-size:28px;font-weight:normal;font-style:normal;color:#333333;padding:0  10px 0 0;display:inline-block;padding:0  10px 0 0;vertical-align:bottom;">
+                                                                                                    EBP企业应用开发平台
+                                                                                                </div>
+																								<div class="header_subtitle" style=" font-size:14px;font-weight:normal;font-style:normal;display:block;padding:20px 0 0 20%;vertical-align:bottom;">
+                                                                                                    —— 懂业务，能开发
+
+                                                                                                </div>
+																							</div>
+																							<style></style>
+																							<div class="button_wrapper" style="display:none;">
+																								<div class="button " style="display:inline-block;max-width:100%;text-align:center; font-size:14px; color:#333; padding:5px;">
+																									+ 查看更多
+																								</div>
+																							</div>
+																							<span style="clear:both;"></span>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+                                                                            <div style="margin-bottom: 10px;padding-bottom:10px;width:80%;line-height:1.4;border-bottom: 1px dashed #bababa">基于JAVA语言，以成熟开源软件作为基础架构，并根据平台定制，提供多级缓存、动态负载、故障监控，底层使用自定义ORM框架，兼容各主要数据库</div>
+																			<div m-padding="0px 0px 20px 0px" p-padding="0 0 20px 0" css_animation_delay="0" qfyuuid="qfy_column_text_2x5f4" data-anitime='0.7' class="qfy-element qfy-text qfy-text-43561 qfe_text_column qfe_content_element " style="position: relative;;;line-height:1.5em;;background-position:left top;background-repeat: no-repeat;;margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:20px;padding-right:0;padding-left:0;border-radius:0px;">
+
+                                                                                <div class="qfe_wrapper">
+																					<div>
+																						<p><span style="font-size:14px;"><span
+                                                                                        style=""><a
+                                                                                        class="bitIcon iconLeft"
+                                                                                        data-iconcolor="#160f2e"
+                                                                                        data-tooltip="off"
+                                                                                        data-url-flag="0"
+                                                                                        data-url-flagtarget=""
+                                                                                        iconcolor="#160f2e" style="null"
+                                                                                        url-flag="0" url-flagtarget="">
+
+																							<span class="iconText iconfont-w  icon-new" style="font-size:20px;color: #383838;vertical-align: text-top;margin:0 6px;"></span></a>组件化高度可复用，快速定制开发</span>
+																							</span>
+																						</p>
+
+																						<p><span style="font-size:14px;"><span
+                                                                                        style=""><a
+                                                                                        class="bitIcon iconLeft"
+                                                                                        data-iconcolor="#160f2e"
+                                                                                        data-tooltip="off"
+                                                                                        data-url-flag="0"
+                                                                                        data-url-flagtarget=""
+                                                                                        iconcolor="#160f2e" url-flag="0"
+                                                                                        url-flagtarget=""><span class="iconText iconfont-w  icon-new" style="font-size:20px;color: #383838;vertical-align: text-top;margin:0 6px;"></span></a>业务与技术分离，专注于业务逻辑实现</span>
+																							</span>
+																						</p>
+
+																					</div>
+
+																				</div>
+																			</div>
+																			<div m-padding="0px 0px 0px 0px" p-padding="0 0 0 0" css_animation_delay="0" qfyuuid="qfy_column_text_vfdtw" data-anitime='0.7' class="qfy-element qfy-text qfy-text-9771 qfe_text_column qfe_content_element " style="position: relative;;;line-height:1.5em;;background-position:left top;background-repeat: no-repeat;;margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;border-radius:0px;">
+																				<div class="qfe_wrapper">
+																					<div><span style="display:inline-block;line-height:1.6;"><span
+                                                                                    style="font-size:14px;"><span
+                                                                                    style=""><span
+                                                                                    style="word-spacing: normal;"><span
+                                                                                    style="font-size:20px;"> <b style="font-weight: 700; display: inline-block; color: rgb(0, 0, 0); border: 0px; font-size: 15px; border-radius: 0px;"><i class="glyphicon glyphicon-icon-check" style="margin: 2px 6px; line-height: 15px; color: rgb(22, 15, 46);"></i></b></span>强大的组织结构库，多维度，高扩展</span>
+																						</span>
+																						</span>
+																						</span>
+																					</div>
+
+																					<div><span style="display:inline-block;line-height:1.6;"><span
+                                                                                    style="font-size:14px;"><span
+                                                                                    style=""><span
+                                                                                    style="font-size:20px;"> <b style="font-weight: 700; display: inline-block; color: rgb(0, 0, 0); border: 0px; font-size: 15px; border-radius: 0px;"><i class="glyphicon glyphicon-icon-check" style="margin: 2px 6px; line-height: 15px; color: rgb(22, 15, 46);"></i></b></span>可视化流程在线配置，强大的审批签核功能</span>
+																						</span>
+																						</span>
+																					</div>
+
+																					<div><span style="display:inline-block;line-height:1.6;"><span
+                                                                                    style="font-size:14px;"><span
+                                                                                    style=""><span
+                                                                                    style="font-size:20px;"> <b style="font-weight: 700; display: inline-block; color: rgb(0, 0, 0); border: 0px; font-size: 15px; border-radius: 0px;"><i class="glyphicon glyphicon-icon-check" style="margin: 2px 6px; line-height: 15px; color: rgb(22, 15, 46);"></i></b></span>可视化在线表单设计，快速定制企业应用</span>
+																						</span>
+																						</span>
+																					</div>
+
+																					<div><span style="display:inline-block;line-height:1.6;"><span
+                                                                                    style="font-size:14px;"><span
+                                                                                    style=""><span
+                                                                                    style="font-size:20px;"> <b style="font-weight: 700; display: inline-block; color: rgb(0, 0, 0); border: 0px; font-size: 15px; border-radius: 0px;"><i class="glyphicon glyphicon-icon-check" style="margin: 2px 6px; line-height: 15px; color: rgb(22, 15, 46);"></i></b></span>主流的UI框架，操作便捷，体验舒畅</span>
+																						</span>
+																						</span>
+																					</div>
+
+																					<div><span style="display:inline-block;line-height:1.6;"><span
+                                                                                    style="font-size:14px;"><span
+                                                                                    style=""><span
+                                                                                    style="font-size:20px;"> <b style="font-weight: 700; display: inline-block; color: rgb(0, 0, 0); border: 0px; font-size: 15px; border-radius: 0px;"><i class="glyphicon glyphicon-icon-check" style="margin: 2px 6px; line-height: 15px; color: rgb(22, 15, 46);"></i></b></span>灵活的权限体系，菜单、页面、数据、字段</span>
+																						</span>
+																						</span><br/>
+																						<span style="font-family: 仿宋_gb2312; font-size: 12px; color: rgb(128, 128, 128); background-color: rgba(255, 255, 255, 0); word-spacing: normal;"></span>
+																					</div>
+																					<div>
+																						<span style="display:inline-block;line-height:1.6;"><span
+                                                                                        style="font-size:14px;"><span
+                                                                                        style=""><span
+                                                                                        style="font-size:20px;"> <b style="font-weight: 700; display: inline-block; color: rgb(0, 0, 0); border: 0px; font-size: 15px; border-radius: 0px;"><i class="glyphicon glyphicon-icon-check" style="margin: 2px 6px; line-height: 15px; color: rgb(22, 15, 46);"></i></b></span>完善的基础框架，日志、字典、流程号、消息</span>
+																						</span>
+																						</span><br/>
+																						<span style="font-family: 仿宋_gb2312; font-size: 12px; color: rgb(128, 128, 128); background-color: rgba(255, 255, 255, 0); word-spacing: normal;"></span>
+																					</div>
+																					<div>
+																						<span style="display:inline-block;line-height:1.6;"><span
+                                                                                        style="font-size:14px;"><span
+                                                                                        style=""><span
+                                                                                        style="font-size:20px;"> <b style="font-weight: 700; display: inline-block; color: rgb(0, 0, 0); border: 0px; font-size: 15px; border-radius: 0px;"><i class="glyphicon glyphicon-icon-check" style="margin: 2px 6px; line-height: 15px; color: rgb(22, 15, 46);"></i></b></span>开放接口，方便集成</span>
+																						</span>
+																						</span><br/>
+																						<span style="font-family: 仿宋_gb2312; font-size: 12px; color: rgb(128, 128, 128); background-color: rgba(255, 255, 255, 0); word-spacing: normal;"></span>
+																					</div>
+																					<div>
+																						<span style="display:inline-block;line-height:1.6;"><span style="font-size:14px;"><span style=""><span style="font-size:20px;">
+                                                                                            <b style="font-weight: 700; display: inline-block; color: rgb(0, 0, 0); border: 0px; font-size: 15px; border-radius: 0px;"><i class="glyphicon glyphicon-icon-check" style="margin: 2px 6px; line-height: 15px; color: rgb(22, 15, 46);"></i></b></span>开源，不设限，高效二次开发</span>
+																						</span>
+																						</span><br/>
+																						<span style="font-family: 仿宋_gb2312; font-size: 12px; color: rgb(128, 128, 128); background-color: rgba(255, 255, 255, 0); word-spacing: normal;"></span>
+																					</div>
+
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<style class="column_class qfy_style_class">
+																	@media only screen and (min-width: 992px) {
+																		.qfy-column-9-5a2a50887a469994506> .column_inner {
+																			padding-left: 99px;
+																			padding-right: 0;
+																			padding-top: 0;
+																			padding-bottom: 0;
+																		}
+																		.qfe_row .vc_span_class.qfy-column-9-5a2a50887a469994506 {}  ;
+																	}
+
+																	@media only screen and (max-width: 992px) {
+																		.qfy-column-9-5a2a50887a469994506> .column_inner {
+																			margin: 20px auto 0 !important;
+																			padding-left: 0;
+																			padding-right: 0;
+																			padding-top: 0;
+																			padding-bottom: 0;
+																		}
+																		.display_entire .qfe_row .vc_span_class.qfy-column-9-5a2a50887a469994506 {}
+																		.qfy-column-9-5a2a50887a469994506> .column_inner> .background-overlay,
+																		.qfy-column-9-5a2a50887a469994506> .column_inner> .background-media {
+																			width: 100% !important;
+																			left: 0 !important;
+																			right: auto !important;
+																		}
+																	}
+																</style>
+																<div class="wf-mobile-hidden qfy-clumn-clear" style="clear:both;"></div>
+															</div>
+														</div>
+
+													</section>
+
+
+                                                </div>
+
+												<div class="clear"></div>
+											</div>
+										</div>
+									</div>
+									<!-- END .page-wrapper -->
+									<div class="clear"></div>
+								</div>
+								<div class="clear"></div>
+
+							</div>
+
+						</div>
+						<!-- .wf-container -->
+					</div>
+					<!-- .wf-wrap -->
+				</div>
+
+				<!--中间部分结束-->
+				<div class="bgf7f7f7" style="background:url('themes/simplebootx/Public/images/supply-bg.png')round;;">
+					<div class="main-box product-function-box product-traffic-function-box" style="text-align: center">
+						<div class="product-hr-colmun-title" style="margin-bottom:90px; ">应用场景</div>
+						<div class="product-traffic-detail" style="">
+							<ul class="product-supply-info product-supply-infonew">
+								<li class="product-supply-info-list">
+									<div>
+										<div class="mb33px"><img  src="themes/simplebootx/Public/images/platform-yy11.png"/></div>
+										<!--<p class="supply-product-worth" style="text-align: center">项目管理</p>-->
+									</div>
+								</li>
+								<li class="product-supply-info-list">
+									<div>
+										<div class="mb33px"><img   src="themes/simplebootx/Public/images/platform-yy22.png"/></div>
+										<!--<p class="supply-product-worth" style="text-align: center">ERP</p>-->
+									</div>
+								</li>
+								<li class="product-supply-info-list">
+									<div>
+										<div class="mb33px"><img  src="themes/simplebootx/Public/images/platform-yy33.png"/></div>
+										<!--<p class="supply-product-worth" style="text-align: center">财务管理</p>-->
+									</div>
+								</li>
+								<li class="product-supply-info-list">
+									<div>
+										<div class="mb33px"><img  src="themes/simplebootx/Public/images/platform-yy55.png"/></div>
+										<!--<p class="supply-product-worth" style="text-align: center">SSC</p>-->
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="side-bar-bar" class="side-pannel-bar side-bar-bar">
+			<ul class="side-bar-bar-ul">
+				<!-- <li class="ulli"><a href="javascript:void(0);" class="kefu qr iconfont_header" title="在线客服">&#xe640;</a> -->
+				<li class="ulli" id="goTop">
+					<a href="javascript:void(0);" class="gotop qr iconfont-w icon-dingbu" title="返回顶部"></a>
+				</li>
+			</ul>
+		</div>
+        <div class="footer bgf7f7f7">
+            <div class="main-box footer-box">
+                <div class="footer-top clearfix">
+                    <div class="help-contact-box fl">
+                        <dl class="help-box fl wow  bounceIn  animated" data-wow-delay=".4s">
+                            <dt>关注我们</dt>
+                            <dd><a target="" href="news.html">新闻中心</a></dd>
+                            <dd><a target="" href="http://q.launchso.com/ebp/u/a/trial/message.do">咨询留言</a></dd>
+                            <dd><a target="" href="joinUs.html">加入我们</a></dd>
+                        </dl>
+                        <dl class="help-box fl wow  bounceIn  animated" data-wow-delay=".6s">
+                            <dt>团队风采</dt>
+                            <dd><a target="" href="AboutUs.html#gsjj">关于我们</a></dd>
+                            <dd><a target="" href="AboutUs.html#gswh">公司文化</a></dd>
+                            <dd><a target="" href="AboutUs.html#qyzz">企业资质</a></dd>
+                        </dl>
+                        <dl class="help-box fl wow  bounceIn  animated" data-wow-delay=".8s">
+                            <dt>联系方式</dt>
+                            <dd><img src="themes/simplebootx/Public/images/phone.svg" alt=""> <a href="tel:02750669194">027-5066-9194</a></dd>
+                            <dd><img src="themes/simplebootx/Public/images/email.svg" alt=""> <a href="tel:02750669194">contact@launchso.com</a></dd>
+                            <dd><img src="themes/simplebootx/Public/images/address.svg" alt=""> <a href="tel:02750669194">武汉市东湖开发区光谷大道77号金融港A9栋405室</a></dd>
+                        </dl>
+                    </div>
+                    <div class="qrcode-box fr wow  bounceIn  animated" data-wow-delay="1s">
+                        <div class="qrcode-item wechat-qrcode-box">
+                            <div class="qrcode-thumb"><img src="data/upload/admin/20170823/qrCode.jpg" alt=""></div>
+                            <div class="qrcode-title">微信公众号</div>
+                        </div>
+
+                    </div>
+                </div>
+                <hr class="footer-hr"/>
+                <p class="copyright-box">©2013-2017武汉朗数科技有限公司版权所有 </p>
+
+            </div>
+        </div>
+		<script type="text/javascript">
+			var demo1 = $("#homeslider").slippry({
+				transition: 'fade',
+				useCSS: true,
+				captions: false,
+				speed: 1000,
+				pause: 3000,
+				auto: true,
+				preload: 'visible',
+				controls: true
+			});
+			var initKeFuAndGoTop = function() {
+				var t = this;
+				//滚动到顶部
+				$(window).on("scroll", function(e) {
+					var _scrollTop = $(document).scrollTop();
+
+					$("#goTop")[_scrollTop >= 300 ? "fadeIn" : "fadeOut"]();
+				})
+				$("#side-bar-bar .gotop").click(function() {
+					$('html,body').animate({
+						'scrollTop': 0
+					}, 500);
+					return false;
+				});
+
+
+			};
+			initKeFuAndGoTop();
+		</script>
+
+
+	</body>
+
+</html>

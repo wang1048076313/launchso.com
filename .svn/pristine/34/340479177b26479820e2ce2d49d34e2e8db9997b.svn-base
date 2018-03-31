@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="themes/simplebootx/Public/js/jquery.min.js"></script>
+    <meta name="author" content="朗数科技web-wangchong">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Set render engine for 360 browser -->
+    <meta name="renderer" content="webkit">
+    <!-- No Baidu Siteapp-->
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+
+    <!-- HTML5 shim for IE8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="themes/simplebootx/Public/js/html5shiv.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="themes/simplebootx/Public/css/slippry/slippry.css" rel="stylesheet">
+    <script src="themes/simplebootx/Public/js/slippry.min.js"></script>
+    <script src="themes/simplebootx/Public/js/layer/layer.js"></script>
+    <script src="themes/simplebootx/Public/js/jquery.SuperSlide.2.1.1.js"></script>
+    <script src="themes/simplebootx/Public/js/common.js"></script>
+    <link href="themes/simplebootx/Public/css/common.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/index.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/product.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/service.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/cases.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/cooperation.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/about.css" rel="stylesheet">
+    <link href="themes/simplebootx/Public/css/download.css" rel="stylesheet">
+    <link rel="stylesheet" href="font/font-w/iconfont.css">
+    <title>朗数科技</title>
+    <meta name="keywords" content="武汉朗数科技有限公司,智慧园区,园区信息化,互联网,软件开发"/>
+    <meta name="description" content="武汉朗数科技有限公司公司首页"/>
+</head>
+<body>
+<div class="body">
+    <div class="body-content">
+
+
+        <!--顶部开始-->
+        <div class="head-nav-main">
+
+            <div class="header clearfix">
+
+                <div class="head-nav">
+                    <h1 class="logo fl"><a href="index.html"><img src="themes/simplebootx/Public/images/logo.png" alt=""></a></h1>
+                    <ul class="nav">
+                        <li class='nav-seleted-hover'>
+                            <a href="index.html">首页</a>
+                        </li>
+                        <li>
+                            <a href="OA.html">企业协同</a></li>
+                        <li>
+                            <a href="Shop.html">电商系统</a></li>
+                        <li>
+                            <a href="http://p.launchso.com/sale/" target="_blank">智慧社区</a></li>
+                        <li>
+                            <a href="platform.html">开发平台</a></li>
+                        <li>
+                            <a href="AboutUs.html">关于我们</a>
+                        </li>
+                    </ul>
+                    <div class="header-info fr">
+                         <span class="server-tel-info" style="line-height: 70px;font-size: 18px;">
+                             服务热线：027-5066-9194
+                         </span>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!--顶部结束-->
+        <div class="index-content-modefiy"><!--class="index-content"-->
+            <!--幻灯片开始-->
+            <div class="banner">
+                <ul id="homeslider" class="unstyled">
+                    <li>
+                        <div class="caption-wraper">
+                        </div>
+                        <a href="javascript:void(0);">
+                            <img src="themes/simplebootx/Public/images/indexbanner.jpg" alt="">
+                        </a>
+                    </li>
+
+                    <li>
+                        <div class="caption-wraper">
+                        </div>
+                        <a href="OA.html">
+                            <img src="themes/simplebootx/Public/images/oa-banner1.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <div class="caption-wraper">
+                        </div>
+                        <a href="Shop.html">
+                            <img src="themes/simplebootx/Public/images/index-bna.jpg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!--幻灯片结束-->
+
+
+                <!--全生命周期的企业管理服务和解决方案-->
+                <div class="main-box column-box solution-box">
+                    <h2 class="column-title">全生命周期的企业管理服务和解决方案</h2>
+                    <p class="column-desc">集企业级应用软件开发、软件产品研发、互联网项目开发、软件技术咨询、信息系统集成五大业务为一体，<br/>随时随地为用户提供企业级Saas云服务及个性化的SaaS行业应用解决方案。
+                    </p>
+                    <div class="solution-tab-box mt40 wow  fadeInUp  animated" data-wow-delay=".2">
+                        <div class="solution-title-new"><span class="gradient-left"></span>产品中心<span
+                                class="gradient-right"></span></div>
+                        <div class="solution-tab-content-box wow  fadeInUp  animated" data-wow-delay=".4s">
+                            <div class="solution-content-item-1 solution-field-item clearfix">
+                                <div class="solution-field-scroll-box-1">
+                                    <a class="solution-field-scroll-next-1"></a>
+                                    <a class="solution-field-scroll-prev-1"></a>
+                                    <div class="solution-field-scroll-body-1" style="margin-left: 90px;">
+                                        <ul class="solution-field-list clearfix">
+                                            <li>
+                                                <a target="" href="OA.html">
+                                                    <span class="solution-thumb"><img
+                                                            src="themes/simplebootx/Public/images/index-OA.jpg"
+                                                            alt=""></span>
+                                                   <!-- <span class="solution-title"><em class="solution-title-en">朗数开发平台</em><em
+                                                            class="solution-title-zh">开发平台体验</em></span>-->
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a target="" href="Shop.html">
+                                                    <span class="solution-thumb"><img
+                                                            src="themes/simplebootx/Public/images/index-dspt.jpg"
+                                                            alt=""></span>
+                                                    <!-- <span class="solution-title"><em
+                                                             class="solution-title-en">朗数电商系统</em><em
+                                                             class="solution-title-zh">电商业务</em></span>-->
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a target="" href="http://p.launchso.com/sale/">
+                                                    <span class="solution-thumb"><img
+                                                            src="themes/simplebootx/Public/images/index-shj.jpg"
+                                                            alt=""></span>
+                                                    <!--  <span class="solution-title"><em class="solution-title-en">朗数OA</em><em
+                                                              class="solution-title-zh">协同办公</em></span>-->
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a target="" href="platform.html">
+                                                    <span class="solution-thumb"><img
+                                                            src="themes/simplebootx/Public/images/index-kfpt.jpg"
+                                                            alt=""></span>
+                                                    <!--<span class="solution-title"><em class="solution-title-en">朗数中间件</em><em
+                                                            class="solution-title-zh">中间件架构</em></span>-->
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="solution-title-new"><span class="gradient-left"></span>解决方案<span
+                                class="gradient-right"></span></div>
+                        <div class="solution-tab-content-box">
+                            <div class="solution-content-item-2 solution-field-item clearfix">
+                                <div class="solution-field-scroll-box-2">
+                                    <a class="solution-field-scroll-next-2"></a>
+                                    <a class="solution-field-scroll-prev-2"></a>
+                                    <div class="solution-field-scroll-body-2" style="margin-left: 90px;">
+                                        <ul class="solution-field-list clearfix ">
+                                            <li class=" wow  fadeInUpBig  animated  index-li-model" data-wow-delay=".4s" >
+                                                <a target="_blank" href="javascript:void(0)">
+                                                    <span class="solution-thumb" style="position: relative">
+                                                        <img src="themes/simplebootx/Public/images/oahxsn2.png" alt="">
+                                                         <div class="index-li-model-div" style="display:none;color: #fff;text-align: center;font: 20px/250px 'Microsoft YaHei UI'; position: absolute;left: 0;top: 0;right: 0;bottom: 0;background: rgba(0,0,0,.5);">生产制造</div>
+                                                    </span>
+                                                    <!--<span class="solution-title"><em class="solution-title-en">建材行业</em>
+                                                       &lt;!&ndash; <em class="solution-title-zh">建材行业</em>&ndash;&gt;</span>-->
+                                                </a>
+                                            </li>
+                                            <li  class=" wow  fadeInUpBig  animated index-li-model" data-wow-delay=".8s">
+                                                <a target="" href="javascript:void(0)">
+                                                    <span class="solution-thumb" style="position: relative"><img src="themes/simplebootx/Public/images/zzgz.png"
+                                                            alt="">
+                                                     <div class="index-li-model-div" style="display:none;color: #fff;text-align: center;font: 20px/250px 'Microsoft YaHei UI'; position: absolute;left: 0;top: 0;right: 0;bottom: 0;background: rgba(0,0,0,.5);">电商商城</div>
+                                                    </span>
+                                                   <!-- <span class="solution-title"><em
+                                                            class="solution-title-en">网上商城</em>
+                                                        &lt;!&ndash;<em class="solution-title-zh">网上商城</em>&ndash;&gt;</span>-->
+                                                </a>
+                                            </li>
+                                            <li  class=" wow  fadeInUpBig  animated index-li-model" data-wow-delay=".6s">
+                                                <a target="_blank" href="javascript:void(0)">
+                                                    <span class="solution-thumb" style="position: relative">
+                                                        <img src="themes/simplebootx/Public/images/oayd.png" alt="">
+                                                     <div class="index-li-model-div" style="display:none;color: #fff;text-align: center;font: 20px/250px 'Microsoft YaHei UI'; position: absolute;left: 0;top: 0;right: 0;bottom: 0;background: rgba(0,0,0,.5);">餐饮服务</div>
+                                                    </span>
+                                                    <!-- <span class="solution-title"><em
+                                                             class="solution-title-en">餐饮服务</em>
+                                                         &lt;!&ndash;<em class="solution-title-zh">餐饮服务</em>&ndash;&gt;</span>-->
+                                                </a>
+                                            </li>
+                                            <li  class=" wow  fadeInUpBig  animated index-li-model" data-wow-delay="1s">
+                                                <a target="" href="javascript:void(0)">
+                                                    <span class="solution-thumb" style="position: relative"><img src="themes/simplebootx/Public/images/oahej.jpg"
+                                                            alt="">
+                                                         <div class="index-li-model-div" style="display:none;color: #fff;text-align: center;font: 20px/250px 'Microsoft YaHei UI'; position: absolute;left: 0;top: 0;right: 0;bottom: 0;background: rgba(0,0,0,.5);">金融理财</div>
+                                                    </span>
+                                                  <!--  <span class="solution-title"><em
+                                                            class="solution-title-en">金融理财</em>
+                                                        &lt;!&ndash;<em class="solution-title-zh">金融理财</em>&ndash;&gt;</span>-->
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--全生命周期的企业管理服务和解决方案结束-->
+
+                    <div class="help-wrap">
+                        <div class="wrap-content">
+                            <div style="background: #fff">
+                             <!--   <div class="help-main-title">朗数科技正在帮助更多的企业走向移动互联</div>
+                                <div class="help-sub-title" style="font-size: 16px;color: #646262;">服务企业涵盖科技、制造、医疗、餐饮等数十个行业，企业的共同选择，用户的鼎力推荐</div>-->
+                                <div class="solution-title-new"><span class="gradient-left"></span>新闻资讯<span
+                                        class="gradient-right"></span></div>
+                                <div class="index-newsli-wrap clearfix" style="padding-top:70px;margin-left: 90px;max-width: 1000px;">
+                                    <div id="New-List"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            <script type="text/javascript" src="themes/simplebootx/Public/js/template-web.js"></script>
+            <script id='test' type='text/html'>
+                <dl style="display: flex;justify-content: space-between;align-items: flex-start;">
+                    <div class=" wow bounceInLeft animated" data-wow-delay=".3s" style="width: 40%">
+                        <dt>
+                        <ul id="wyslider">
+                        <% for(var i=0; i < rows.length;i++){ %>
+                            <li>
+                                <p><%= rows[i].title%></p>
+                             <a href="newsDetail.html?id=<%= rows[i].id%>">
+                                <% if(rows[i].imageUrl) {%><img src="<%= rows[i].imageUrl%>" style="width:400px;height: 300px" alt=""> <% } %>
+                                <% if(!rows[i].imageUrl) {%><img src="themes/simplebootx/Public/images/news-demo.jpg" style="width:400px;height: 300px" alt=""><% } %>
+                            </a>
+                            </li>
+                        <% } %>
+                        </ul>
+                        </dt>
+                    </div>
+                    <div class=" wow bounceInRight animated" data-wow-delay=".4s" style="width: 50%">
+                        <dd>
+                            <div class="index-newsli">
+                                <% for(var i=0; i < rows.length;i++){ %>
+                                <p><span><%= rows[i].date %></span><a href="newsDetail.html?id=<%= rows[i].id%>"><%=rows[i].title %></a></p>
+                                <% } %>
+                            </div>
+                            <div class="text-right" style="text-align: right">
+                                <a href="news.html" class="btn btn-sm btn-default btn-arrow" style="color: #666;border: 1px solid #e1e1e1;;position: relative; transition: all .3s;height: 28px;line-height: 26px;font-size: 14px;padding: 0 12px 0 12px;border-radius: 14px;">更多</a>
+                            </div>
+                        </dd>
+                    </div>
+                </dl>
+            </script>
+
+            <div class="friends-warp" style="background:#f7f7f7;padding-top: 30px;">
+                <!--<div class="friends-mian-title cooperation-ship">合作伙伴</div>-->
+                <!--<div class="friends-sub-title" style="font-size: 16px;color: #646262;">与国内外知名企业战略合作，携手开启智慧管理时代</div>-->
+                <!--<div class="more"><p ><a href="Cooperation/cooperative.html">查看更多</a></p></div>-->
+                <div class="solution-title-new"><span class="gradient-left"></span>合作伙伴<span
+                        class="gradient-right"></span></div>
+                <div class="hd">
+                    <ul>
+                        <li class="pro_list2 wow  bounceInRight animated" data-wow-delay=".1s"><img
+                                src="themes/simplebootx/Public/images/1.png"
+                        ></li>
+                        <li class="pro_list2 wow  bounceInRight animated" data-wow-delay=".9s"><img
+                                src="themes/simplebootx/Public/images/4.png"
+                        ></li>
+                        <li class="pro_list2 wow  bounceInRight animated" data-wow-delay=".9s"><img
+                                src="themes/simplebootx/Public/images/12.jpg"
+                        ></li>
+                        <li class="pro_list2 wow  bounceInRight animated" data-wow-delay=".3s"><img
+                                src="themes/simplebootx/Public/images/yidao.jpg"
+                        ></li>
+                        <li class="pro_list2 wow bounceInLeft animated" data-wow-delay=".1s"><img
+                                src="themes/simplebootx/Public/images/8.png"
+                        ></li>
+                        <li class="pro_list2 wow  bounceInRight animated" data-wow-delay=".9s"><img
+                                src="themes/simplebootx/Public/images/14.jpg"
+                        ></li>
+                        <li class="pro_list2 wow  bounceInRight animated" data-wow-delay=".3s"><img
+                                src="themes/simplebootx/Public/images/2.png"
+                        ></li>
+                        <li class="pro_list2 wow  bounceInRight animated" data-wow-delay=".9s"><img
+                                src="themes/simplebootx/Public/images/9.jpg"
+                        ></li><li class="pro_list2 wow  bounceInRight animated" data-wow-delay=".9s"><img
+                                src="themes/simplebootx/Public/images/10.jpg"
+                        ></li><li class="pro_list2 wow  bounceInRight animated" data-wow-delay=".9s"><img
+                                src="themes/simplebootx/Public/images/11.jpg"
+                        ></li><li class="pro_list2 wow  bounceInRight animated" data-wow-delay=".9s"><img
+                                src="themes/simplebootx/Public/images/13.jpg"
+                        ></li><li class="pro_list2 wow  bounceInRight animated" data-wow-delay=".9s"><img
+                                src="themes/simplebootx/Public/images/15.jpg"
+                        ></li>
+                       <!-- <li class="pro_list2 wow bounceInLeft animated" data-wow-delay=".9s"><img
+                                src="themes/simplebootx/Public/images/5.png"
+                        ></li>-->
+                        <!--<li class="pro_list2 wow  bounceInRight animated" data-wow-delay=".6s"><img
+                                src="themes/simplebootx/Public/images/3.png"
+                        ></li>-->
+                       <!-- <li class="pro_list2 wow bounceInLeft animated" data-wow-delay=".6s"><img
+                                src="themes/simplebootx/Public/images/6.png"
+                        ></li>-->
+                        <!--<li class="pro_list2 wow bounceInLeft animated" data-wow-delay=".3s"><img
+                                src="themes/simplebootx/Public/images/7.png"
+                        ></li>-->
+                    </ul>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<div id="side-bar-bar" class="side-pannel-bar side-bar-bar">
+    <ul class="side-bar-bar-ul">
+        <li class="ulli" id="webQQ"><a href="http://wpa.qq.com/msgrd?v=3&uin=3457637565&site=qq&menu=yes" class="qr icon  iconfont-w icon-qq1" title="在线QQ"></a>
+            <div  id="webQQ-model" style="display: none;top: -60px; left: -94px;width: 95px; height: 153px;position: absolute">
+                <a style="width: 95px; height: 153px" target="_blank"
+                   href="http://wpa.qq.com/msgrd?v=3&uin=3457637565&site=qq&menu=yes">
+                    <img style="width: 95px; height: 153px" border="0" src="themes/simplebootx/Public/images/qq.png" alt="点击这里给我发消息" title="点击这里给我发消息"/>
+                </a>
+            </div>
+        </li>
+         <li class="ulli"><a href="AboutUs.html#zxly" class="qr  iconfont-w  icon-xiaoxizhongxin" title="在线留言"></a></li>
+         <li class="ulli" id="webmb"><a href="AboutUs.html#zxly" class="kefu qr iconfont-w icon-erji" title="联系电话"></a>
+             <div style="display: none;padding:5px;left: -200px; top: -30px; width:180px;font-size:14px;color:#fff;line-height: 1.6em;border-radius: 5px; background:dodgerblue;position: absolute">
+                 服务热线：027-50669194<br/>
+                 QQ(技术)：3457637565<br/>
+                 QQ(招聘)：3499346926<br/>
+                 QQ(商务)：453581781<br/>
+                 服务时间：8:30-18:00
+                 <br/>
+             </div>
+         </li>
+        <li class="ulli" id="goTop"><a href="javascript:void(0);" class="gotop qr iconfont-w icon-dingbu" title="返回顶部"></a></li>
+    </ul>
+</div>
+<div class="footer bgf7f7f7">
+    <div class="main-box footer-box">
+        <div class="footer-top clearfix">
+            <div class="help-contact-box fl">
+                <dl class="help-box fl wow  bounceIn  animated" data-wow-delay=".4s">
+                    <dt>关注我们</dt>
+                    <dd><a target="" href="news.html">新闻中心</a></dd>
+                    <dd><a target="" href="AboutUs.html#zxly">咨询留言</a></dd>
+                    <dd><a target="" href="joinUs.html">加入我们</a></dd>
+                </dl>
+                <dl class="help-box fl wow  bounceIn  animated" data-wow-delay=".6s">
+                    <dt>团队风采</dt>
+                    <dd><a target="" href="AboutUs.html#gsjj">关于我们</a></dd>
+                    <dd><a target="" href="AboutUs.html#gswh">公司文化</a></dd>
+                    <dd><a target="" href="AboutUs.html#qyzz">企业资质</a></dd>
+                </dl>
+                <dl class="help-box fl wow  bounceIn  animated" data-wow-delay=".8s">
+                    <dt>联系方式</dt>
+                    <dd><img src="themes/simplebootx/Public/images/phone.svg" alt=""> <a href="javascript:void(0)">027-5066-9194</a></dd>
+                    <dd><img src="themes/simplebootx/Public/images/email.svg" alt=""> <a href="javascript:void(0)">contact@launchso.com</a></dd>
+                    <dd><img src="themes/simplebootx/Public/images/address.svg" alt=""> <a href="javascript:void(0)">武汉市东湖开发区光谷大道77号金融港A9栋405室</a></dd>
+                </dl>
+            </div>
+            <div class="qrcode-box fr wow  bounceIn  animated" data-wow-delay="1s">
+                <div class="qrcode-item wechat-qrcode-box">
+                    <div class="qrcode-thumb"><img src="data/upload/admin/20170823/qrCode.jpg" alt=""></div>
+                    <div class="qrcode-title">微信公众号</div>
+                </div>
+            </div>
+        </div>
+        <hr class="footer-hr"/>
+        <p class="copyright-box">©2013-2017武汉朗数科技有限公司版权所有 </p>
+
+    </div>
+</div>
+<script type="text/javascript">
+    var demo1 = $("#homeslider").slippry({
+        transition: 'fade',
+        useCSS: true,
+        captions: false,
+        speed: 1000,
+        pause: 3000,
+        auto: true,
+        preload: 'visible',
+        controls: true
+    });
+
+
+    var initKeFuAndGoTop = function () {
+        var t = this;
+        //滚动到顶部
+        $(window).on("scroll", function (e) {
+            var _scrollTop = $(document).scrollTop();
+
+            $("#goTop")[_scrollTop >= 300 ? "fadeIn" : "fadeOut"]();
+        })
+        $("#side-bar-bar .gotop").click(function () {
+            $('html,body').animate({'scrollTop': 0}, 500);
+            return false;
+        });
+         function showbox(dom) {
+             $('#'+dom).hover(function () {
+                 $(this).find('div').fadeIn(400)
+             },function () {
+                 $(this).find('div').fadeOut(200)
+             })
+         }
+        showbox('webmb')
+        showbox('webQQ')
+
+    };
+    initKeFuAndGoTop();
+</script>
+<script type="text/javascript">
+    $(function () {
+        $('.index-li-model').hover(function () {
+           $(this).find('.index-li-model-div').css('display','block')
+
+        },function () {
+            $(this).find('.index-li-model-div').css('display','none')
+
+        })
+        var newboj={pageNo:1,pageSize:8};
+        $.ajax({
+            url:'http://p.launchso.com/ebp/af/m1/m1021/site/news/list.do?',
+            data:newboj,
+            type:'get',
+            dataType:'jsonp',
+            success:function (data) {
+                var  result='';
+                result = template('test',data);
+                document.getElementById('New-List').innerHTML = result;
+
+                var demo3 = $("#wyslider").slippry({
+                    transition: 'fade',
+                    useCSS: true,
+                    captions: false,
+                    speed: 1000,
+                    pause: 3000,
+                    auto: true,
+                    preload: 'visible',
+                    controls: true
+                });
+            }
+        })
+    })
+</script>
+
+
+
+
+</body>
+</html>

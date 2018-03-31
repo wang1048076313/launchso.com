@@ -1,0 +1,15 @@
+.cases-box{width: 1166px;margin:0 auto;/*margin-top: 60px;*/margin-bottom:100px;padding-top: 115px;}
+.case-title{position: relative;width: 100%;color: #6b6b6b;}
+.case-title h2{font-size: 18px;border-left: 10px solid  #e7e7e7;padding:4px 0 4px 14px;display: inline-block;}
+.case-title span{float: right;display: inline-block;padding-right: 16px;font-size: 14px;padding-top: 2px;background: url(../images/case-open.png) center right no-repeat;margin-top: 4px;cursor: pointer;}
+.cases ul{margin-top: 20px;}
+.cases ul li{width: 218px;height: 116px;display: inline-block;border:1px solid #ccc;margin-right: 14px;box-sizing: border-box;margin-bottom: 20px;position: relative;}
+.cases ul li:nth-child(5n){margin-right: 0}
+.cases ul li span{width: 218px;height: 116px;display: table-cell;vertical-align: middle;text-align: center;}
+.cases ul li span img{max-width: 216px;max-height: 113px;}
+
+.rgb-box{position: absolute;top:0;left: 0;background: rgba(0,0,0,0.6);width: 100%;height: 100%;color: #fff;font-size: 12px;display: none;}
+.rgb-box a{color: inherit;letter-spacing: 1px}
+.rgb-box .case-video{position: absolute;left:8px;bottom:6px;}
+.rgb-box .case-more{position: absolute;right:8px;bottom:6px;}
+.cases ul li.sample-yes:hover .rgb-box{display: block;}

@@ -1,0 +1,96 @@
+$(function(){
+
+	for(var i = 0; i < 2 ;i++){
+		//两排和三排则对产品导航栏宽度做调整
+		if($(".drop-solution-item-box").eq(i).find("dd").length >4 && $(".drop-solution-item-box").eq(i).find("dd").length <= 8){
+			$(".drop-solution-item-box").eq(i).css("width","400");
+		}else if($(".drop-solution-item-box").eq(i).find("dd").length > 8){
+			$(".drop-solution-item-box").eq(i).css("width",600);
+		}
+	}
+    $(".firstList-title").on("click",function(e){
+		e.stopPropagation();
+		$("#secondList").slideToggle();
+	});
+    $(".firstList-title2").on("click",function(e){
+        e.stopPropagation();
+        $("#secondSubList").slideToggle();
+    });
+    $("#currentLanguage").on("click",function(){
+        $("#languageSwitchList").toggle();
+        $(this).find(".iconfont-daydao").toggleClass("icon-pull-up")
+    });
+    /*$("#solutionTabOptionBox").find(".solution-tab-option-item").eq(0).addClass("active-solution");*/
+    $(".solution-content-item-1").hide().eq(0).fadeIn();
+    $(".solution-content-item-2").hide().eq(0).fadeIn();
+/*    $("#solutionTabOptionBox").on("click",".solution-tab-option-item",function(){
+        var index = $(this).index();
+        console.log(index);
+        $(this).addClass("active-solution").siblings().removeClass("active-solution");
+        $(".solution-content-item").hide().eq(index).fadeIn();
+    });*/
+
+    $("#loginSelectBtn").on("click", function () {
+//        var loginSelectTip = $("#platformLoginBox").html();
+//        layer.open({
+//            title: "选择平台登录",
+//            type: 4,
+//            area: ["480px"],
+//            content: [loginSelectTip,"#loginSelectBtn"],
+//            shade :0,
+//            tips: [1,"#fff"],
+//            closeBtn:true
+//        });
+    	$("#logonSwitchList").toggle();
+    	$(this).find(".iconfont-daydao").toggleClass("icon-pull-up");
+    });
+    $("#getIntoSubBtn").on("click", function () {
+        $("#SubSwitchList").toggle();
+        $(this).find(".iconfont-daydao").toggleClass("icon-pull-up");
+    });
+    $(".solution-field-scroll-box-1").each(function(index,item){
+    	var $ul = $(item).find("ul");
+    	var $li = $ul.find("li");
+    	if($li.length > 4){
+    		$(item).find(".solution-field-scroll-next-1").show();
+    		$(item).find(".solution-field-scroll-prev-1").show();
+    	}
+    })
+   /* $(".solution-field-scroll-box-2").each(function(index,item){
+    	var $ul = $(item).find("ul");
+    	var $li = $ul.find("li");
+    	if($li.length > 8){
+    		$(item).find(".solution-field-scroll-next-2").show();
+    		$(item).find(".solution-field-scroll-prev-2").show();
+    	}
+    })*/
+    $(".solution-field-scroll-box-1").slide({
+    	mainCell:".solution-field-scroll-body-1 ul",
+    	autoPage:true,
+    	effect:"left",
+    	autoPlay:false,
+    	scroll:4,
+    	vis:4,
+    	delayTime:500,
+    	pnLoop:true,
+    	trigger:"click",
+    	mouseOverStop:true,
+    	prevCell:".solution-field-scroll-prev-1",
+    	nextCell:".solution-field-scroll-next-1"
+    });
+/*    $(".solution-field-scroll-box-2").slide({
+    	mainCell:".solution-field-scroll-body-2 ul",
+    	autoPage:true,
+    	effect:"left",
+    	autoPlay:false,
+    	scroll:8,
+    	vis:8,
+    	delayTime:500,
+    	pnLoop:true,
+    	trigger:"click",
+    	mouseOverStop:true,
+    	prevCell:".solution-field-scroll-prev-2",
+    	nextCell:".solution-field-scroll-next-2"
+    });*/
+
+})

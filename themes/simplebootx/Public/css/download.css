@@ -1,0 +1,7 @@
+
+
+.download-box{padding-top: 130px;}
+.download-title{font-size: 30px;text-align: center;color: #2f3030;}
+.download-list-box{background: url("../images/icon-download.png") 87% 26% no-repeat;min-height:300px;padding-right: 280px;padding-top: 50px;padding-bottom: 50px;padding-left: 188px;}
+.download-list{font-size: 20px;color: #646262;line-height: 40px;}
+.download-list a{color: #646262;}
